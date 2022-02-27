@@ -13,12 +13,14 @@ const ContactUs = () => {
 
         emailjs.sendForm('service_uajwvyh', 'template_7uflv8h', form.current, 'user_hmFUVd309vqUiRXCpAWNG')
             .then((result) => {
-                console.log(result.text);
-                setStatus('Message successfully sent!')
+                 console.log(result.text)
+                 setStatus('Message successfully sent!')
                 let timer = setTimeout(() => {
                     setStatus("submit")
                     clearTimeout(timer)
                 }, 5000)
+
+
             }, (error) => {
                 console.log(error.text);
             });

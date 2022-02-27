@@ -63,6 +63,7 @@ const Home = () => {
     };
 
     return (
+
         <>
             <div className={style.wrapper}>
 
@@ -113,7 +114,8 @@ const Home = () => {
                 <div className={style.downarrow} ref={boxRef7}><img src={downarrow} alt="downarrow" className={style.arrow} /></div>
 
             </div>
-
+           
+            
             <Titlebar />
             <Abouthome />
             <Titlebar />
@@ -128,7 +130,7 @@ const Home = () => {
                     <img src={totop} alt="totop" className={style.arrowTop} />
                 </div>
             )}
-        </>
+        </>    
 
     )
 }
