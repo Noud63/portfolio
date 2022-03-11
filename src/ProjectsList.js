@@ -88,9 +88,10 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript'],
         mockups: [],
         screens: [],
-        github: '',
+        github: 'https://github.com/Noud63/income-and-expenses',
         github2: '',
-        description: `Coming Up`
+        description: `<p>Budgetapp in vanilla Javascript.<br />
+                      Using the MVC design pattern ensuring data privacy through encapsulation and separation of concerns.`
     },
     {
         id: 5,

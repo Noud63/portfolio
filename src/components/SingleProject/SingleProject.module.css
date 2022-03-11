@@ -128,7 +128,7 @@
     box-shadow: 0px 2px 32px rgb(0, 0, 0);
 }
 
-.button {
+.buttons {
     margin-top: 70px;
     margin-bottom: 80px;
     display: flex;
@@ -141,7 +141,7 @@
 
 .btn a, .btn2 a, .btn1 a {
     text-decoration: none;
-     color: rgb(177, 223, 255);
+    color: rgb(177, 223, 255);
 }
 
 .btn, .btn2, .btn1 {
@@ -168,7 +168,7 @@
 /* ---- Media Queries --- */
 
 @media only screen and (max-width: 1440px) {
-       .text, .button, .imageBox {
+       .text, .buttons, .imageBox {
            width: 80%;
        }
        .uxui {
@@ -183,7 +183,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-       .text, .button, .imageBox {
+       .text, .buttons, .imageBox {
            width: 90%;
        }
        .uxui {
@@ -219,7 +219,7 @@
 
 
 @media only screen and (max-width: 500px) {
-       .button {
+       .buttons {
            width: 90%;
            flex-direction: column;
            margin-top: 30px;
@@ -251,7 +251,7 @@
     }
 
 @media only screen and (max-width: 400px) {
-       .text, .button, .imageBox {
+       .text, .buttons, .imageBox {
           width: 90%;
        }
        .title {

@@ -8,38 +8,39 @@ import { projectsList } from '../../ProjectsList.js'
 const SingleProject = () => {
 
     const { id } = useParams();
-    const [project, setProject] = React.useState({})
-    const [screen, setScreen] = React.useState([])
+    const [project, setProject] = React.useState({});
+    const [screen, setScreen] = React.useState([]);
+    let navigate = useNavigate();
 
     const getItem = React.useCallback(() => {
         let item = projectsList[id]
         setProject(item)
         let screens = item.screens
         setScreen(screens)
-    }, [id])
+    }, [id]);
 
     React.useEffect(() => {
         getItem()
-    }, [getItem])
+    }, [getItem]);
 
-    let navigate = useNavigate()
 
     const goBackHandler = () => {
         navigate('/projects')
-    }
+    };
 
-    const btnRef = React.useRef()
-    const textRef = React.useRef()
+
+    const btnRef = React.useRef();
+    const textRef = React.useRef();
 
     const changeText = React.useCallback(() => {
         textRef.current.innerHTML = project.description
         if (project.github2 === "")
             btnRef.current.textContent = 'no deployment'
-    }, [project.description, project.github2])
+    }, [project.description, project.github2]);
 
     React.useEffect(() => {
         changeText()
-    }, [changeText])
+    }, [changeText]);
 
 
     //lightbox options and styling
@@ -99,7 +100,7 @@ const SingleProject = () => {
                 })}
             </div>
 
-            <div className={style.button}>
+            <div className={style.buttons}>
                 <button type="button" className={style.btn} onClick={goBackHandler}>All Projects</button>
                 <button type="button" className={style.btn1} >
                     <a href={project.github} target="blank">View code</a>
