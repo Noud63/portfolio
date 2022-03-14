@@ -34,8 +34,13 @@ const SingleProject = () => {
 
     const changeText = React.useCallback(() => {
         textRef.current.innerHTML = project.description
-        if (project.github2 === "")
-            btnRef.current.textContent = 'no deployment'
+        if (project.github2 === "") {
+            btnRef.current.textContent = 'no deployment';
+            btnRef.current.disabled = true;
+        } else {
+            btnRef.current.textContent = 'View Deployment';
+            btnRef.current.disabled = false;
+        }
     }, [project.description, project.github2]);
 
     React.useEffect(() => {
@@ -104,7 +109,7 @@ const SingleProject = () => {
                 <div className={style.btnBox} >
                     <button type="button" className={style.btn} onClick={goBackHandler}>All Projects</button>
                 </div>
-               
+
                 <div className={style.btnBox2} >
                     <a href={project.github} target="blank">
                         <button type="button" className={style.btn1} >View code</button>
@@ -112,7 +117,7 @@ const SingleProject = () => {
                 </div>
                 <div className={style.btnBox} >
                     <a href={project.github2} target="blank">
-                        <button type="button" className={style.btn2} ref={btnRef}>View code</button>
+                        <button type="button" className={style.btn2} ref={btnRef}>View Deployment</button>
                     </a>
                 </div>
             </div>

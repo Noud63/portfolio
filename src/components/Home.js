@@ -115,7 +115,6 @@ const Home = () => {
 
             </div>
            
-            
             <Titlebar />
             <Abouthome />
             <Titlebar />
