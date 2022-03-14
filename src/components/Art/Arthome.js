@@ -11,13 +11,13 @@ const Arthome = () => {
                 <div className={style.art}>
                     I've been a professional independant artist for many years.<br />
                 If you are interested in art or just curious, have a look.......
-            </div>
+           
                 <Link to={'/art'}>
                     <button className={style.btn}>Preview and more...</button>
                 </Link>
             </div>
             
-            
+            </div>
         </div>
     )
 }

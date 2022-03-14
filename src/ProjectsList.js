@@ -78,7 +78,12 @@ export const projectsList = [
         ],
         github: 'https://github.com/Noud63/Relax',
         github2: 'https://noud63.github.io/Relax/',
-        description: `Coming Up`
+        description: `Relax App build with Vanilla Javascript<br />
+                    The circle grows and shrinks with every breath you take.<br/>
+                    The white dot orbits the circle in a time span of ten seconds.<br />
+                    The animation is a javascript/css combination.<br />
+                    You can choose between two themes and three different background ambient sounds.<br />
+                    The application is responsive.`
     },
     {
         id: 4,

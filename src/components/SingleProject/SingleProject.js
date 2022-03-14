@@ -101,13 +101,20 @@ const SingleProject = () => {
             </div>
 
             <div className={style.buttons}>
-                <button type="button" className={style.btn} onClick={goBackHandler}>All Projects</button>
-                <button type="button" className={style.btn1} >
-                    <a href={project.github} target="blank">View code</a>
-                </button>
-                <button type="button" className={style.btn2} ref={btnRef}>
-                    <a href={project.github2} target='blank'>View Deployment</a>
-                </button>
+                <div className={style.btnBox} >
+                    <button type="button" className={style.btn} onClick={goBackHandler}>All Projects</button>
+                </div>
+               
+                <div className={style.btnBox2} >
+                    <a href={project.github} target="blank">
+                        <button type="button" className={style.btn1} >View code</button>
+                    </a>
+                </div>
+                <div className={style.btnBox} >
+                    <a href={project.github2} target="blank">
+                        <button type="button" className={style.btn2} ref={btnRef}>View code</button>
+                    </a>
+                </div>
             </div>
 
         </div>

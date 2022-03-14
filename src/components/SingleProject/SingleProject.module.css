@@ -139,7 +139,11 @@
     height: auto;
 }
 
-.btn a, .btn2 a, .btn1 a {
+.btnBox, .btnBox2 {
+    width: 33.33%;
+}
+
+.btnBox a, .btnBox2 a {
     text-decoration: none;
     color: rgb(177, 223, 255);
 }
@@ -160,10 +164,9 @@
      font-size: .8rem;
 }
 
-.btn1 {
+.btnBox2 {
     margin: 0 8px 0 8px;
 }
-
 
 /* ---- Media Queries --- */
 
@@ -226,6 +229,9 @@
        }
        .btn, .btn1 {
            margin-bottom: 10px;
+       }
+       .btnBox, .btnBox2 {
+           width: 100%;
        }
        .title {
            font-size: 2rem;
