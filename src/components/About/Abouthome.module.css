@@ -34,6 +34,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+   
     }
 
 .text {
@@ -45,10 +46,26 @@
     margin-right: 30px;
     border-top: 1px solid rgb(155, 215, 255);
     border-bottom: 1px solid rgb(155, 215, 255);
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 50px;
     margin-bottom: 50px;
+     position: relative;
+    z-index: 5;
+}
+
+.quotes {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: -1;
+}
+
+.quotes2 {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    z-index: -1;
 }
 
 .fade1 {
@@ -56,6 +73,11 @@
      color:rgb(138, 199, 240);
     font-size: 1.4rem;
     line-height: 1.4; 
+}
+
+.quotespng {
+    width: 110px;
+    height: auto;
 }
 
 .fade {
@@ -67,6 +89,13 @@
 
 .fade2 {
     opacity: .4;
+     color:rgb(138, 199, 240);
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+.fade3 {
+    opacity: .25;
      color:rgb(138, 199, 240);
     font-size: 1.4rem;
     line-height: 1.4;
@@ -88,6 +117,27 @@
     border-style: none;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 1000px){
+    .quotespng {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .quotespng {
+        width: 60px;
+    }
+
+    .quotes {
+       right: 10px;
+    }
+
+    .quotes2 {
+       left: 10px;
+    }
 }
 
 @media only screen and (max-width: 1000px){
@@ -95,7 +145,7 @@
         font-size: 1.2rem;
         width: 100%;
     }
-    .fade, .fade2 {
+    .fade, .fade1, .fade2, .fade3 {
         font-size: 1.2rem;
     }
 }
@@ -104,7 +154,7 @@
     .text {
         font-size: 1.1rem;
     }
-    .fade, .fade2 {
+   .fade, .fade1, .fade2, .fade3 {
         font-size: 1.1rem;
     }
 }
