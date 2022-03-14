@@ -23,7 +23,7 @@
 }
 
 .homepageName {
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -39,12 +39,12 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-family:'Times New Roman', Times, serif;
     color: rgb(155, 215, 255);
     text-shadow: 0px 0px 4px rgb(0, 0, 0);
-    word-spacing: .7em;
-    letter-spacing: .21em;
+    word-spacing: .7rem;
+    letter-spacing: .4rem;
 }
 
 .link {
@@ -154,8 +154,8 @@
   }
   .homepageWebdev {
       font-size: 1.1rem;
-      word-spacing: .8em;
-    letter-spacing: .24em;
+      word-spacing: 1.1rem;
+    letter-spacing: .24rem;
   }
   .circles {
       margin-top: 20px;
@@ -171,8 +171,8 @@
   }
   .homepageWebdev {
       font-size: .8rem;
-      word-spacing: 8px;
-      letter-spacing: 4px;
+      word-spacing: .6rem;
+    letter-spacing: .235rem;
   }
   .arrowTop {
       width: 40px;
