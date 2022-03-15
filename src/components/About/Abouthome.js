@@ -28,7 +28,7 @@ const Abouthome = () => {
                    
                     <div className={style.readMore}>
                         <Link to="/about">
-                            <button type="button" className={style.btn}>read more</button>
+                            <button type="button" className={style.btn}>Read more</button>
                         </Link>
                     </div>
                 </div>

@@ -80,7 +80,7 @@ export const projectsList = [
         github2: 'https://noud63.github.io/Relax/',
         description: `Relax App build with Vanilla Javascript<br />
                     The circle grows and shrinks with every breath you take.<br/>
-                    The white dot orbits the circle in a time span of ten seconds.<br />
+                    The white dot orbits the circle in a time span of fifteen seconds.<br />
                     The animation is a javascript/css combination.<br />
                     You can choose between two themes and three different background ambient sounds.<br />
                     The application is responsive.`
@@ -100,10 +100,10 @@ export const projectsList = [
     },
     {
         id: 5,
-        title: 'PIG GAME',
-        screenshot: '/images/piggame.png',
-        icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        title: 'FORKIFY',
+        screenshot: '/images/food.png',
+        icons: '/images/basicresticons.png',
+        languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'REST-api'],
         mockups: [],
         screens: [],
         github: '',
@@ -135,10 +135,10 @@ export const projectsList = [
     },
     {
         id: 8,
-        title: 'FORKIFY',
-        screenshot: '/images/food.png',
-        icons: '/images/basicresticons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'REST-api'],
+        title: 'PIG GAME',
+        screenshot: '/images/piggame.png',
+        icons: '/images/basicicons.png',
+        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: [],
         screens: [],
         github: '',
