@@ -1,6 +1,4 @@
-html {
-    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
-}
+
 
 .artContainer {
     background-image: url('../../images/wp5.jpg');
@@ -178,6 +176,9 @@ html {
     .slides {
        grid-template-columns: 1fr ;
        grid-template-rows: 4;
+    }
+    .slides {
+        margin-top: 50px;
     }
 }
 
