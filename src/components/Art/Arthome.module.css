@@ -64,7 +64,6 @@
 
 .palette {
     width: 16%;
-    /* width: 140px; */
     height: auto;
     position: absolute;
     top: 50%;
@@ -72,8 +71,6 @@
     transform:translate(-50%, -50%);
     z-index: 0;
     opacity: .8;
-    /* filter: drop-shadow(0 0 5rem rgb(155, 223, 255)); */
-    /* transform: rotate(-20deg); */
 }
 
 .btn {
