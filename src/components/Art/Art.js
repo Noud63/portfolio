@@ -1,19 +1,42 @@
 import React from 'react'
 import style from './Art.module.css'
 import Menu from '../Menu.js';
+import { SRLWrapper } from "simple-react-lightbox";
 import Namemenu from '../Namemenu.js';
 import Newmenu from '../Newmenu.js'
 import dia1 from '../../images/dia1.jpg'
-import dia1color from '../../images/dia1color.jpg'
 import dia2 from '../../images/dia2.jpg'
-import dia2color from '../../images/dia2color.jpg'
 import dia3 from '../../images/dia3.jpg'
-import dia3color from '../../images/dia3color.jpg'
 import dia4 from '../../images/dia4.jpg'
-import dia4color from '../../images/dia4color.jpg'
-import arrow2 from '../../images/arrow2.png'
+import arrow from '../../images/downarrow.png'
+import hotel from '../../images/hotelgroot.jpg'
+import disco from '../../images/discogroot.jpg'
+import enigma from '../../images/enigmagroot.jpg'
+import ufo from '../../images/ufogroot.jpg'
 
 const Art = () => {
+
+    const options = {
+        buttons: {
+            iconColor: "#9bd7ff",
+            iconPadding: "10px",
+            backgroundColor: "transparent",
+            showNextButton: false,
+            showPrevButton: false,
+        },
+        caption: {
+            captionColor: "#9bd7ff",
+            captionFontSize: "20px",
+        },
+        settings: {
+            overlayColor: "rgb(0, 0, 0, .7)",
+            disablePanzoom: true,
+        },
+        thumbnails: {
+            showThumbnails: false,
+        },
+    };
+
     return (
         <div className={style.artContainer}>
             <div className={style.title}>Art</div>
@@ -22,30 +45,54 @@ const Art = () => {
                 <Menu />
                 <Newmenu />
             </div>
+
             <div className={style.slides}>
-                <div className={style.slide1}>
-                    <img src={dia1} alt="noud van dun" className={style.slide}/>
-                    <img src={dia1color} alt="noud van dun" className={style.slideColor}/>
-                </div>
-                <div className={style.slide2}>
-                    <img src={dia2} alt="noud van dun" className={style.slide}/>
-                    <img src={dia2color} alt="noud van dun" className={style.slideColor} />
-                </div>
-                <div className={style.slide3}>
-                    <img src={dia3} alt="noud van dun" className={style.slide}/>
-                    <img src={dia3color} alt="noud van dun" className={style.slideColor} />
-                </div>
-                <div className={style.slide4}>
-                    <img src={dia4} alt="noud van dun" className={style.slide} />
-                    <img src={dia4color} alt="noud van dun" className={style.slideColor} />
-                </div>
+
+                <SRLWrapper options={options}>
+                    <div className={style.slide1}>
+                       <a href={hotel} alt="hotel">
+                         <img src={dia1} alt="Noud van Dun , H.O.T.E.L. , 2018" className={style.slide} />
+                       </a>
+                       <div className={style.titlePainting}>H.O.T.E.L.</div>
+                    </div>
+                </SRLWrapper>
+                
+                <SRLWrapper options={options}>
+                    <div className={style.slide2}>
+                        <a href={disco} alt="hotel">
+                            <img src={dia2} alt="Noud van Dun , D.I.S.C.O. , 2015" className={style.slide} />
+                        </a>
+                        <div className={style.titlePainting}>D.I.S.C.O.</div>
+                    </div>
+                </SRLWrapper>
+               
+                <SRLWrapper options={options}>
+                    <div className={style.slide2}>
+                        <a href={enigma} alt="hotel">
+                            <img src={dia3} alt="Noud van Dun , E.N.I.G.M.A. , 2017" className={style.slide} />
+                        </a>
+                    </div>
+                </SRLWrapper>
+
+                <SRLWrapper options={options}>
+                    <div className={style.slide2}>
+                        <a href={ufo} alt="hotel">
+                            <img src={dia4} alt="Noud van Dun , U.F.O. , 2016" className={style.slide} />
+                        </a>
+                    </div>
+                </SRLWrapper>
+                
+                
             </div>
 
-            {/* <div className={style.mywebsite}>
+            <div className={style.mywebsite}>
                 <div className={style.shebang1}>The whole shebang at:</div>
-                <img src={arrow2} alt="arrow" className={style.arrow}/>
-                <div className={style.shebang2}>www.noudvandun.com</div>
-            </div> */}
+                <img src={arrow} alt="arrow" className={style.arrow}/>
+                <a href="http://www.noudvandun.com" target="blank">
+                    <button className={style.btn}>www.noudvandun.com</button>
+                </a>
+              
+            </div>
         </div>
     )
 }

@@ -63,7 +63,8 @@
 }
 
 .palette {
-    width: 60%;
+    width: 16%;
+    /* width: 140px; */
     height: auto;
     position: absolute;
     top: 50%;
@@ -71,7 +72,8 @@
     transform:translate(-50%, -50%);
     z-index: 0;
     opacity: .8;
-    filter: drop-shadow(0 0 5rem rgb(155, 223, 255));
+    /* filter: drop-shadow(0 0 5rem rgb(155, 223, 255)); */
+    /* transform: rotate(-20deg); */
 }
 
 .btn {
@@ -102,7 +104,7 @@
        width: 90%;
    }
    .palette {
-       width: 70%
+       width: 20%
    }
 }
 
@@ -114,9 +116,6 @@
        font-size: 1.2rem;
        width: 100%;
        padding: 0px;
-   }
-   .palette {
-       width: 75%
    }
 }
 
@@ -130,7 +129,7 @@
        padding: 0 30px ;
    }
    .palette {
-       width: 80%
+       width: 25%
    }
 
 }
@@ -145,5 +144,8 @@
     .btn {
         font-size: .6em;
     }
+    .palette {
+       width: 35%
+   }
 }
 

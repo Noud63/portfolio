@@ -54,11 +54,6 @@
         word-spacing: 3px;
         letter-spacing: 5px;
     }
-    .header {
-       /* border-bottom: 1px solid rgb(155, 215, 255); */
-       padding-bottom: 10px;
-    }
-
 }
 
 @media only screen and (max-width: 370px){
@@ -72,13 +67,3 @@
         letter-spacing: 4px;
     }
 }
-
-
-/* @media only screen and (max-width: 328px){
-
-    .webdev {
-        font-size: .8rem;
-        word-spacing: 2px;
-        letter-spacing: 5px;
-    }
-} */

@@ -44,6 +44,18 @@
     margin-top: 50px;
 }
 
+.preview {
+    width: 10rem;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 1.4rem;
+    background-color: rgb(0, 11, 19);
+    padding: .5rem;
+    border: 1px solid #9bd7ff;
+}
+
 .slides {
     display: flex;
     align-items: center;
@@ -52,41 +64,27 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .slide1, .slide2, .slide3, .slide4 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width:  250px;
     position: relative;
     cursor: pointer;
 } 
 
-.slideColor {
-    visibility: hidden;
+.titlePainting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     position: absolute;
-}
-
-.slide1:hover > .slideColor {
-    visibility:visible;
-    width:  250px;
-}
-
-.slide2:hover > .slideColor {
-    visibility:visible;
-    width:  250px;
-}
-
-.slide3:hover > .slideColor {
-    visibility:visible;
-    width:  250px;
-}
-
-.slide4:hover > .slideColor {
-    visibility:visible;
-    width:  250px;
+    bottom: 42px;
+    font-size: .8rem;
 }
 
 .slide {
@@ -96,37 +94,48 @@
 }
 
 .mywebsite {
-    width: 90%;
-    margin-top: 100px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 50px;
 }
 
-.shebang2 {
-    width: 40%;
-    font-size: 1.4em;
+.btn {
+    width: 20rem;
+    height: 50px;
+    background-color:transparent;
     color:rgb(155, 215, 255);
-    /* border: 1px solid red; */
-    padding-left: 20px;
+    border-style: none;
+    font-size: .9rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+    border: 2px solid rgb(108, 159, 194);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0), inset 0px 0px 25px rgb(0, 0, 0);
+    transition: .2s ease-in-out;
+    text-shadow: 0px 0px 4px black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform:scale(1.1);
 }
 
 .arrow {
-    width: 200px;
-     /* border: 1px solid red; */
+    width: 3rem;
 }
 
 .shebang1 {
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-   /* border: 1px solid red; */
-    width: 40%;
+    justify-content: center;
+    width: 100%;
     font-size: 1.4em;
     color:rgb(155, 215, 255);
-    padding-right: 20px;
+    
 }
 
 @media only screen and (max-width: 1400px){
@@ -153,15 +162,9 @@
     }
 }
 
-@media only screen and (max-width: 670px){
-    .headerWrapper {
-        border: 0;
-    }
-}
-
 @media only screen and (max-width: 640px){
     .headerWrapper {
-        width: 95%;
+        width: 90%;
     }
 }
 
@@ -172,7 +175,7 @@
     }
 }
 
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 700px){
     .slides {
        grid-template-columns: 1fr ;
        grid-template-rows: 4;
@@ -195,13 +198,10 @@
         width: 80%;
     }
 
-    .shebang2 {
+    .btn {
         display: flex;
     align-items: center;
     justify-content: center;
-        width: 80%;
-    }
-    .arrow {
-        width: 80%;
+        width: 15rem;
     }
 }

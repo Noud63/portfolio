@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Arthome.module.css';
 import { Link } from "react-router-dom";
-import tools from '../../images/tools.png'
+import easel from '../../images/easel.png'
 
 const Arthome = () => {
 
@@ -9,7 +9,7 @@ const Arthome = () => {
         <div className={style.artContainer}>
             <div className={style.title}>Art</div>
             <div className={style.wrapper}>
-                {/* <img src={tools} alt="palette" className={style.palette}/> */}
+                <img src={easel} alt="palette" className={style.palette}/>
                 <div className={style.art}>
                     I've been a professional independant artist for many years.<br />
                 If you are interested in art or just curious, have a look.......
