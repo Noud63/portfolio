@@ -71,6 +71,7 @@ const Art = () => {
                         <a href={enigma} alt="hotel">
                             <img src={dia3} alt="Noud van Dun , E.N.I.G.M.A. , 2017" className={style.slide} />
                         </a>
+                        <div className={style.titlePainting}>E.N.I.G.M.A.</div>
                     </div>
                 </SRLWrapper>
 
@@ -79,6 +80,7 @@ const Art = () => {
                         <a href={ufo} alt="hotel">
                             <img src={dia4} alt="Noud van Dun , U.F.O. , 2016" className={style.slide} />
                         </a>
+                        <div className={style.titlePainting}>U.F.O.</div>
                     </div>
                 </SRLWrapper>
                 
