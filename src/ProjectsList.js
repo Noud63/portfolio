@@ -62,7 +62,8 @@ export const projectsList = [
         ],
         github: 'https://github.com/Noud63/Quiz',
         github2: 'https://noud63.github.io/Quiz/',
-        description: `Coming Up`
+        description: `Vanilla Javascript Quiz App<br />
+                      Test your general knowledge by answering 30 multiple choice questions.`
     },
     {
         id: 3,
@@ -91,10 +92,10 @@ export const projectsList = [
         screenshot: '/images/budgetapp.png',
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
-        mockups: [],
+        mockups: '/mockups/budgetappResp.png',
         screens: [],
         github: 'https://github.com/Noud63/income-and-expenses',
-        github2: '',
+        github2: 'https://incomeandexpences.netlify.app/',
         description: `<p>Budgetapp in vanilla Javascript.<br />
                       Using the MVC design pattern ensuring data privacy through encapsulation and separation of concerns.`
     },
@@ -104,11 +105,15 @@ export const projectsList = [
         screenshot: '/images/food.png',
         icons: '/images/basicresticons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'REST-api'],
-        mockups: [],
+        mockups: '/mockups/forkifyResp.png',
         screens: [],
-        github: '',
-        github2: '',
-        description: `Coming Up`
+        github: 'https://github.com/Noud63/forkify',
+        github2: 'https://what-do-we-eat2.netlify.app/',
+        description: `Recipe Search Desktop App build with javascript ES6 modules, Webpack and Babel.
+                      Simple Food Api with a limited number of search terms.
+                      Allowed methods are GET and POST.
+                      Great for practice purposes.`
+                      
     },
     {
         id: 6,
@@ -118,9 +123,9 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'React', 'REST-api'],
         mockups: [],
         screens: [],
-        github: '',
-        github2: '',
-        description: `Coming Up`
+        github: 'https://github.com/Noud63/eredivisie',
+        github2: 'https://noud63.github.io/eredivisie/',
+        description: `Dutch Football League App build with React and Football Api`
     },
     {
         id: 7,
@@ -130,8 +135,11 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript( ES6)', 'REST-api'],
         mockups: [],
         screens: [],
-        github: '',
-        github2: '',
+        github: 'https://github.com/Noud63/Art-in-Amsterdam',
+        github2: 'https://noud63.github.io/Art-in-Amsterdam/',
+        description: `Art in Amsterdam App built with Javascript and Leaflet OpenStreetMap<br />
+                      Find your Art Hotspots in Amsterdam<br />
+                     `
     },
     {
         id: 8,
@@ -141,9 +149,9 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: [],
         screens: [],
-        github: '',
-        github2: '',
-        description: `Coming Up`
+        github: 'https://github.com/Noud63/Pig-game',
+        github2: 'https://noud63.github.io/Pig-game/',
+        description: `Vanilla Javascript Pig Game Desktop App.`
     },
     {
         id: 9,
@@ -153,9 +161,9 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: [],
         screens: [],
-        github: '',
-        github2: '',
-        description: `Coming Up`
+        github: 'https://github.com/Noud63/noudvandun',
+        github2: 'http://www.noudvandun.com',
+        description: `My own personal Web App is all about contemporary art and more.`
     },
     {
         id: 10,
@@ -165,9 +173,12 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: [],
         screens: [],
-        github: '',
-        github2: '',
-        description: `Coming Up`
+        github: 'https://github.com/Noud63/Gothic-Tac-Toe',
+        github2: 'https://gothic-tac-toe.netlify.app/',
+        description: `Gothic-Tac-Toe desktop game built with Javascript.<br />
+                      I also converted this web app to a desktop app with electron.<br />
+                      One of the drawbacks was that the converted file is rather large.<br/>
+                      Here is the browser version.`
     },
     {
         id: 11,
