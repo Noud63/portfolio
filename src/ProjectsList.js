@@ -92,8 +92,11 @@ export const projectsList = [
         screenshot: '/images/budgetapp.png',
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
-        mockups: '/mockups/budgetappResp.png',
-        screens: [],
+        mockups: '/mockups/budgetapp2Resp.png',
+        screens: [{ screenSmall: '/screens/budgetapp.png', screenBig: '/screens/budgetappBig.png' },
+            { screenSmall: '/screens/budgetapp1.png', screenBig: '/screens/budgetapp1Big.png' },
+            { screenSmall: '/screens/budgetapp2.png', screenBig: '/screens/budgetapp2Big.png' }
+        ],
         github: 'https://github.com/Noud63/income-and-expenses',
         github2: 'https://incomeandexpences.netlify.app/',
         description: `<p>Budgetapp in vanilla Javascript.<br />
@@ -101,17 +104,19 @@ export const projectsList = [
     },
     {
         id: 5,
-        title: 'FORKIFY',
+        title: 'SEARCH RECIPE',
         screenshot: '/images/food.png',
         icons: '/images/basicresticons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'REST-api'],
         mockups: '/mockups/forkifyResp.png',
-        screens: [],
+        screens: [{ screenSmall: '/screens/foodapi.png', screenBig: '/screens/foodapiBig.png' },
+            { screenSmall: '/screens/foodapi2.png', screenBig: '/screens/foodapi2Big.png' },
+            { screenSmall: '/screens/foodapi3.png', screenBig: '/screens/foodapi3Big.png' }],
         github: 'https://github.com/Noud63/forkify',
         github2: 'https://what-do-we-eat2.netlify.app/',
-        description: `Recipe Search Desktop App build with javascript ES6 modules, Webpack and Babel.
-                      Simple Food Api with a limited number of search terms.
-                      Allowed methods are GET and POST.
+        description: `Recipe Search Desktop App build with javascript ES6 modules, Webpack and Babel.<br />
+                      Simple Food Api with a limited number of search terms.<br />
+                      Allowed methods are GET and POST.<br />
                       Great for practice purposes.`
                       
     },
@@ -121,11 +126,14 @@ export const projectsList = [
         screenshot: '/images/eredivisie.png',
         icons: '/images/basicreactresticons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'React', 'REST-api'],
-        mockups: [],
-        screens: [],
+        mockups: '/mockups/eredivisieResp.png',
+        screens: [{ screenSmall: '/screens/eredivisie.png', screenBig: '/screens/eredivisieBig.png' },
+            { screenSmall: '/screens/eredivisie1.png', screenBig: '/screens/eredivisie1Big.png' },
+            { screenSmall: '/screens/eredivisie2.png', screenBig: '/screens/eredivisie2Big.png' }],
         github: 'https://github.com/Noud63/eredivisie',
         github2: 'https://noud63.github.io/eredivisie/',
-        description: `Dutch Football League App build with React and Football Api`
+        description: `Dutch Football League App build with React and Football Api(https://api.football-data.org)<br />
+                      `
     },
     {
         id: 7,
@@ -147,7 +155,7 @@ export const projectsList = [
         screenshot: '/images/piggame.png',
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
-        mockups: [],
+        mockups: '/mockups/piggameResp.png',
         screens: [],
         github: 'https://github.com/Noud63/Pig-game',
         github2: 'https://noud63.github.io/Pig-game/',
@@ -171,7 +179,7 @@ export const projectsList = [
         screenshot: '/images/gothictactoe.png',
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
-        mockups: [],
+        mockups: '/mockups/gothictactoeResp.png',
         screens: [],
         github: 'https://github.com/Noud63/Gothic-Tac-Toe',
         github2: 'https://gothic-tac-toe.netlify.app/',
@@ -186,11 +194,16 @@ export const projectsList = [
         screenshot: '/images/weatherapp.png',
         icons: '/images/basicresticons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'REST-api'],
-        mockups: [],
-        screens: [],
-        github: '',
-        github2: '',
-        description: `Coming Up`
+        mockups: '/mockups/weatherappResp.png',
+        screens: [{ screenSmall: '/screens/weatherapp.png', screenBig: '/screens/weatherappBig.png' }],
+        github: 'https://github.com/Noud63/weather-app',
+        github2: 'https://noud63.github.io/weather-app/',
+        description: `Weather app built with Javascript ES6 modules, webpack and babel<br />
+                       Openweathermap REST-api. (https://openweathermap.org/)<br />
+                       With Search bar to search for weather conditions world wide.
+                       Showing Current weather, tomorrows forecast and the sunrise and sunset (CEST).
+                       Toggle Celsius and Fahrenheit.<br />
+                       Default input parameter set to Amsterdam.`
     },
     {
         id: 12,
