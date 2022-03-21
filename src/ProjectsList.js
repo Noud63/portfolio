@@ -214,8 +214,9 @@ export const projectsList = [
         mockups: [],
         screens: [],
         github: 'https://github.com/Noud63/contactlist',
-        github2: 'https://noud63.github.io/contactlist/dist/',
-        description: `Personal database`
+        github2: '',
+        description: `Persons database desktop app.<br />
+                      Vanilla Javascript ES6 modules`
     },
     {
         id: 13,
