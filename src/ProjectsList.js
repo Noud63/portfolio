@@ -146,8 +146,8 @@ export const projectsList = [
         github: 'https://github.com/Noud63/Art-in-Amsterdam',
         github2: 'https://noud63.github.io/Art-in-Amsterdam/',
         description: `Art in Amsterdam App built with Javascript and Leaflet OpenStreetMap<br />
-                      Find your Art Hotspots in Amsterdam<br />
-                     `
+                      Find your art hotspots in Amsterdam<br />
+                     Museums, art galleries, public art `
     },
     {
         id: 8,
@@ -213,9 +213,9 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: [],
         screens: [],
-        github: '',
-        github2: '',
-        description: `Coming Up`
+        github: 'https://github.com/Noud63/contactlist',
+        github2: 'https://noud63.github.io/contactlist/dist/',
+        description: `Personal database`
     },
     {
         id: 13,
@@ -225,9 +225,9 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: [],
         screens: [],
-        github: '',
-        github2: '',
-        description: `Coming Up`
+        github: 'https://github.com/Noud63/MessageBox',
+        github2: 'https://noud63.github.io/MessageBox/',
+        description: `Vanilla javascript Message Box<br />`
     },
     {
         id: 14,
@@ -237,9 +237,9 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: [],
         screens: [],
-        github: '',
+        github: 'https://github.com/Noud63/Register-form',
         github2: '',
-        description: `Coming Up`
+        description: `Vanilla javascript registration form with validation.`
     },
     {
         id: 15,
@@ -249,9 +249,10 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: [],
         screens: [],
-        github: '',
-        github2: '',
-        description: `Coming Up`
+        github: 'https://github.com/Noud63/ToDoApp',
+        github2: 'https://todo-do-do.netlify.app/',
+        description: `The TDo app<br/>
+        In my oppinion a little underestimated as a, for beginners, valuable inroduction to CRUD applications.`
     },
 
 ]
