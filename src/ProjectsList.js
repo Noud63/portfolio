@@ -211,8 +211,10 @@ export const projectsList = [
         screenshot: '/images/personaldatabase.png',
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
-        mockups: [],
-        screens: [],
+        mockups: '/mockups/databaseResp.png',
+        screens: [{ screenSmall: '/screens/database.png', screenBig: '/screens/databaseBig.png' },
+            { screenSmall: '/screens/database1.png', screenBig: '/screens/database1Big.png' },
+            { screenSmall: '/screens/database2.png', screenBig: '/screens/database2Big.png' }],
         github: 'https://github.com/Noud63/contactlist',
         github2: '',
         description: `Persons database desktop app.<br />
@@ -236,10 +238,12 @@ export const projectsList = [
         screenshot: '/images/register.png',
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
-        mockups: [],
-        screens: [],
+        mockups: '/mockups/registerformResp.png',
+        screens: [{ screenSmall: '/screens/register.png', screenBig: '/screens/registerBig.png' },
+            { screenSmall: '/screens/register1.png', screenBig: '/screens/register1Big.png' },
+            { screenSmall: '/screens/register2.png', screenBig: '/screens/register2Big.png' }],
         github: 'https://github.com/Noud63/Register-form',
-        github2: '',
+        github2: 'https://signupandvalidate.netlify.app/',
         description: `Vanilla javascript registration form with validation.`
     },
     {
