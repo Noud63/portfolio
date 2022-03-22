@@ -94,8 +94,8 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
         mockups: '/mockups/budgetapp2Resp.png',
         screens: [{ screenSmall: '/screens/budgetapp.png', screenBig: '/screens/budgetappBig.png' },
-            { screenSmall: '/screens/budgetapp1.png', screenBig: '/screens/budgetapp1Big.png' },
-            { screenSmall: '/screens/budgetapp2.png', screenBig: '/screens/budgetapp2Big.png' }
+        { screenSmall: '/screens/budgetapp1.png', screenBig: '/screens/budgetapp1Big.png' },
+        { screenSmall: '/screens/budgetapp2.png', screenBig: '/screens/budgetapp2Big.png' }
         ],
         github: 'https://github.com/Noud63/income-and-expenses',
         github2: 'https://incomeandexpences.netlify.app/',
@@ -110,15 +110,15 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'REST-api'],
         mockups: '/mockups/forkifyResp.png',
         screens: [{ screenSmall: '/screens/foodapi.png', screenBig: '/screens/foodapiBig.png' },
-            { screenSmall: '/screens/foodapi2.png', screenBig: '/screens/foodapi2Big.png' },
-            { screenSmall: '/screens/foodapi3.png', screenBig: '/screens/foodapi3Big.png' }],
+        { screenSmall: '/screens/foodapi2.png', screenBig: '/screens/foodapi2Big.png' },
+        { screenSmall: '/screens/foodapi3.png', screenBig: '/screens/foodapi3Big.png' }],
         github: 'https://github.com/Noud63/forkify',
         github2: 'https://what-do-we-eat2.netlify.app/',
         description: `Recipe Search Desktop App build with javascript ES6 modules, Webpack and Babel.<br />
                       Simple Food Api with a limited number of search terms.<br />
                       Allowed methods are GET and POST.<br />
                       Great for practice purposes.`
-                      
+
     },
     {
         id: 6,
@@ -128,8 +128,8 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'React', 'REST-api'],
         mockups: '/mockups/eredivisieResp.png',
         screens: [{ screenSmall: '/screens/eredivisie.png', screenBig: '/screens/eredivisieBig.png' },
-            { screenSmall: '/screens/eredivisie1.png', screenBig: '/screens/eredivisie1Big.png' },
-            { screenSmall: '/screens/eredivisie2.png', screenBig: '/screens/eredivisie2Big.png' }],
+        { screenSmall: '/screens/eredivisie1.png', screenBig: '/screens/eredivisie1Big.png' },
+        { screenSmall: '/screens/eredivisie2.png', screenBig: '/screens/eredivisie2Big.png' }],
         github: 'https://github.com/Noud63/eredivisie',
         github2: 'https://noud63.github.io/eredivisie/',
         description: `Dutch Football League App build with React and Football Api(https://api.football-data.org)<br />
@@ -143,13 +143,14 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript( ES6)', 'REST-api'],
         mockups: '/mockups/artinamsterdamResp.png',
         screens: [{ screenSmall: '/screens/artinamsterdam.png', screenBig: '/screens/artinamsterdamBig.png' },
-            { screenSmall: '/screens/artinamsterdam1.png', screenBig: '/screens/artinamsterdam1Big.png' },
-            { screenSmall: '/screens/artinamsterdam2.png', screenBig: '/screens/artinamsterdam2Big.png' }],
+        { screenSmall: '/screens/artinamsterdam1.png', screenBig: '/screens/artinamsterdam1Big.png' },
+        { screenSmall: '/screens/artinamsterdam2.png', screenBig: '/screens/artinamsterdam2Big.png' }],
         github: 'https://github.com/Noud63/Art-in-Amsterdam',
         github2: 'https://noud63.github.io/Art-in-Amsterdam/',
         description: `Art in Amsterdam App built with Javascript and Leaflet OpenStreetMap.<br />
                       Find your art hotspots in Amsterdam<br />
-                      Museums, art galleries, public art `
+                      Museums, art galleries, public art <br />
+                      The app is responsive`
     },
     {
         id: 8,
@@ -183,8 +184,8 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: '/mockups/gothictactoeResp.png',
         screens: [{ screenSmall: '/screens/gothictactoe.png', screenBig: '/screens/gothictactoeBig.png' },
-            { screenSmall: '/screens/gothictactoe1.png', screenBig: '/screens/gothictactoe1Big.png' },
-            { screenSmall: '/screens/gothictactoe2.png', screenBig: '/screens/gothictactoe2Big.png' }],
+        { screenSmall: '/screens/gothictactoe1.png', screenBig: '/screens/gothictactoe1Big.png' },
+        { screenSmall: '/screens/gothictactoe2.png', screenBig: '/screens/gothictactoe2Big.png' }],
         github: 'https://github.com/Noud63/Gothic-Tac-Toe',
         github2: 'https://gothic-tac-toe.netlify.app/',
         description: `Gothic-Tac-Toe desktop game built with Javascript.<br />
@@ -218,8 +219,8 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: '/mockups/databaseResp.png',
         screens: [{ screenSmall: '/screens/database.png', screenBig: '/screens/databaseBig.png' },
-            { screenSmall: '/screens/database1.png', screenBig: '/screens/database1Big.png' },
-            { screenSmall: '/screens/database2.png', screenBig: '/screens/database2Big.png' }],
+        { screenSmall: '/screens/database1.png', screenBig: '/screens/database1Big.png' },
+        { screenSmall: '/screens/database2.png', screenBig: '/screens/database2Big.png' }],
         github: 'https://github.com/Noud63/contactlist',
         github2: '',
         description: `Persons database desktop app.<br />
@@ -245,8 +246,8 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: '/mockups/registerformResp.png',
         screens: [{ screenSmall: '/screens/register.png', screenBig: '/screens/registerBig.png' },
-            { screenSmall: '/screens/register1.png', screenBig: '/screens/register1Big.png' },
-            { screenSmall: '/screens/register2.png', screenBig: '/screens/register2Big.png' }],
+        { screenSmall: '/screens/register1.png', screenBig: '/screens/register1Big.png' },
+        { screenSmall: '/screens/register2.png', screenBig: '/screens/register2Big.png' }],
         github: 'https://github.com/Noud63/Register-form',
         github2: 'https://signupandvalidate.netlify.app/',
         description: `Vanilla javascript registration form with validation.`
@@ -259,8 +260,8 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: '/mockups/todoResp.png',
         screens: [{ screenSmall: '/screens/todo.png', screenBig: '/screens/todoBig.png' },
-            { screenSmall: '/screens/todo1.png', screenBig: '/screens/todo1Big.png' },
-            { screenSmall: '/screens/todo2.png', screenBig: '/screens/todo2Big.png' }],
+        { screenSmall: '/screens/todo1.png', screenBig: '/screens/todo1Big.png' },
+        { screenSmall: '/screens/todo2.png', screenBig: '/screens/todo2Big.png' }],
         github: 'https://github.com/Noud63/ToDoApp',
         github2: 'https://todo-do-do.netlify.app/',
         description: `Yeah, yeah, a  ToDo app<br/>
