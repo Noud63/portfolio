@@ -141,13 +141,15 @@ export const projectsList = [
         screenshot: '/images/artinamsterdam.png',
         icons: '/images/basicresticons.png',
         languages: ['HTML5', 'CSS3', 'Javascript( ES6)', 'REST-api'],
-        mockups: [],
-        screens: [],
+        mockups: '/mockups/artinamsterdamResp.png',
+        screens: [{ screenSmall: '/screens/artinamsterdam.png', screenBig: '/screens/artinamsterdamBig.png' },
+            { screenSmall: '/screens/artinamsterdam1.png', screenBig: '/screens/artinamsterdam1Big.png' },
+            { screenSmall: '/screens/artinamsterdam2.png', screenBig: '/screens/artinamsterdam2Big.png' }],
         github: 'https://github.com/Noud63/Art-in-Amsterdam',
         github2: 'https://noud63.github.io/Art-in-Amsterdam/',
-        description: `Art in Amsterdam App built with Javascript and Leaflet OpenStreetMap<br />
+        description: `Art in Amsterdam App built with Javascript and Leaflet OpenStreetMap.<br />
                       Find your art hotspots in Amsterdam<br />
-                     Museums, art galleries, public art `
+                      Museums, art galleries, public art `
     },
     {
         id: 8,
@@ -180,13 +182,16 @@ export const projectsList = [
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: '/mockups/gothictactoeResp.png',
-        screens: [],
+        screens: [{ screenSmall: '/screens/gothictactoe.png', screenBig: '/screens/gothictactoeBig.png' },
+            { screenSmall: '/screens/gothictactoe1.png', screenBig: '/screens/gothictactoe1Big.png' },
+            { screenSmall: '/screens/gothictactoe2.png', screenBig: '/screens/gothictactoe2Big.png' }],
         github: 'https://github.com/Noud63/Gothic-Tac-Toe',
         github2: 'https://gothic-tac-toe.netlify.app/',
         description: `Gothic-Tac-Toe desktop game built with Javascript.<br />
-                      I also converted this web app to a desktop app with electron.<br />
+                      When clicking the view code button you'll see the web-app version.<br />
+                      I also converted this web-app to a desktop-app with electron.<br />
                       One of the drawbacks was that the converted file is rather large.<br/>
-                      Here is the browser version.`
+                      The thumbs below show the app in it's own browserwindow created by Electron.`
     },
     {
         id: 11,
@@ -252,12 +257,15 @@ export const projectsList = [
         screenshot: '/images/todo.png',
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
-        mockups: [],
-        screens: [],
+        mockups: '/mockups/todoResp.png',
+        screens: [{ screenSmall: '/screens/todo.png', screenBig: '/screens/todoBig.png' },
+            { screenSmall: '/screens/todo1.png', screenBig: '/screens/todo1Big.png' },
+            { screenSmall: '/screens/todo2.png', screenBig: '/screens/todo2Big.png' }],
         github: 'https://github.com/Noud63/ToDoApp',
         github2: 'https://todo-do-do.netlify.app/',
-        description: `The TDo app<br/>
-        In my oppinion a little underestimated as a, for beginners, valuable inroduction to CRUD applications.`
+        description: `Yeah, yeah, a  ToDo app<br/>
+                      In my oppinion a little underestimated as a, for beginners, 
+                      valuable inroduction to CRUD applications.`
     },
 
 ]
