@@ -159,9 +159,11 @@ export const projectsList = [
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: '/mockups/piggameResp.png',
-        screens: [],
+        screens: [{ screenSmall: '/screens/piggame.png', screenBig: '/screens/piggameBig.png' },
+            { screenSmall: '/screens/piggame1.png', screenBig: '/screens/piggame1Big.png' },
+            { screenSmall: '/screens/piggame2.png', screenBig: '/screens/piggame2Big.png' }],
         github: 'https://github.com/Noud63/Pig-game',
-        github2: 'https://noud63.github.io/Pig-game/',
+        github2: '',
         description: `Vanilla Javascript Pig Game Desktop App.`
     },
     {
@@ -170,8 +172,10 @@ export const projectsList = [
         screenshot: '/images/noudvandun.png',
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
-        mockups: [],
-        screens: [],
+        mockups: '/mockups/noudvandunResp.png',
+        screens: [{ screenSmall: '/screens/noudvandun.png', screenBig: '/screens/noudvandunBig.png' },
+            { screenSmall: '/screens/noudvandun1.png', screenBig: '/screens/noudvandun1Big.png' },
+            { screenSmall: '/screens/noudvandun2.png', screenBig: '/screens/noudvandun2Big.png' }],
         github: 'https://github.com/Noud63/noudvandun',
         github2: 'http://www.noudvandun.com',
         description: `My own personal Web App is all about contemporary art and more.`
@@ -201,7 +205,9 @@ export const projectsList = [
         icons: '/images/basicresticons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'REST-api'],
         mockups: '/mockups/weatherappResp.png',
-        screens: [{ screenSmall: '/screens/weatherapp.png', screenBig: '/screens/weatherappBig.png' }],
+        screens: [{ screenSmall: '/screens/weatherapp.png', screenBig: '/screens/weatherappBig.png' },
+            { screenSmall: '/screens/weatherapp1.png', screenBig: '/screens/weatherapp1Big.png' },
+            { screenSmall: '/screens/weatherapp2.png', screenBig: '/screens/weatherapp2Big.png' }],
         github: 'https://github.com/Noud63/weather-app',
         github2: 'https://noud63.github.io/weather-app/',
         description: `Weather app built with Javascript ES6 modules, webpack and babel<br />
