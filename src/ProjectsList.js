@@ -160,8 +160,8 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: '/mockups/piggameResp.png',
         screens: [{ screenSmall: '/screens/piggame.png', screenBig: '/screens/piggameBig.png' },
-            { screenSmall: '/screens/piggame1.png', screenBig: '/screens/piggame1Big.png' },
-            { screenSmall: '/screens/piggame2.png', screenBig: '/screens/piggame2Big.png' }],
+        { screenSmall: '/screens/piggame1.png', screenBig: '/screens/piggame1Big.png' },
+        { screenSmall: '/screens/piggame2.png', screenBig: '/screens/piggame2Big.png' }],
         github: 'https://github.com/Noud63/Pig-game',
         github2: '',
         description: `Vanilla Javascript Pig Game Desktop App.`
@@ -174,8 +174,8 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: '/mockups/noudvandunResp.png',
         screens: [{ screenSmall: '/screens/noudvandun.png', screenBig: '/screens/noudvandunBig.png' },
-            { screenSmall: '/screens/noudvandun1.png', screenBig: '/screens/noudvandun1Big.png' },
-            { screenSmall: '/screens/noudvandun2.png', screenBig: '/screens/noudvandun2Big.png' }],
+        { screenSmall: '/screens/noudvandun1.png', screenBig: '/screens/noudvandun1Big.png' },
+        { screenSmall: '/screens/noudvandun2.png', screenBig: '/screens/noudvandun2Big.png' }],
         github: 'https://github.com/Noud63/noudvandun',
         github2: 'http://www.noudvandun.com',
         description: `My own personal Web App is all about contemporary art and more.`
@@ -206,8 +206,8 @@ export const projectsList = [
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'REST-api'],
         mockups: '/mockups/weatherappResp.png',
         screens: [{ screenSmall: '/screens/weatherapp.png', screenBig: '/screens/weatherappBig.png' },
-            { screenSmall: '/screens/weatherapp1.png', screenBig: '/screens/weatherapp1Big.png' },
-            { screenSmall: '/screens/weatherapp2.png', screenBig: '/screens/weatherapp2Big.png' }],
+        { screenSmall: '/screens/weatherapp1.png', screenBig: '/screens/weatherapp1Big.png' },
+        { screenSmall: '/screens/weatherapp2.png', screenBig: '/screens/weatherapp2Big.png' }],
         github: 'https://github.com/Noud63/weather-app',
         github2: 'https://noud63.github.io/weather-app/',
         description: `Weather app built with Javascript ES6 modules, webpack and babel<br />
@@ -238,11 +238,19 @@ export const projectsList = [
         screenshot: '/images/whatsonyourmind.png',
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
-        mockups: [],
-        screens: [],
+        mockups: '/mockups/messageboxResp.png',
+        screens: [{ screenSmall: '/screens/messagebox.png', screenBig: '/screens/messageboxBig.png' },
+        { screenSmall: '/screens/messagebox2.png', screenBig: '/screens/messagebox2Big.png' },
+        { screenSmall: '/screens/messagebox1.png', screenBig: '/screens/messagebox1Big.png' }],
         github: 'https://github.com/Noud63/MessageBox',
-        github2: 'https://noud63.github.io/MessageBox/',
-        description: `Vanilla javascript Message Box<br />`
+        github2: 'https://whats-on-your-mind.netlify.app/',
+        description: `Vanilla javascript Message Box<br />
+                    ES6 Modules, webpack and babel.<br />
+                    Textarea multi-line input field with maximum character input field, character count, exceeded number of characters and last word typed.<br />
+                    When max number of characters has exceeded, the textarea text wil turn red and the submit button disabled.<br />
+                    Timestamp added to each message submitted, unique id generated with uuid.<br />
+                    Messages stored in localStorage.<br />
+                    The app is responsive.`
     },
     {
         id: 14,
