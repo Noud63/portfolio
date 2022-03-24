@@ -230,7 +230,14 @@ export const projectsList = [
         github: 'https://github.com/Noud63/contactlist',
         github2: '',
         description: `Persons database desktop app.<br />
-                      Vanilla Javascript ES6 modules`
+                      Database with search function.<br />
+                      Enter firstname and surname, date of birth and city of birth.<br />
+                      Age, unique ID and datestamp automatically generated.<br />
+                      Entries sorted in alphabetical order.<br />
+                      Entries stored in localStorage.<br />
+                      Check button before adding new entry.<br />
+                      UI showing entries and search results.<br />
+                      Several options for deleting entries and searchresults from UI and localStorage.`
     },
     {
         id: 13,
