@@ -49,6 +49,7 @@ const SingleProject = () => {
 
 
     //lightbox options and styling
+    
     const options = {
         buttons: {
             iconColor: "#ffffff",
