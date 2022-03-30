@@ -37,7 +37,9 @@ const About = () => {
                     and most commonly used languages out there. I followed a comprehensive course to learn JavaScript on Udemy among 
                     with some other courses like 'Javascript, Understanding the Weird Parts' and 'Javascript Essentials'. Books like 
                     'Eloquent Javascript' and 'Javascript the Definitive Guide' are very good as a reference but in the end google is 
-                    what I use most learning new skills or finding solutions when ever you run into problems or you are stuck.
+                    what I use most learning new skills or finding solutions when ever you run into problems or you are stuck.<br /><br />
+                    To be continued..............
+
                     
                 </div>
 
