@@ -295,7 +295,7 @@ export const projectsList = [
         screenshot: '/images/budgetcontroller.png',
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
-        mockups: '/mockups/todoResp.png',
+        mockups: '/mockups/incexpResp.png',
         screens: [{ screenSmall: '/screens/incexp.png', screenBig: '/screens/incexpBig.png' },
         { screenSmall: '/screens/incexp1.png', screenBig: '/screens/incexp1Big.png' },
         { screenSmall: '/screens/incexp2.png', screenBig: '/screens/incexp2Big.png' }],

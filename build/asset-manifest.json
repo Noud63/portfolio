@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.45057682.css",
-    "main.js": "/static/js/main.9aceb395.js",
+    "main.js": "/static/js/main.af14f8d5.js",
     "static/media/wp42b.jpg": "/static/media/wp42b.b0afdf4ab7bd15891169.jpg",
     "static/media/amsterdam.jpg": "/static/media/amsterdam.5aea6979ec063584c5ac.jpg",
     "static/media/wp42.jpg": "/static/media/wp42.9c33ca671916191fcc30.jpg",
@@ -22,10 +22,10 @@
     "static/media/restapi.png": "/static/media/restapi.5266b2153e1ed60620e5.png",
     "index.html": "/index.html",
     "main.45057682.css.map": "/static/css/main.45057682.css.map",
-    "main.9aceb395.js.map": "/static/js/main.9aceb395.js.map"
+    "main.af14f8d5.js.map": "/static/js/main.af14f8d5.js.map"
   },
   "entrypoints": [
     "static/css/main.45057682.css",
-    "static/js/main.9aceb395.js"
+    "static/js/main.af14f8d5.js"
   ]
 }

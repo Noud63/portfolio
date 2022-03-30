@@ -31,7 +31,13 @@ const About = () => {
                     I decided to make a U-turn and retrain myself to become a so called self-taught web developer.<br/><br />
                     Coming from a artistic background, teaching yourself to code without any prior knowledge, without a mentor 
                     is a time consuming enterprise with a relatively steep learning curve.
-                    But the goal I set myself was clear, become a (front-end) web developer.<br />
+                    But the goal I set myself was clear, become a (front-end) web developer.<br /><br />
+
+                    I started out with HTML5, CSS3 and javascript ES5/ES6. I chose for Javascript because it is one of the most popular
+                    and most commonly used languages out there. I followed a comprehensive course to learn JavaScript on Udemy among 
+                    with some other courses like 'Javascript, Understanding the Weird Parts' and 'Javascript Essentials'. Books like 
+                    'Eloquent Javascript' and 'Javascript the Definitive Guide' are very good as a reference but in the end google is 
+                    what I use most learning new skills or finding solutions when ever you are stuck.
                     
                 </div>
 
