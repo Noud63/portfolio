@@ -307,6 +307,6 @@ export const projectsList = [
                       The percentage related to the total deposits is also visualised as a progress bar.<br />
                       If the percentage is less than 20% the progress bar will turn red. <br />
                       If the available budget is less than 0 the green header will turn red and a sad emoji will be shown.`
-    },
+    }
 
 ]
