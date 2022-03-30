@@ -296,9 +296,9 @@ export const projectsList = [
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
         mockups: '/mockups/todoResp.png',
-        screens: [{ screenSmall: '/screens/todo.png', screenBig: '/screens/todoBig.png' },
-        { screenSmall: '/screens/todo1.png', screenBig: '/screens/todo1Big.png' },
-        { screenSmall: '/screens/todo2.png', screenBig: '/screens/todo2Big.png' }],
+        screens: [{ screenSmall: '/screens/incexp.png', screenBig: '/screens/incexpBig.png' },
+        { screenSmall: '/screens/incexp1.png', screenBig: '/screens/incexp1Big.png' },
+        { screenSmall: '/screens/incexp2.png', screenBig: '/screens/incexp2Big.png' }],
         github: 'https://github.com/Noud63/budgetcontroller',
         github2: 'https://financecontroller.netlify.app/',
         description: `Anther budget app in Vanilla Javascript ES6 modules.<br/>
