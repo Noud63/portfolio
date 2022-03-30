@@ -6,7 +6,6 @@
     "npm": "8.3.1"
   },
   "private": true,
-  "homepage": "https://noud63.github.io/portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@testing-library/jest-dom": "^5.16.1",
