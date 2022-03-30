@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState, useEffect, useRef, useCallback} from 'react'
 import style from './SingleProject.module.css'
 import { useNavigate } from "react-router-dom"; // useHistory = useNavigate
 import { SRLWrapper } from "simple-react-lightbox";
@@ -8,18 +8,18 @@ import { projectsList } from '../../ProjectsList.js'
 const SingleProject = () => {
 
     const { id } = useParams();
-    const [project, setProject] = React.useState({});
-    const [screen, setScreen] = React.useState([]);
+    const [project, setProject] = useState({});
+    const [screen, setScreen] = useState([]);
     let navigate = useNavigate();
 
-    const getItem = React.useCallback(() => {
+    const getItem = useCallback(() => {
         let item = projectsList[id]
         setProject(item)
         let screens = item.screens
         setScreen(screens)
     }, [id]);
 
-    React.useEffect(() => {
+    useEffect(() => {
         getItem()
     }, [getItem]);
 
@@ -29,10 +29,10 @@ const SingleProject = () => {
     };
 
 
-    const btnRef = React.useRef();
-    const textRef = React.useRef();
+    const btnRef = useRef();
+    const textRef = useRef();
 
-    const changeText = React.useCallback(() => {
+    const changeText = useCallback(() => {
         textRef.current.innerHTML = project.description
         if (project.github2 === "") {
             btnRef.current.textContent = 'no deployment';
@@ -43,7 +43,7 @@ const SingleProject = () => {
         }
     }, [project.description, project.github2]);
 
-    React.useEffect(() => {
+   useEffect(() => {
         changeText()
     }, [changeText]);
 
