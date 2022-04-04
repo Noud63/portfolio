@@ -154,7 +154,7 @@ export const projectsList = [
     },
     {
         id: 8,
-        title: 'PIG GAME',
+        title: 'ROLL THE DICE',
         screenshot: '/images/piggame.png',
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
