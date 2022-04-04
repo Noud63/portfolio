@@ -107,7 +107,7 @@ const SingleProject = () => {
 
             <div className={style.buttons}>
                 <div className={style.btnBox} >
-                    <button type="button" className={style.btn} onClick={goBackHandler}>All Projects</button>
+                    <button type="button" className={style.btn} onClick={goBackHandler}>Go Back</button>
                 </div>
 
                 <div className={style.btnBox2} >

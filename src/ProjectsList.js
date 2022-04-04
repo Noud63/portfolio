@@ -164,7 +164,19 @@ export const projectsList = [
         { screenSmall: '/screens/piggame2.png', screenBig: '/screens/piggame2Big.png' }],
         github: 'https://github.com/Noud63/Pig-game',
         github2: '',
-        description: `Vanilla Javascript Pig Game Desktop App.`
+        description: `Vanilla Javascript Pig Game Desktop App.<br />
+                      Rules of the game are:<br />
+                      The game has two players playing in rounds.<br />
+                      With each turn a player rolls the dice as many time he wishes.<br />
+                      Each result gets added to his round score.<br />
+                      If a player rolls a 1 two times in a row, all round score gets lost.<br />
+                      If a player rolls a 6 two times in a row he looses his entire score.<br />
+                      After that it's the next player's turn.<br />
+                      A player can choose hold, so his round score gets added to his total score.<br />
+                      After that it's again the next player's turn.<br />
+                      If a player's total score is equal or exceeds the number in the set limit box,<br />
+                      click hold to win the game. Click roll dice the game continues.<br />
+                      Before start playing set a limit in the set limit box.<br />`
     },
     {
         id: 9,
