@@ -287,22 +287,6 @@ export const projectsList = [
     },
     {
         id: 15,
-        title: 'TO-DO',
-        screenshot: '/images/todo.png',
-        icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
-        mockups: '/mockups/todoResp.png',
-        screens: [{ screenSmall: '/screens/todo.png', screenBig: '/screens/todoBig.png' },
-        { screenSmall: '/screens/todo1.png', screenBig: '/screens/todo1Big.png' },
-        { screenSmall: '/screens/todo2.png', screenBig: '/screens/todo2Big.png' }],
-        github: 'https://github.com/Noud63/ToDoApp',
-        github2: 'https://todo-do-do.netlify.app/',
-        description: `Yeah, yeah, a  ToDo app<br/>
-                      In my oppinion a little underestimated as a, for beginners, 
-                      valuable inroduction to CRUD applications.`
-    },
-    {
-        id: 16,
         title: 'INC&EXP',
         screenshot: '/images/budgetcontroller.png',
         icons: '/images/basicicons.png',
@@ -319,6 +303,21 @@ export const projectsList = [
                       The percentage related to the total deposits is also visualised as a progress bar.<br />
                       If the percentage is less than 20% the progress bar will turn red. <br />
                       If the available budget is less than 0 the green header will turn red and a sad emoji will be shown.`
+    },
+    {
+        id: 16,
+        title: 'TO-DO',
+        screenshot: '/images/todo.png',
+        icons: '/images/basicicons.png',
+        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        mockups: '/mockups/todoResp.png',
+        screens: [{ screenSmall: '/screens/todo.png', screenBig: '/screens/todoBig.png' },
+        { screenSmall: '/screens/todo1.png', screenBig: '/screens/todo1Big.png' },
+        { screenSmall: '/screens/todo2.png', screenBig: '/screens/todo2Big.png' }],
+        github: 'https://github.com/Noud63/ToDoApp',
+        github2: 'https://todo-do-do.netlify.app/',
+        description: `Yeah, yeah, a  ToDo app<br/>
+                      In my oppinion a little underestimated as a, for beginners, 
+                      valuable inroduction to CRUD applications.`
     }
-
 ]
