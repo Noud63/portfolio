@@ -15,8 +15,6 @@ const About = () => {
                 <Newmenu />
             </div>
 
-
-
             <div className={style.text}>
 
                 <div className={style.textBox}>
@@ -44,7 +42,7 @@ const About = () => {
                 </div>
 
             </div>
-            <span>Amsterdam, Januari 24 2022</span>
+                      <span>Amsterdam, Januari 24 2022</span>
 
         </div>
     )
