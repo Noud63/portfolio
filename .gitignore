@@ -23,5 +23,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# git add . && git commit -m "fontsize" && git push heroku master
+# git add . && git commit -m "*" && git push origin main
 # https://kaffeine.herokuapp.com/     ping every 30min
+# netlify deploy --prod
