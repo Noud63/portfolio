@@ -69,6 +69,31 @@
     gap: 80px;
 }
 
+.projectsList2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-column-start: auto;
+    grid-template-rows: repeat(1, 437px) ;
+    gap: 80px;
+}
+
+.lastTwo {
+    color:rgb(155, 215, 255);
+    width: 90%;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgb(155, 215, 255);
+    padding: 20px 0;
+     margin-top: 20px;
+}
+
 .project {
     display: flex;
     align-items: center;
@@ -192,6 +217,11 @@ width: 60px;
         grid-template-columns: repeat(3, 250px);
         grid-template-rows: repeat(6, 435px) ;
     }
+
+     .projectsList2 {
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: repeat(1, 435px) ;
+    }
     .title {
         font-size: .8rem;
         padding: 6px;
@@ -206,6 +236,12 @@ width: 60px;
         grid-template-columns: repeat(2, 250px);
         grid-template-rows: repeat(8, 435px) ;
          justify-content: center;
+    }
+.projectsList2 {
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: repeat(2, 435px) ;
+         justify-content: center;
+         gap: 80px;
     }
 }
 
@@ -228,6 +264,12 @@ width: 60px;
         grid-template-columns: repeat(1, 250px);
         grid-template-rows: repeat(8, 435px) ;
          justify-content: center;
+    }
+    .projectsList2 {
+        grid-template-columns: repeat(1, 250px);
+        grid-template-rows: repeat(2, 435px) ;
+         justify-content: center;
+         gap: 80px;
     }
     .arrowTop {
       width: 40px;

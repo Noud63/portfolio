@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState, useEffect, useCallback} from 'react'
 import { projectsList } from '../../ProjectsList.js'
 import style from './Projects.module.css'
 import link from '../../images/link.png'
@@ -7,11 +7,22 @@ import { Link } from "react-router-dom";
 
 const ListItems = () => {
 
-    const [activeColor, setActiveColor] = React.useState(-1)
+    const [activeColor, setActiveColor] = useState(-1)
+    const [newList, setNewList] = useState([])
+
+    const sliceList = useCallback(() => {
+          let slicedList = projectsList.slice(0, projectsList.length - 2)
+          setNewList(slicedList)
+},[])
+
+    useEffect(()=>{
+        sliceList()
+    },[sliceList])
+   
 
     return (
         <>
-            {projectsList.map((project, index) => {
+            {newList.map((project, index) => {
                 const { id, title, screenshot, icons, languages } = project
                 return (
                     <Link to={`/singleproject/${id}`} state={{ project: project }} key={id} style={{ textDecoration: 'none' }}>

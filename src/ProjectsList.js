@@ -306,6 +306,22 @@ export const projectsList = [
     },
     {
         id: 16,
+        title: 'TIP-CALCULATOR',
+        screenshot: '/images/tip.png',
+        icons: '/images/basicicons.png',
+        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        mockups: '/mockups/tipResp.png',
+        screens: [{ screenSmall: '/screens/tip.png', screenBig: '/screens/tipBig.png' },
+        { screenSmall: '/screens/tip1.png', screenBig: '/screens/tip1Big.png' },
+        { screenSmall: '/screens/tip2.png', screenBig: '/screens/tip2Big.png' }],
+        github: 'https://github.com/Noud63/tip-calculator',
+        github2: 'https://tipperperson.netlify.app/',
+        description: `Tip Calculator<br/>
+                      Calculates the tip per person depending on the service quality.<br />
+                      With some simple css animations.`
+    },
+    {
+        id: 17,
         title: 'TO-DO',
         screenshot: '/images/todo.png',
         icons: '/images/basicicons.png',
