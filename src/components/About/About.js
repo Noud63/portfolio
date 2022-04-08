@@ -39,7 +39,7 @@ const About = () => {
                     Subsequently I wanted to broaden my knowledge and skills and add a framework or library to my tiny stack.
                     For the same reason I chose Javascript, I chose React(hooks) just because it is the most popular Javascript library
                     and I fell in love with it immediately. Along the way I learned how to use REST-api's, git/github and some basic
-                    knowledge on lots of stuff like MongoDB, Express, Postman, GSAP etc.<br /><br />
+                    knowledge on lots of stuff like Redux, MongoDB, Express, Postman, GSAP etc.<br /><br />
 
                     Anyway, right from the start I was mesmerized by how coding works, the sheer possibilities and it's effect on society.
                     I must admit that, lacking technological knowledge on how an application exactly works behind the scenes made me believe

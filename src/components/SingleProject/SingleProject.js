@@ -28,7 +28,6 @@ const SingleProject = () => {
         navigate('/projects')
     };
 
-
     const btnRef = useRef();
     const textRef = useRef();
 
@@ -71,6 +70,7 @@ const SingleProject = () => {
         },
     };
 
+    console.log(project.screens)
     return (
         <div className={style.background}>
 

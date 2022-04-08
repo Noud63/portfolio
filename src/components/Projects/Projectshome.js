@@ -17,9 +17,9 @@ const Projects = () => {
                 <div className={style.title}>Projects</div>
                 <div className={style.wrapper}>
 
-                   <div className={style.text}>
+                    <div className={style.text}>
                         The projects, a brief introduction.<br />
-                        All projects are built with HTML5, CSS3, Javascript (ES6) and/or React (create-react-app). 
+                        All projects are built with HTML5, CSS3, Javascript (ES6) and/or React 16.8 (hooks).
                         All applications are frontend with a few exceptions where there is also a backend.
                         The backend parts are simple, mainly fetching data from a MongoDB database collection
                         and storing signin/signup user information, login validation etc. There are several REST-api use cases aswell.
@@ -27,29 +27,29 @@ const Projects = () => {
                         Click the 'view all projects' button to see all the projects I've done so far with all the information needed.
                         To view the code there is a link to that specific github repo.
                     </div>
-            
-                   <div className={style.stackIcons}>
-                       <div className={style.icons}>
-                           <img src={htmlicon} alt="htmlicon" className={style.htmlicon}/>
-                           <div className={style.codeName}>HTML 5</div>
+
+                    <div className={style.stackIcons}>
+                        <div className={style.icons}>
+                            <img src={htmlicon} alt="htmlicon" className={style.htmlicon} />
+                            <div className={style.codeName}>HTML 5</div>
                         </div>
 
                         <div className={style.icons}>
-                            <img src={cssicon} alt="htmlicon" className={style.cssicon}/>
+                            <img src={cssicon} alt="htmlicon" className={style.cssicon} />
                             <div className={style.codeName}>CSS 3</div>
                         </div>
 
                         <div className={style.icons}>
-                            <img src={jsicon} alt="htmlicon" className={style.jsicon}/>
+                            <img src={jsicon} alt="htmlicon" className={style.jsicon} />
                             <div className={style.codeName}>JS</div>
                         </div>
 
                         <div className={style.icons}>
-                            <img src={reacticon} alt="htmlicon" className={style.reacticon}/>
+                            <img src={reacticon} alt="htmlicon" className={style.reacticon} />
                             <div className={style.codeName}>REACT</div>
                         </div>
-                       
-                   </div>
+
+                    </div>
 
                     <div className={style.stackIcons2}>
                         <div className={style.icons2}>
@@ -68,10 +68,10 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <Link to="/projects" className={style.link}> 
-                    <button type="button" className={style.btn}>View all projects</button>
+                    <Link to="/projects" className={style.link}>
+                        <button type="button" className={style.btn}>View all projects</button>
                     </Link>
-                  
+
 
                 </div>
             </div>

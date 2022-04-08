@@ -317,7 +317,7 @@ export const projectsList = [
         github: 'https://github.com/Noud63/tip-calculator',
         github2: 'https://tipperperson.netlify.app/',
         description: `Tip Calculator<br/>
-                      Calculates the tip per person depending on the service quality.<br />
+                      Calculates the tip per person depending on the service quality and the total amount spend.<br />
                       With some simple css animations.`
     },
     {
