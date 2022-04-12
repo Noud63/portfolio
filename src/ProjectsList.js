@@ -18,7 +18,8 @@ export const projectsList = [
                       There is an introduction page and a page that lists all the products. You can add products to a shopping cart, you can like certains items,
                       and eventually purchase an item on the checkout page. You can register and/or login as a regular customer.<br /><br />
 
-                      The application is built with React (create-react-app) and using react-hooks wich makes it possible to manage state within functional components.<br />
+                      The application is built with React (hooks) wich makes it possible to manage state within functional components.
+                      State is managed by using the useContext hook, it is a way to make a particular data available to all the components no matter how they are nested.<br />
                       Unlike many other projects this application has a backend aswell. The backend part is responsible for connecting and fetching data from a MongoDB database collection,
                       and taking care of user registration and user login with validation. The user information is stored in a MongoDb database collection. For the backend I used MongoDB, Express, Node.js and Mongoose.
                       The application is responsive.
