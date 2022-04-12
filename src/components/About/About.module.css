@@ -122,10 +122,16 @@ span {
     .text {
         margin-top: 10px;
     }
+    .textBox {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 640px){
     .headerWrapper{
+        width: 95%;
+    }
+    .textBox {
         width: 95%;
     }
 }
