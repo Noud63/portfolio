@@ -166,10 +166,10 @@
 
 @media only screen and (max-width: 500px) {
   .homepageName {
-      font-size: 2rem;
+      font-size: 1.8rem;
   }
   .homepageWebdev {
-      font-size: .79rem;
+      font-size: .62rem;
   }
   .arrowTop {
       width: 40px;
