@@ -39,6 +39,7 @@
     justify-content: center;
     flex-direction: column;
     height: auto;
+    position: relative;
 }
 
 .mapBox {
@@ -49,11 +50,13 @@
     margin: 50px 20px 50px 20px;
     background-color: black;
     box-shadow: 0px 0px 30px rgb(0, 0, 0), 0px 0px 20px rgb(0, 0, 0);
+    border-radius: 20px;
 }
 
 .map {
     width: 100%;
     height: auto;
+     border-radius: 20px;
 }
 
 .personal {
@@ -118,14 +121,19 @@
     box-shadow: 0px 0px 20px rgb(0, 0, 0), 0px 0px 20px rgb(0, 0, 0);
     transition: .2s ease-in-out;
     margin-bottom: 50px;
+
 }
 
 .btn:hover {
     transform: scale(1.2);
 }
 
+.linkBtn {
+    position: absolute;
+    bottom: 50px;
+}
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     .personal {
         display: none;
     }
@@ -142,5 +150,12 @@
     }
     .btn {
         margin-top: 30px;
+    }
+    .linkBtn {
+     position: relative;
+     margin-top: 50px;
+    }
+    .contactWrapper {
+        margin-top: 50px;
     }
 }

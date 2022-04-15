@@ -42,10 +42,12 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-
-                <Link to="/contact" className={style.link}>
-                    <button type="button" className={style.btn}>Contact me</button>
-                </Link>
+                <div className={style.linkBtn}>
+                    <Link to="/contact" className={style.link}>
+                        <button type="button" className={style.btn}>Contact me</button>
+                    </Link>
+                  </div>
+                
                 
             </div>
         </div>
