@@ -1,4 +1,4 @@
-import React,{useState, useEffect, useRef, useCallback} from 'react'
+import React, { useState, useEffect, useRef, useCallback } from 'react'
 import style from './SingleProject.module.css'
 import { useNavigate } from "react-router-dom"; // useHistory = useNavigate
 import { SRLWrapper } from "simple-react-lightbox";
@@ -37,18 +37,18 @@ const SingleProject = () => {
             btnRef.current.textContent = 'no deployment';
             btnRef.current.disabled = true;
         } else {
-            btnRef.current.textContent = 'View Deployment';
+            btnRef.current.textContent = 'Live Demo';
             btnRef.current.disabled = false;
         }
     }, [project.description, project.github2]);
 
-   useEffect(() => {
+    useEffect(() => {
         changeText()
     }, [changeText]);
 
 
     //lightbox options and styling
-    
+
     const options = {
         buttons: {
             iconColor: "#ffffff",
@@ -117,7 +117,7 @@ const SingleProject = () => {
                 </div>
                 <div className={style.btnBox} >
                     <a href={project.github2} target="blank">
-                        <button type="button" className={style.btn2} ref={btnRef}>View Deployment</button>
+                        <button type="button" className={style.btn2} ref={btnRef}>Live Demo</button>
                     </a>
                 </div>
             </div>

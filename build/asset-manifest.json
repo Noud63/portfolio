@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3e37857.css",
-    "main.js": "/static/js/main.f0e34bc7.js",
+    "main.css": "/static/css/main.3405f5b8.css",
+    "main.js": "/static/js/main.b7b7d516.js",
+    "static/media/frame2.png": "/static/media/frame2.994a61522eb9925e69ad.png",
+    "static/media/frame3.png": "/static/media/frame3.64c6ae3d69201644b5c2.png",
     "static/media/wp42b.jpg": "/static/media/wp42b.b0afdf4ab7bd15891169.jpg",
     "static/media/amsterdam.jpg": "/static/media/amsterdam.5aea6979ec063584c5ac.jpg",
     "static/media/wp42.jpg": "/static/media/wp42.9c33ca671916191fcc30.jpg",
@@ -12,7 +14,6 @@
     "static/media/hotelgroot.jpg": "/static/media/hotelgroot.f1fb9e6448ed04064d3c.jpg",
     "static/media/enigmagroot.jpg": "/static/media/enigmagroot.75f5b1955ef01aad81b1.jpg",
     "static/media/discogroot.jpg": "/static/media/discogroot.21077c37f431c149b816.jpg",
-    "static/media/easel.png": "/static/media/easel.cdbb43fb929fcf7bd823.png",
     "static/media/dia4.jpg": "/static/media/dia4.d68489693295c2f64867.jpg",
     "static/media/dia2.jpg": "/static/media/dia2.6f5a186818d78379009b.jpg",
     "static/media/dia3.jpg": "/static/media/dia3.b599409220753a401468.jpg",
@@ -22,11 +23,11 @@
     "static/media/wink.png": "/static/media/wink.96949592bb4d4bca3c8d.png",
     "static/media/restapi.png": "/static/media/restapi.5266b2153e1ed60620e5.png",
     "index.html": "/index.html",
-    "main.d3e37857.css.map": "/static/css/main.d3e37857.css.map",
-    "main.f0e34bc7.js.map": "/static/js/main.f0e34bc7.js.map"
+    "main.3405f5b8.css.map": "/static/css/main.3405f5b8.css.map",
+    "main.b7b7d516.js.map": "/static/js/main.b7b7d516.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3e37857.css",
-    "static/js/main.f0e34bc7.js"
+    "static/css/main.3405f5b8.css",
+    "static/js/main.b7b7d516.js"
   ]
 }
