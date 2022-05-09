@@ -13,7 +13,7 @@ const ListItems = () => {
     const sliceList = useCallback(() => {
           let slicedList = projectsList.slice(0, projectsList.length - 2)
           setNewList(slicedList)
-},[])
+          },[])
 
     useEffect(()=>{
         sliceList()

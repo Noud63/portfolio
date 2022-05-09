@@ -19,7 +19,7 @@ const Projects = () => {
 
                     <div className={style.text}>
                         The projects, a brief introduction.<br />
-                        All projects are built with HTML5, CSS3, Javascript (ES6) and/or React 16.8 (hooks).
+                        All projects are built with HTML5, CSS3, Javascript (ES6) and/or React (hooks).
                         All applications are frontend with a few exceptions where there is also a backend.
                         The backend parts are simple, mainly fetching data from a MongoDB database collection
                         and storing signin/signup user information, login validation etc. There are several REST-api use cases aswell.

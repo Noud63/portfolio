@@ -7,6 +7,7 @@ import ListItems from './ListItems.js'
 import LastTwoItems from './LastTwoItems.js'
 import totop from '../../images/totop.png'
 import wink from '../../images/wink.png'
+import github from '../../images/github.png'
 
 const Projects = () => {
 
@@ -54,6 +55,11 @@ const Projects = () => {
                     <div className={style.projectsList2}>
                         <LastTwoItems />
                     </div>
+
+                    <a href="https://github.com/Noud63?tab=repositories" target="_blank" className={style.githubRepos} style={{ textDecoration: "none" }}>
+                        <button className={style.btn}>All Github Repo's<img src={github} alt="github" className={style.githubPng} /></button>
+                    </a>
+
                 </div>
             </div>
             {showButton && (
