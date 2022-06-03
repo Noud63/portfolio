@@ -12,7 +12,7 @@ export const projectsList = [
             { screenSmall: '/screens/bsba2.png', screenBig: '/screens/bsba2Big.png' }
         ],
         github: 'https://github.com/Noud63/besmartbuyart-react',
-        github2: 'https://besmartbuyart.herokuapp.com',
+        github2: 'https://besmartbuyart.herokuapp.com/',
         description: `<p>
                       Be Smart Buy Art is an art webshop with the basic features of an e-commerce webshop.<br />
                       There is an introduction page and a page that lists all the products. You can add products to a shopping cart, you can like certains items,

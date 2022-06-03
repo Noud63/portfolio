@@ -35,11 +35,12 @@ const About = () => {
                     and most commonly used languages out there. I followed a comprehensive course to learn JavaScript on Udemy among
                     with some other courses like 'Javascript, Understanding the Weird Parts' and 'Javascript Essentials'. Books like
                     'Eloquent Javascript' and 'Javascript the Definitive Guide' are very good as a reference but in the end google is
-                    what I use most learning new skills or finding solutions when ever you run into problems or you are stuck.
+                    what I use most learning new skills or finding solutions when ever you run into problems or you are stuck building your own projects.
                     Subsequently I wanted to broaden my knowledge and skills and add a framework or library to my tiny stack.
                     For the same reason I chose Javascript, I chose React(hooks) just because it is the most popular Javascript library
                     and I fell in love with it immediately. Along the way I learned how to use REST-api's, git/github and some basic
-                    knowledge on lots of stuff like Redux, MongoDB, Express, Postman, GSAP etc.<br /><br />
+                    knowledge on lots of stuff like Redux, MongoDB, Express, Postman, GSAP etc. Photoshop for editing images comes in handy 
+                    as well, since it is hard to imagine a website without any images.<br /><br />
 
                     Anyway, right from the start I was mesmerized by how coding works, the sheer possibilities and it's effect on society.
                     I must admit that, lacking technological knowledge on how an application exactly works behind the scenes made me believe
