@@ -1,14 +1,14 @@
 .contact {
     background-image: url('../../images/wp42b.jpg');
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    width: 100%;
     position: relative;
 }
 

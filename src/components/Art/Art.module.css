@@ -2,16 +2,15 @@
 
 .artContainer {
     background-image: url('../../images/wp5.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
+     background-position: center;
+    background-repeat: repeat;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    width: 100%;
-    color:  rgb(155, 215, 255);
     position: relative;
 }
 
