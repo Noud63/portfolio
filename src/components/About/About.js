@@ -40,7 +40,7 @@ const About = () => {
                     For the same reason I chose Javascript I chose React(hooks), just because it is the most popular Javascript library
                     and I fell in love with it immediately. Along the way I learned how to use REST-api's, git/github and some basic
                     knowledge on lots of stuff like Redux, MongoDB, Express, Postman, GSAP etc. 
-                    Alongside this I added Next.js TypeScript and Sass to my wishlist for the near future.
+                    Alongside this I added Next.js, TypeScript and Sass to my wishlist for the near future.
                     Photoshop for editing images comes in handy as well, since it is hard to imagine a website without any images.<br /><br />
 
                     Anyway, right from the start I was mesmerized by how coding works, the sheer possibilities and it's effect on society.
