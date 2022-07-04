@@ -7,7 +7,7 @@ import Newmenu from '../Newmenu.js';
 import ContactUs from '../ContactUs/ContactUs.js';
 import location from '../../images/location.png'
 import email from '../../images/email.png'
-
+import Map from '../Map.js'
 
 
 const Contact = () => {
@@ -20,7 +20,9 @@ const Contact = () => {
                 <Menu />
                 <Newmenu />
             </div>
-
+            <div className={style.map} id='map'>
+                <Map />
+            </div>
             <div className={style.contactWrapper}>
                 <div className={style.personal}>
                     <div className={style.location}>
@@ -34,10 +36,15 @@ const Contact = () => {
                     </div>
                 </div>
 
+                
+                
                 <ContactUs />
+               
 
             </div>
-
+            
+                
+            
         </div>
     )
 }
