@@ -41,19 +41,6 @@
     margin-top: 50px;
 }
 
-.map {
-   height: 402px; 
-   width: 95%; 
-   margin-top: 50px; 
-   border: 1px solid rgb(155, 215, 255);
-   padding: 10px;
-}
-
-.leaflet-touch .leaflet-bar a {
-  width: 50px;
-  background-color: red;
-}
-
 /* Contact Form */
 
 .contactWrapper {
