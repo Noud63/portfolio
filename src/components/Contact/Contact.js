@@ -8,7 +8,7 @@ import ContactUs from '../ContactUs/ContactUs.js';
 import location from '../../images/location.png'
 import email from '../../images/email.png'
 import Map from '../Map.js'
-
+import 'leaflet/dist/leaflet.css'
 
 const Contact = () => {
 
