@@ -9,7 +9,9 @@ import location from '../../images/location.png'
 import email from '../../images/email.png'
 
 
+
 const Contact = () => {
+
     return (
         <div className={style.contact}>
             <div className={style.title}>Contact</div>
@@ -20,7 +22,6 @@ const Contact = () => {
             </div>
 
             <div className={style.contactWrapper}>
-
                 <div className={style.personal}>
                     <div className={style.location}>
                         <div className={style.iconBox}><img src={location} alt="location" className={style.icon} /></div>

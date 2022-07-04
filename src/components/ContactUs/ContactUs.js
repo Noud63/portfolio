@@ -17,6 +17,7 @@ const ContactUs = () => {
                 setStatus('Message successfully sent!')
                 let timer = setTimeout(() => {
                     setStatus("submit")
+                    
                     clearTimeout(timer)
                 }, 5000)
             }, (error) => {
