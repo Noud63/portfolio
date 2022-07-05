@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
 import style from './SingleProject.module.css'
 import { useNavigate } from "react-router-dom"; // useHistory = useNavigate
-import { SRLWrapper } from "simple-react-lightbox";
 import { useParams } from "react-router-dom";
 import { projectsList } from '../../ProjectsList.js'
 
@@ -47,30 +46,7 @@ const SingleProject = () => {
     }, [changeText]);
 
 
-    //lightbox options and styling
 
-    const options = {
-        buttons: {
-            iconColor: "#ffffff",
-            iconPadding: "10px",
-            backgroundColor: "transparent",
-            showNextButton: false,
-            showPrevButton: false,
-        },
-        caption: {
-            captionColor: "#61O6O4",
-            captionFontSize: "20px",
-        },
-        settings: {
-            overlayColor: "rgb(0, 0, 0, .7)",
-            disablePanzoom: true,
-        },
-        thumbnails: {
-            showThumbnails: false,
-        },
-    };
-
-    console.log(project.screens)
     return (
         <div className={style.background}>
 
@@ -96,11 +72,11 @@ const SingleProject = () => {
                 {screen.map((screen, i) => {
                     const { screenSmall, screenBig } = screen
                     return <div className={style.screenBox} key={i}>
-                        <SRLWrapper options={options}>
-                            <a href={process.env.PUBLIC_URL + screenBig}>
-                                <img src={process.env.PUBLIC_URL + screenSmall} alt="Print Screen " className={style.screen} />
-                            </a>
-                        </SRLWrapper>
+
+                        <a href={process.env.PUBLIC_URL + screenBig}>
+                            <img src={process.env.PUBLIC_URL + screenSmall} alt="Print Screen " className={style.screen} />
+                        </a>
+
                     </div>
                 })}
             </div>

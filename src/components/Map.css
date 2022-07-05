@@ -1,0 +1,37 @@
+.leaflet-bar a {
+    background-color: rgb(17, 32, 43);
+    border: 1px solid rgb(155, 215, 255);
+}
+
+.leaflet-touch .leaflet-bar a {
+    width: 30px;
+    height: 30px;
+    line-height: 27px;
+}
+
+.leaflet-touch .leaflet-bar {
+    box-shadow: none;
+}
+
+.leaflet-bar a:last-child {
+    border-bottom: 1px solid rgb(155, 215, 255); 
+}
+
+.leaflet-container .leaflet-control-attribution {
+    background: rgba(4, 20, 29, 0.8);
+    margin: 0;
+}
+
+span {
+    font-size: 1.2rem;
+    color: rgb(155, 215, 255);
+    margin-bottom: 20px;
+}
+
+.leaflet-container a {
+    color: rgb(155, 215, 255);
+}
+
+.leaflet-container a:hover {
+background: rgb(2, 21, 32);
+}
