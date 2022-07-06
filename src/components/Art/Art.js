@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useCallback} from 'react'
 import style from './Art.module.css'
 import Menu from '../Menu.js';
 import Namemenu from '../Namemenu.js';
@@ -12,8 +12,37 @@ import hotel from '../../images/hotelgroot.jpg'
 import disco from '../../images/discogroot.jpg'
 import enigma from '../../images/enigmagroot.jpg'
 import ufo from '../../images/ufogroot.jpg'
+import ImageViewer from "react-simple-image-viewer";
 
 const Art = () => {
+
+const worksOfArt = [
+       hotel,
+       disco,
+       enigma,
+       ufo
+    ]
+
+    const slides = [
+        dia1,
+        dia2,
+        dia3,
+        dia4
+    ]
+
+    const [currentImage, setCurrentImage] = useState(0);
+    const [isViewerOpen, setIsViewerOpen] = useState(false);
+
+
+    const openImageViewer = useCallback((index) => {
+        setCurrentImage(index);
+        setIsViewerOpen(true);
+    }, []);
+
+    const closeImageViewer = () => {
+        setCurrentImage(0);
+        setIsViewerOpen(false);
+    };
 
 
     return (
@@ -26,44 +55,32 @@ const Art = () => {
             </div>
 
             <div className={style.slides}>
+                    {slides.map((slide, index) => {
+                        return <div className={style.screenBox} key={index}>
+                             <img
+                                src={slide}
+                                onClick={() => openImageViewer(index)}
+                                width="250"
+                                className={style.slide2}
+                                key={index}
+                                style={{ margin: "2px" }}
+                                alt=""
+                            />
 
-                
-                    <div className={style.slide1}>
-                       <a href={hotel} alt="hotel">
-                         <img src={dia1} alt="noudvandun" className={style.slide} />
-                       </a>
-                       <div className={style.titlePainting}>H.O.T.E.L.</div>
-                    </div>
-                
-                
-                
-                    <div className={style.slide2}>
-                        <a href={disco} alt="hotel">
-                            <img src={dia2} alt="noudvandun" className={style.slide} />
-                        </a>
-                        <div className={style.titlePainting}>D.I.S.C.O.</div>
-                    </div>
-                
-               
-                
-                    <div className={style.slide2}>
-                        <a href={enigma} alt="hotel">
-                            <img src={dia3} alt="noudvandun" className={style.slide} />
-                        </a>
-                        <div className={style.titlePainting}>E.N.I.G.M.A.</div>
-                    </div>
-                
-
-                
-                    <div className={style.slide2}>
-                        <a href={ufo} alt="hotel">
-                            <img src={dia4} alt="Noud van Dun , U.F.O. , 2016" className={style.slide} />
-                        </a>
-                        <div className={style.titlePainting}>U.F.O.</div>
-                    </div>
-                
-                
-                
+                            {isViewerOpen && (
+                                <ImageViewer
+                                    src={worksOfArt}
+                                    currentIndex={currentImage}
+                                    onClose={closeImageViewer}
+                                    disableScroll={false}
+                                    backgroundStyle={{
+                                    backgroundColor: "rgb(2, 17, 27, .3)"
+                                    }}
+                                    closeOnClickOutside={true}
+                                />
+                            )}
+                        </div>
+                    })}
             </div>
 
             <div className={style.mywebsite}>

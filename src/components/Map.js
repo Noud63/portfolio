@@ -2,7 +2,7 @@ import React from 'react'
 import { Marker, TileLayer, MapContainer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import L from "leaflet";
-import marker from '../images/marker.png'
+//import marker from '/images/marker.png'
 import shadow from 'leaflet/dist/images/marker-shadow.png'
 import './Map.css'
 
@@ -10,9 +10,9 @@ const Map = () => {
 
     const positionMap = [52.370216, 4.895168]
     const positionMarker = [52.382903, 4.874645]
-
-    const icon = new L.Icon.Default({
-        iconUrl: marker,
+   
+    const icon = new L.Icon({
+        iconUrl: require('../images/marker.png'),
         shadowUrl: shadow,
         iconSize: [30, 50],
         shadowSize: [80, 54],

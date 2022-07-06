@@ -49,10 +49,6 @@
     margin-top: 50px;
 }
 
-.leaflet-bar a {
-    background-color: rgb(17, 32, 43);
-}
-
 /* Contact Form */
 
 .contactWrapper {
@@ -205,6 +201,10 @@ input {
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 15px;
     }
+
+    .map {
+        margin-top: 30px;
+    }
     .contactForm {
         width: 50%;
     }
@@ -214,6 +214,9 @@ input {
 }
 
 @media only screen and (max-width: 700px){
+    .map {
+        margin-top: 20px;
+    }
     .contactForm {
         width: 95%;
     }

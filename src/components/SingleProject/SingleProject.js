@@ -3,25 +3,40 @@ import style from './SingleProject.module.css'
 import { useNavigate } from "react-router-dom"; // useHistory = useNavigate
 import { useParams } from "react-router-dom";
 import { projectsList } from '../../ProjectsList.js'
+import ImageViewer from "react-simple-image-viewer";
 
 const SingleProject = () => {
 
     const { id } = useParams();
     const [project, setProject] = useState({});
-    const [screen, setScreen] = useState([]);
+    const [screens, setScreen] = useState([]);
+    const [currentImage, setCurrentImage] = useState(0);
+    const [isViewerOpen, setIsViewerOpen] = useState(false);
+
+
+    const openImageViewer = useCallback((index) => {
+        setCurrentImage(index);
+        setIsViewerOpen(true);
+    }, []);
+
+    const closeImageViewer = () => {
+        setCurrentImage(0);
+        setIsViewerOpen(false);
+    };
+
     let navigate = useNavigate();
 
     const getItem = useCallback(() => {
         let item = projectsList[id]
         setProject(item)
         let screens = item.screens
+        screens = screens.map(el => el.screenBig)
         setScreen(screens)
     }, [id]);
 
     useEffect(() => {
         getItem()
     }, [getItem]);
-
 
     const goBackHandler = () => {
         navigate('/projects')
@@ -69,14 +84,30 @@ const SingleProject = () => {
             </div>
 
             <div className={style.uxui}>
-                {screen.map((screen, i) => {
-                    const { screenSmall, screenBig } = screen
-                    return <div className={style.screenBox} key={i}>
+                {screens.map((slide, index) => {
+                    return <div className={style.screenBox} key={index}>
+                        <img
+                            src={slide}
+                            onClick={() => openImageViewer(index)}
+                            width="250"
+                            className={style.screen}
+                            key={index}
+                            style={{ margin: "2px" }}
+                            alt=""
+                        />
 
-                        <a href={process.env.PUBLIC_URL + screenBig}>
-                            <img src={process.env.PUBLIC_URL + screenSmall} alt="Print Screen " className={style.screen} />
-                        </a>
-
+                        {isViewerOpen && (
+                            <ImageViewer
+                                src={screens}
+                                currentIndex={currentImage}
+                                onClose={closeImageViewer}
+                                disableScroll={false}
+                                backgroundStyle={{
+                                backgroundColor: "rgb(2, 17, 27, .3)"
+                                }}
+                                closeOnClickOutside={true}
+                            />
+                        )}
                     </div>
                 })}
             </div>
