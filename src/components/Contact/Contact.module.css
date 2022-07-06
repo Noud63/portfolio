@@ -89,9 +89,13 @@
 }
 
 .linkedin a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
     text-decoration: none;
-      color: rgb(155, 215, 255);
-       cursor: pointer;
+    color: rgb(155, 215, 255);
+    cursor: pointer;
 }
 
 .iconBox {

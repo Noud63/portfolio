@@ -37,8 +37,10 @@ const Contact = () => {
                     </div>
 
                     <div className={style.linkedin}>
-                        <div className={style.iconBox}><img src={linkedin} alt="" className={style.icon} /></div>
-                        <a href="https://www.linkedin.com/in/noud-van-dun-270b665b/"><div className={style.mail}>LinkedIn</div></a>
+                        <a href="https://www.linkedin.com/in/noud-van-dun-270b665b/">
+                            <div className={style.iconBox}><img src={linkedin} alt="" className={style.icon} /></div>
+                            <div className={style.mail}>LinkedIn</div>
+                        </a>
                     </div>
                 </div>
 
