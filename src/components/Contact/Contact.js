@@ -7,6 +7,7 @@ import Newmenu from '../Newmenu.js';
 import ContactUs from '../ContactUs/ContactUs.js';
 import location from '../../images/location.png'
 import email from '../../images/email.png'
+import linkedin from '../../images/linkedin.png'
 import Map from '../Map.js'
 
 
@@ -33,6 +34,11 @@ const Contact = () => {
                     <div className={style.myemail}>
                         <div className={style.iconBox}><img src={email} alt="" className={style.icon} /></div>
                         <div className={style.mail}>noudvandun@gmail.com</div>
+                    </div>
+
+                    <div className={style.linkedin}>
+                        <div className={style.iconBox}><img src={linkedin} alt="" className={style.icon} /></div>
+                        <a href="https://www.linkedin.com/in/noud-van-dun-270b665b/"><div className={style.mail}>LinkedIn</div></a>
                     </div>
                 </div>
 

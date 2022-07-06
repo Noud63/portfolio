@@ -70,7 +70,7 @@
     height: 520px;
 }
 
-.location, .myemail {
+.location, .myemail, .linkedin {
      display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -82,6 +82,16 @@
 
 .location {
     margin-bottom: 15px;
+}
+
+.myemail {
+    margin-bottom: 15px;
+}
+
+.linkedin a {
+    text-decoration: none;
+      color: rgb(155, 215, 255);
+       cursor: pointer;
 }
 
 .iconBox {

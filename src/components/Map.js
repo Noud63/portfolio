@@ -8,7 +8,7 @@ import './Map.css'
 
 const Map = () => {
 
-    const positionMap = [52.370216, 4.895168]
+    const positionMap = [52.382903, 4.874645]
     const positionMarker = [52.382903, 4.874645]
    
     const icon = new L.Icon({
