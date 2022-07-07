@@ -4,8 +4,7 @@ export const projectsList = [
         title: 'BE SMART BUY ART',
         screenshot: '/images/artshop.png',
         icons: '/images/allicons.png',
-        border:  true,
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'React', 'REST-api', 'MongoDB'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'React', 'REST-api', 'MongoDB'],
         mockups: '/mockups/bsbaResp.png',
         screens: [
             { screenSmall: '/screens/bsba.png', screenBig: '/screens/bsbaBig.png' },
@@ -31,8 +30,7 @@ export const projectsList = [
         title: 'COUNTRIES OF EUROPE',
         screenshot: '/images/europa.png',
         icons: '/images/allicons.png',
-        border: false,
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'React', 'REST-api', 'MongoDB'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'React', 'REST-api', 'MongoDB'],
         mockups: '/mockups/europeResp.png',
         screens: [
             { screenSmall: '/screens/europe.png', screenBig: '/screens/europeBig.png' },
@@ -53,10 +51,47 @@ export const projectsList = [
     },
     {
         id: 2,
+        title: 'DUTCH FOOTBALL LEAGUE',
+        screenshot: '/images/eredivisie.png',
+        icons: '/images/basicreactresticons.png',
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'React', 'REST-api'],
+        mockups: '/mockups/eredivisieResp.png',
+        screens: [{ screenSmall: '/screens/eredivisie.png', screenBig: '/screens/eredivisieBig.png' },
+        { screenSmall: '/screens/eredivisie1.png', screenBig: '/screens/eredivisie1Big.png' },
+        { screenSmall: '/screens/eredivisie2.png', screenBig: '/screens/eredivisie2Big.png' }],
+        github: 'https://github.com/Noud63/eredivisie',
+        github2: 'https://noud63.github.io/eredivisie/',
+        description: `Dutch Football League App build with React and Football Api(https://api.football-data.org)<br />
+                      `
+    },
+    {
+        id: 3,
+        title: 'GOALSETTER',
+        screenshot: '/images/goalsetter.png',
+        icons: '/images/allicons.png',
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'React', 'REST-api', 'MongoDB'],
+        mockups: '/mockups/goalsetterResp.png',
+        screens: [
+            { screenSmall: '/screens/goalsetter.png', screenBig: '/screens/goalsetterBig.png' },
+            { screenSmall: '/screens/goalsetter1.png', screenBig: '/screens/goalsetter1Big.png' },
+            { screenSmall: '/screens/goalsetter2.png', screenBig: '/screens/goalsetter2Big.png' }
+        ],
+        github: 'https://github.com/Noud63/GoalSetter',
+        github2: '',
+        description: `<p>GoalSetter is a full-stack MERN application.<br />
+                       GoalSetter is actually an advanced ToDo app.<br />
+                       It is in fact an isolated reusable component that you will find in many apps out there.
+                       It covers the processes that are concerned with registration, login/logout, authorization, 
+                       authentication and validation of users loging in or logging out and user registration.<br /><br />
+                       It is build with React-Toolkit, MongoDB, Mongoose, Node.js, Express,JWT and bcrypt.
+                       </p>`
+    },
+    {
+        id: 4,
         title: 'QUIZ',
         screenshot: '/images/quiz.png',
         icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
         mockups: '/mockups/quizResp.png',
         screens: [
             { screenSmall: '/screens/quiz.png', screenBig: '/screens/quizBig.png' },
@@ -69,7 +104,7 @@ export const projectsList = [
                       Test your general knowledge by answering 30 multiple choice questions.`
     },
     {
-        id: 3,
+        id: 5,
         title: 'TAKE A BREAK',
         screenshot: '/images/relax.png',
         icons: '/images/basicicons.png',
@@ -90,7 +125,7 @@ export const projectsList = [
                     The application is responsive.`
     },
     {
-        id: 4,
+        id: 6,
         title: 'BUDGET CONTROLLER',
         screenshot: '/images/budgetapp.png',
         icons: '/images/basicicons.png',
@@ -106,11 +141,11 @@ export const projectsList = [
                       Using the MVC design pattern and IIFE's ensuring data privacy through encapsulation and separation of concerns.`
     },
     {
-        id: 5,
+        id: 7,
         title: 'SEARCH RECIPE',
         screenshot: '/images/food.png',
         icons: '/images/basicresticons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'REST-api'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'REST-api'],
         mockups: '/mockups/forkifyResp.png',
         screens: [{ screenSmall: '/screens/foodapi.png', screenBig: '/screens/foodapiBig.png' },
         { screenSmall: '/screens/foodapi2.png', screenBig: '/screens/foodapi2Big.png' },
@@ -124,26 +159,11 @@ export const projectsList = [
 
     },
     {
-        id: 6,
-        title: 'DUTCH FOOTBALL LEAGUE',
-        screenshot: '/images/eredivisie.png',
-        icons: '/images/basicreactresticons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'React', 'REST-api'],
-        mockups: '/mockups/eredivisieResp.png',
-        screens: [{ screenSmall: '/screens/eredivisie.png', screenBig: '/screens/eredivisieBig.png' },
-        { screenSmall: '/screens/eredivisie1.png', screenBig: '/screens/eredivisie1Big.png' },
-        { screenSmall: '/screens/eredivisie2.png', screenBig: '/screens/eredivisie2Big.png' }],
-        github: 'https://github.com/Noud63/eredivisie',
-        github2: 'https://noud63.github.io/eredivisie/',
-        description: `Dutch Football League App build with React and Football Api(https://api.football-data.org)<br />
-                      `
-    },
-    {
-        id: 7,
+        id: 8,
         title: 'ART IN AMSTERDAM',
         screenshot: '/images/artinamsterdam.png',
         icons: '/images/basicresticons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript( ES6)', 'REST-api'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'REST-api'],
         mockups: '/mockups/artinamsterdamResp.png',
         screens: [{ screenSmall: '/screens/artinamsterdam.png', screenBig: '/screens/artinamsterdamBig.png' },
         { screenSmall: '/screens/artinamsterdam1.png', screenBig: '/screens/artinamsterdam1Big.png' },
@@ -156,11 +176,11 @@ export const projectsList = [
                       The app is responsive`
     },
     {
-        id: 8,
+        id: 9,
         title: 'ROLL THE DICE',
         screenshot: '/images/piggame.png',
         icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
         mockups: '/mockups/piggameResp.png',
         screens: [{ screenSmall: '/screens/piggame.png', screenBig: '/screens/piggameBig.png' },
         { screenSmall: '/screens/piggame1.png', screenBig: '/screens/piggame1Big.png' },
@@ -182,11 +202,11 @@ export const projectsList = [
                       Before start playing set a limit in the set limit box.<br />`
     },
     {
-        id: 9,
+        id: 10,
         title: 'NOUD VAN DUN',
         screenshot: '/images/noudvandun.png',
         icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
         mockups: '/mockups/noudvandunResp.png',
         screens: [{ screenSmall: '/screens/noudvandun.png', screenBig: '/screens/noudvandunBig.png' },
         { screenSmall: '/screens/noudvandun1.png', screenBig: '/screens/noudvandun1Big.png' },
@@ -196,11 +216,11 @@ export const projectsList = [
         description: `My own personal Web App is all about contemporary art and more.`
     },
     {
-        id: 10,
+        id: 11,
         title: 'GOTHIC TAC TOE',
         screenshot: '/images/gothictactoe.png',
         icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
         mockups: '/mockups/gothictactoeResp.png',
         screens: [{ screenSmall: '/screens/gothictactoe.png', screenBig: '/screens/gothictactoeBig.png' },
         { screenSmall: '/screens/gothictactoe1.png', screenBig: '/screens/gothictactoe1Big.png' },
@@ -214,11 +234,11 @@ export const projectsList = [
                       The thumbs below show the app in it's own browserwindow created by Electron.`
     },
     {
-        id: 11,
+        id: 12,
         title: 'WEATHER FORECAST',
         screenshot: '/images/weatherapp.png',
         icons: '/images/basicresticons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'REST-api'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'REST-api'],
         mockups: '/mockups/weatherappResp.png',
         screens: [{ screenSmall: '/screens/weatherapp.png', screenBig: '/screens/weatherappBig.png' },
         { screenSmall: '/screens/weatherapp1.png', screenBig: '/screens/weatherapp1Big.png' },
@@ -233,11 +253,11 @@ export const projectsList = [
                        Default input parameter set to Amsterdam.`
     },
     {
-        id: 12,
+        id: 13,
         title: 'PERSONAL DATABASE',
         screenshot: '/images/personaldatabase.png',
         icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
         mockups: '/mockups/databaseResp.png',
         screens: [{ screenSmall: '/screens/database.png', screenBig: '/screens/databaseBig.png' },
         { screenSmall: '/screens/database1.png', screenBig: '/screens/database1Big.png' },
@@ -255,11 +275,11 @@ export const projectsList = [
                       Several options for deleting entries and searchresults from UI and localStorage.`
     },
     {
-        id: 13,
+        id: 14,
         title: 'WHAT\'S ON YOUR MIND',
         screenshot: '/images/whatsonyourmind.png',
         icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
         mockups: '/mockups/messageboxResp.png',
         screens: [{ screenSmall: '/screens/messagebox.png', screenBig: '/screens/messageboxBig.png' },
         { screenSmall: '/screens/messagebox2.png', screenBig: '/screens/messagebox2Big.png' },
@@ -275,11 +295,11 @@ export const projectsList = [
                     The app is responsive.`
     },
     {
-        id: 14,
+        id: 15,
         title: 'REGISTRATION',
         screenshot: '/images/register.png',
         icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
         mockups: '/mockups/registerformResp.png',
         screens: [{ screenSmall: '/screens/register.png', screenBig: '/screens/registerBig.png' },
         { screenSmall: '/screens/register1.png', screenBig: '/screens/register1Big.png' },
@@ -289,11 +309,11 @@ export const projectsList = [
         description: `Vanilla javascript registration form with validation.`
     },
     {
-        id: 15,
+        id: 16,
         title: 'INC&EXP',
         screenshot: '/images/budgetcontroller.png',
         icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
         mockups: '/mockups/incexpResp.png',
         screens: [{ screenSmall: '/screens/incexp.png', screenBig: '/screens/incexpBig.png' },
         { screenSmall: '/screens/incexp1.png', screenBig: '/screens/incexp1Big.png' },
@@ -308,11 +328,11 @@ export const projectsList = [
                       If the available budget is less than 0 the green header will turn red and a sad emoji will be shown.`
     },
     {
-        id: 16,
+        id: 17,
         title: 'TIP-CALCULATOR',
         screenshot: '/images/tip.png',
         icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
         mockups: '/mockups/tipResp.png',
         screens: [{ screenSmall: '/screens/tip.png', screenBig: '/screens/tipBig.png' },
         { screenSmall: '/screens/tip1.png', screenBig: '/screens/tip1Big.png' },
@@ -324,11 +344,11 @@ export const projectsList = [
                       With some simple css animations.`
     },
     {
-        id: 17,
+        id: 18,
         title: 'TO-DO',
         screenshot: '/images/todo.png',
         icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript (ES6)'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
         mockups: '/mockups/todoResp.png',
         screens: [{ screenSmall: '/screens/todo.png', screenBig: '/screens/todoBig.png' },
         { screenSmall: '/screens/todo1.png', screenBig: '/screens/todo1Big.png' },
