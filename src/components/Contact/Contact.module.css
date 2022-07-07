@@ -63,14 +63,12 @@
 
 .personal {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
     flex-direction: column;
     width: 40%;
     height: 520px;
 }
 
-.location, .myemail, .linkedin {
+.location, .myemail, .linkedin, .github {
      display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -88,7 +86,21 @@
     margin-bottom: 15px;
 }
 
+.github {
+    margin-top: 15px;
+}
+
 .linkedin a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(155, 215, 255);
+    cursor: pointer;
+}
+
+.github a {
     display: flex;
     align-items: center;
     justify-content: center;

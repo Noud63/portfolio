@@ -4,6 +4,7 @@ export const projectsList = [
         title: 'BE SMART BUY ART',
         screenshot: '/images/artshop.png',
         icons: '/images/allicons.png',
+        border:  true,
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'React', 'REST-api', 'MongoDB'],
         mockups: '/mockups/bsbaResp.png',
         screens: [
@@ -30,6 +31,7 @@ export const projectsList = [
         title: 'COUNTRIES OF EUROPE',
         screenshot: '/images/europa.png',
         icons: '/images/allicons.png',
+        border: false,
         languages: ['HTML5', 'CSS3', 'Javascript (ES6)', 'React', 'REST-api', 'MongoDB'],
         mockups: '/mockups/europeResp.png',
         screens: [
