@@ -82,7 +82,8 @@ export const projectsList = [
                        GoalSetter is actually an advanced ToDo app.<br />
                        It is in fact an isolated reusable component that you will find in many apps out there.
                        It covers the processes that are concerned with registration, login/logout, authorization, 
-                       authentication and validation of users loging in or logging out and user registration.<br /><br />
+                       authentication and validation of users loging in or logging out and user registration.<br />
+                       It also covers data storage and retrieval from a MongoDB database collection.<br /><br />
                        It is build with React-Toolkit, MongoDB, Mongoose, Node.js, Express,JWT and bcrypt.
                        </p>`
     },

@@ -25,4 +25,4 @@ yarn-error.log*
 
 # git add . && git commit -m "*" && git push origin main
 # https://kaffeine.herokuapp.com/     ping every 30min
-# netlify deploy --prod
+# npm run build && netlify deploy --prod
