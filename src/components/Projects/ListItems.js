@@ -23,8 +23,9 @@ const ListItems = () => {
     return (
         <>
             {newList.map((project, index) => {
-                const { id, title, screenshot, icons, languages } = project
+                const { id, title, screenshot, icons, languages} = project
                 return (
+                    
                     <Link to={`/singleproject/${id}`} state={{ project: project }} key={id} style={{ textDecoration: 'none' }}>
                     <div className={style.project} onMouseEnter={() => setActiveColor(index)} onMouseLeave={() => setActiveColor(-1)}>
 

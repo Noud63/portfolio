@@ -12,7 +12,6 @@ const SingleProject = () => {
     const [screens, setScreen] = useState([]);
     const [currentImage, setCurrentImage] = useState(0);
     const [isViewerOpen, setIsViewerOpen] = useState(false);
-    const [ borderColor, setBorderColor ] = useState(true)
 
     const openImageViewer = useCallback((index) => {
         setCurrentImage(index);

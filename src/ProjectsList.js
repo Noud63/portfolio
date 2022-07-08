@@ -9,7 +9,10 @@ export const projectsList = [
         screens: [
             { screenSmall: '/screens/bsba.png', screenBig: '/screens/bsbaBig.png' },
             { screenSmall: '/screens/bsba1.png', screenBig: '/screens/bsba1Big.png' },
-            { screenSmall: '/screens/bsba2.png', screenBig: '/screens/bsba2Big.png' }
+            { screenSmall: '/screens/bsba2.png', screenBig: '/screens/bsba2Big.png' },
+            { screenSmall: '/screens/bsba3.png', screenBig: '/screens/bsba3Big.png' },
+            { screenSmall: '/screens/bsba4.png', screenBig: '/screens/bsba4Big.png' },
+            { screenSmall: '/screens/bsba5.png', screenBig: '/screens/bsba5Big.png' },
         ],
         github: 'https://github.com/Noud63/besmartbuyart-react',
         github2: 'https://besmartbuyart.herokuapp.com/',
