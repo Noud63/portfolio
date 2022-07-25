@@ -5,7 +5,7 @@ import style from './ContactForm.module.css'
 const ContactUs = () => {
 
     const form = useRef();
-    const [status, setStatus] = useState("Submit")
+    const [status, setStatus] = useState("Submit");
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -17,7 +17,6 @@ const ContactUs = () => {
                 setStatus('Message successfully sent!')
                 let timer = setTimeout(() => {
                     setStatus("submit")
-                    
                     clearTimeout(timer)
                 }, 5000)
             }, (error) => {
