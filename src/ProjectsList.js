@@ -1,6 +1,33 @@
 export const projectsList = [
     {
         id: 0,
+        title: 'REAL ESTATE AGENT',
+        screenshot: '/images/elliecastelli.png',
+        icons: '/images/allicons.png',
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'React', 'REST-api', 'MongoDB'],
+        mockups: '/mockups/ellieResp.png',
+        screens: [{ screenSmall: '/screens/elliecastelli.png', screenBig: '/screens/elliecastelliBig.png' },
+                  { screenSmall: '/screens/elliecastelli1.png', screenBig: '/screens/elliecastelli1Big.png' },
+                   { screenSmall: '/screens/elliecastelli2.png', screenBig: '/screens/elliecastelli2Big.png' },
+                    { screenSmall: '/screens/elliecastelli3.png', screenBig: '/screens/elliecastelli3Big.png' },
+                    { screenSmall: '/screens/elliecastelli4.png', screenBig: '/screens/elliecastelli4Big.png' },
+                    { screenSmall: '/screens/elliecastelli5.png', screenBig: '/screens/elliecastelli5Big.png' }
+                ],
+        github: 'https://github.com/Noud63/real-estate-agent',
+        github2: '',
+        description: `Real Estate Agent Ellie Castelli is a MERN Stack application.<br />
+                      It is an E-Commerce Web App where you can buy luxury real estate in France.<br />
+                      I used React, Redux-Toolkit and Sass for the frontend part of the app, and for the back-end I used 
+                      MongoDB, Express and Node.<br />
+                      There is a search function where you can filter data from an api request based on certain criteria.<br />
+                      You can register for a newsletter and with each item in the list of real-estates you make an enquiry for more information.<br />
+                      A user can register and login. JSON Web Token is used for authentication and authorization.<br />
+                      You can login as an admin aswell and perform exclusive tasks.<br />
+                      A registered user is stored in a mongoDB database aswell as the data that is loaded by default.<br />
+                      The application is responsive.`
+    },
+    {
+        id: 1,
         title: 'BE SMART BUY ART',
         screenshot: '/images/artshop.png',
         icons: '/images/allicons.png',
@@ -29,7 +56,7 @@ export const projectsList = [
                       </p>`
     },
     {
-        id: 1,
+        id: 2,
         title: 'COUNTRIES OF EUROPE',
         screenshot: '/images/europa.png',
         icons: '/images/allicons.png',
@@ -53,7 +80,7 @@ export const projectsList = [
                       The weather forcast data is fetched from the Openweathermap api. The application is responsive.</p>`
     },
     {
-        id: 2,
+        id: 3,
         title: 'DUTCH FOOTBALL LEAGUE',
         screenshot: '/images/eredivisie.png',
         icons: '/images/basicreactresticons.png',
@@ -68,7 +95,7 @@ export const projectsList = [
                       `
     },
     {
-        id: 3,
+        id: 4,
         title: 'GOALSETTER',
         screenshot: '/images/goalsetter.png',
         icons: '/images/allicons.png',
@@ -91,7 +118,7 @@ export const projectsList = [
                        </p>`
     },
     {
-        id: 4,
+        id: 5,
         title: 'QUIZ',
         screenshot: '/images/quiz.png',
         icons: '/images/basicicons.png',
@@ -108,7 +135,7 @@ export const projectsList = [
                       Test your general knowledge by answering 30 multiple choice questions.`
     },
     {
-        id: 5,
+        id: 6,
         title: 'TAKE A BREAK',
         screenshot: '/images/relax.png',
         icons: '/images/basicicons.png',
@@ -129,7 +156,7 @@ export const projectsList = [
                     The application is responsive.`
     },
     {
-        id: 6,
+        id: 7,
         title: 'BUDGET CONTROLLER',
         screenshot: '/images/budgetapp.png',
         icons: '/images/basicicons.png',
@@ -145,7 +172,7 @@ export const projectsList = [
                       Using the MVC design pattern and IIFE's ensuring data privacy through encapsulation and separation of concerns.`
     },
     {
-        id: 7,
+        id: 8,
         title: 'SEARCH RECIPE',
         screenshot: '/images/food.png',
         icons: '/images/basicresticons.png',
@@ -163,7 +190,7 @@ export const projectsList = [
 
     },
     {
-        id: 8,
+        id: 9,
         title: 'ART IN AMSTERDAM',
         screenshot: '/images/artinamsterdam.png',
         icons: '/images/basicresticons.png',
@@ -180,7 +207,7 @@ export const projectsList = [
                       The app is responsive`
     },
     {
-        id: 9,
+        id: 10,
         title: 'ROLL THE DICE',
         screenshot: '/images/piggame.png',
         icons: '/images/basicicons.png',
@@ -206,7 +233,7 @@ export const projectsList = [
                       Before start playing set a limit in the set limit box.<br />`
     },
     {
-        id: 10,
+        id: 11,
         title: 'NOUD VAN DUN',
         screenshot: '/images/noudvandun.png',
         icons: '/images/basicicons.png',
@@ -220,7 +247,7 @@ export const projectsList = [
         description: `My own personal Web App is all about contemporary art and more.`
     },
     {
-        id: 11,
+        id: 12,
         title: 'GOTHIC TAC TOE',
         screenshot: '/images/gothictactoe.png',
         icons: '/images/basicicons.png',
@@ -238,7 +265,7 @@ export const projectsList = [
                       The thumbs below show the app in it's own browserwindow created by Electron.`
     },
     {
-        id: 12,
+        id: 13,
         title: 'WEATHER FORECAST',
         screenshot: '/images/weatherapp.png',
         icons: '/images/basicresticons.png',
@@ -257,7 +284,7 @@ export const projectsList = [
                        Default input parameter set to Amsterdam.`
     },
     {
-        id: 13,
+        id: 14,
         title: 'PERSONAL DATABASE',
         screenshot: '/images/personaldatabase.png',
         icons: '/images/basicicons.png',
@@ -279,7 +306,7 @@ export const projectsList = [
                       Several options for deleting entries and searchresults from UI and localStorage.`
     },
     {
-        id: 14,
+        id: 15,
         title: 'WHAT\'S ON YOUR MIND',
         screenshot: '/images/whatsonyourmind.png',
         icons: '/images/basicicons.png',
@@ -299,7 +326,7 @@ export const projectsList = [
                     The app is responsive.`
     },
     {
-        id: 15,
+        id: 16,
         title: 'REGISTRATION',
         screenshot: '/images/register.png',
         icons: '/images/basicicons.png',
@@ -313,7 +340,7 @@ export const projectsList = [
         description: `Vanilla javascript registration form with validation.`
     },
     {
-        id: 16,
+        id: 17,
         title: 'INC&EXP',
         screenshot: '/images/budgetcontroller.png',
         icons: '/images/basicicons.png',
@@ -332,7 +359,7 @@ export const projectsList = [
                       If the available budget is less than 0 the green header will turn red and a sad emoji will be shown.`
     },
     {
-        id: 17,
+        id: 18,
         title: 'TIP-CALCULATOR',
         screenshot: '/images/tip.png',
         icons: '/images/basicicons.png',
@@ -348,7 +375,7 @@ export const projectsList = [
                       With some simple css animations.`
     },
     {
-        id: 18,
+        id: 19,
         title: 'TO-DO',
         screenshot: '/images/todo.png',
         icons: '/images/basicicons.png',
@@ -364,3 +391,4 @@ export const projectsList = [
                       valuable inroduction to CRUD applications.`
     }
 ]
+
