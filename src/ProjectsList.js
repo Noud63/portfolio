@@ -22,8 +22,9 @@ export const projectsList = [
                       There is a search function where you can filter data from an api request based on certain criteria.<br />
                       You can register for a newsletter and with each item in the list of real-estates you make an enquiry for more information.<br />
                       A user can register and login. JSON Web Token is used for authentication and authorization.<br />
+                      A user can update his profile when logged in.<br />
                       You can login as an admin aswell and perform exclusive tasks.<br />
-                      A registered user is stored in a mongoDB database aswell as the data that is loaded by default.<br />
+                      A registered user is stored in a mongoDB database aswell as the data (all real-estate properties) that are loaded by default.<br />
                       The application is responsive.`
     },
     {
