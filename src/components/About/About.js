@@ -53,7 +53,7 @@ const About = () => {
                     relate to experienced developers aswell as developers that are still busy climbing the ladder.
                     <br /><br />
                     Noud van Dun<br />
-                    <span>Amsterdam, April 6 2022</span>
+                    <span>Amsterdam, April 6, 2022</span>
                 </div>
 
             </div>

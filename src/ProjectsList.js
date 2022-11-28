@@ -20,11 +20,14 @@ export const projectsList = [
                       I used React, Redux-Toolkit and Sass for the frontend part of the app, and for the back-end I used 
                       MongoDB, Express and Node.<br />
                       There is a search function where you can filter data from an api request based on certain criteria.<br />
-                      You can register for a newsletter and with each item in the list of real-estates you make an enquiry for more information.<br />
+                      With each item in the list of real-estate objects you can write an enquiry email for more information.<br />
+                      You can subscribe to a newsletter and magazine.<br />
+                      For the subscription The user can choose a payment method provided by Stripe.js. It is an integraded payment procedure so no redirect to stripe.<br />
                       A user can register and login. JSON Web Token is used for authentication and authorization.<br />
                       A user can update his profile when logged in.<br />
-                      You can login as an admin aswell and perform exclusive tasks.<br />
-                      A registered user is stored in a mongoDB database aswell as the data (all real-estate properties) that are loaded by default.<br />
+                      The owner can login as an administrator and perform exclusive tasks like delete a registered user.<br />
+                      A user can update his profile when logged in.<br/>
+                      All registered users are stored in a mongoDB database aswell as the data (real-estate-properties) that are loaded by default, and all the email addresses of newsletter subscribers.<br />
                       The application is responsive.`
     },
     {
@@ -43,16 +46,18 @@ export const projectsList = [
             { screenSmall: '/screens/bsba5.png', screenBig: '/screens/bsba5Big.png' },
         ],
         github: 'https://github.com/Noud63/besmartbuyart-react',
-        github2: 'https://besmartbuyart.herokuapp.com/',
+        github2: '',
         description: `<p>
                       Be Smart Buy Art is an art webshop with the basic features of an e-commerce webshop.<br />
                       There is an introduction page and a page that lists all the products. You can add products to a shopping cart, you can like certains items,
-                      and eventually purchase an item on the checkout page. You can register and/or login as a regular customer.<br /><br />
+                      and eventually purchase an item on the checkout page. For checkout payment I used Stripe Checkout wich redirects the user to checkout.stripe.com. <br />
+                      You can register and/or login as a regular customer.<br /><br />
 
                       The application is built with React (hooks) wich makes it possible to manage state within functional components.
                       State is managed by using the useContext hook, it is a way to make a particular data available to all the components no matter how they are nested.<br />
                       Unlike many other projects this application has a backend aswell. The backend part is responsible for connecting and fetching data from a MongoDB database collection,
-                      and taking care of user registration and user login with validation. The user information is stored in a MongoDb database collection. For the backend I used MongoDB, Express, Node.js and Mongoose.
+                      and taking care of user registration and user login with validation. The user information is stored in a MongoDb database collection. 
+                      For the backend I used MongoDB, Express, Node.js.
                       The application is responsive.
                       </p>`
     },

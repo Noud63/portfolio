@@ -1,14 +1,15 @@
 
 
 .background {
-   background-image: url('../../images/wpprojects.jpg');
-    background-position: center;
+    background-image: url('../../images/wpprojects.jpg');
+     background-position: center;
     background-repeat: repeat;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content: flex-start;
     flex-direction: column;
     position: relative;
 }
