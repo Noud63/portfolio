@@ -8,10 +8,13 @@ export const projectsList = [
         mockups: '/mockups/ellieResp.png',
         screens: [{ screenSmall: '/screens/elliecastelli.png', screenBig: '/screens/elliecastelliBig.png' },
                   { screenSmall: '/screens/elliecastelli1.png', screenBig: '/screens/elliecastelli1Big.png' },
-                   { screenSmall: '/screens/elliecastelli2.png', screenBig: '/screens/elliecastelli2Big.png' },
-                    { screenSmall: '/screens/elliecastelli3.png', screenBig: '/screens/elliecastelli3Big.png' },
-                    { screenSmall: '/screens/elliecastelli4.png', screenBig: '/screens/elliecastelli4Big.png' },
-                    { screenSmall: '/screens/elliecastelli5.png', screenBig: '/screens/elliecastelli5Big.png' }
+                  { screenSmall: '/screens/elliecastelli2.png', screenBig: '/screens/elliecastelli2Big.png' },
+                  { screenSmall: '/screens/elliecastelli3.png', screenBig: '/screens/elliecastelli3Big.png' },
+                  { screenSmall: '/screens/elliecastelli4.png', screenBig: '/screens/elliecastelli4Big.png' },
+                  { screenSmall: '/screens/elliecastelli5.png', screenBig: '/screens/elliecastelli5Big.png' },
+                  { screenSmall: '/screens/elliecastelli6.png', screenBig: '/screens/elliecastelli6Big.png' },
+                  { screenSmall: '/screens/elliecastelli7.png', screenBig: '/screens/elliecastelli7Big.png' },
+                  { screenSmall: '/screens/elliecastelli8.png', screenBig: '/screens/elliecastelli8Big.png' }
                 ],
         github: 'https://github.com/Noud63/real-estate-agent',
         github2: '',
