@@ -25,7 +25,7 @@ export const projectsList = [
                       There is a search function where you can filter data from an api request based on certain criteria.<br />
                       With each item in the list of real-estate objects you can write an enquiry email for more information.<br />
                       You can subscribe to a newsletter and magazine.<br />
-                      To subscribe to the newsletter amnd magzine a user can choose a payment method provided by Stripe.js. It is an integraded payment procedure so no redirect to stripe.<br />
+                      To subscribe to the newsletter and magazine a user can choose a payment method provided by Stripe.js. It is an integraded payment procedure so no redirect to stripe.<br />
                       A user can register and login. JSON Web Token is used for authentication and authorization.<br />
                       A user can update his profile when logged in.<br />
                       The owner can login as an administrator and perform exclusive tasks like delete a registered user.<br />
