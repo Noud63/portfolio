@@ -4,7 +4,7 @@ export const projectsList = [
         title: 'REAL ESTATE AGENT',
         screenshot: '/images/elliecastelli.png',
         icons: '/images/allicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'React', 'REST-api', 'MongoDB'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'React Redux-Toolkit', 'REST-api', 'MongoDB'],
         mockups: '/mockups/ellieResp.png',
         screens: [{ screenSmall: '/screens/elliecastelli.png', screenBig: '/screens/elliecastelliBig.png' },
                   { screenSmall: '/screens/elliecastelli1.png', screenBig: '/screens/elliecastelli1Big.png' },
@@ -107,7 +107,7 @@ export const projectsList = [
         title: 'GOALSETTER',
         screenshot: '/images/goalsetter.png',
         icons: '/images/allicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'React', 'REST-api', 'MongoDB'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'React Redux-Toolkit', 'REST-api', 'MongoDB'],
         mockups: '/mockups/goalsetterResp.png',
         screens: [
             { screenSmall: '/screens/goalsetter.png', screenBig: '/screens/goalsetterBig.png' },
@@ -122,7 +122,8 @@ export const projectsList = [
                        It covers the processes that are concerned with registration, login/logout, authorization, 
                        authentication and validation of users loging in or logging out and user registration.<br />
                        It also covers data storage and retrieval from a MongoDB database collection.<br /><br />
-                       It is build with React-Toolkit, MongoDB, Mongoose, Node.js, Express,JWT and bcrypt.
+                       The app is build with React Redux-Toolkit, MongoDB, Mongoose, Node.js, Express.<br />
+                       JWT and bcrypt for secure authorization/authentication.
                        </p>`
     },
     {
