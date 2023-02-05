@@ -358,14 +358,16 @@ export const projectsList = [
         screens: [{ screenSmall: '/screens/incexp.png', screenBig: '/screens/incexpBig.png' },
         { screenSmall: '/screens/incexp1.png', screenBig: '/screens/incexp1Big.png' },
         { screenSmall: '/screens/incexp2.png', screenBig: '/screens/incexp2Big.png' }],
-        github: 'https://github.com/Noud63/budgetcontroller',
+        github: 'https://github.com/Noud63/cashflow-controller',
         github2: 'https://financecontroller.netlify.app/',
-        description: `Anther budget app in Vanilla Javascript ES6 modules.<br/>
-                      Cashflow balance, showing income as deposits and expences as withdrawals.<br />
-                      Calculating available budget and available budget in percentages of total deposits.<br />
+        description: `Cashflow controller with Vite.js (vanilla) Javascript ES6 modules.<br/>
+                      Cashflow balance, showing income and expences aswell as savings.<br />
+                      Calculating available budget and show available budget in percentages of total deposits.<br />
                       The percentage related to the total deposits is also visualised as a progress bar.<br />
                       If the percentage is less than 20% the progress bar will turn red. <br />
-                      If the available budget is less than 0 the green header will turn red and a sad emoji will be shown.`
+                      If the available budget is less than 0 the green header will turn red and a sad emoji will be shown.<br/>
+                      You can withdraw money from the savings account and add it to the current account and vice versa. <br>
+                      These tranactions will be visible in both the current and savings account and everything will be recalculated.`
     },
     {
         id: 18,
