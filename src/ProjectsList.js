@@ -97,8 +97,8 @@ export const projectsList = [
         screens: [{ screenSmall: '/screens/eredivisie.png', screenBig: '/screens/eredivisieBig.png' },
         { screenSmall: '/screens/eredivisie1.png', screenBig: '/screens/eredivisie1Big.png' },
         { screenSmall: '/screens/eredivisie2.png', screenBig: '/screens/eredivisie2Big.png' }],
-        github: 'https://github.com/Noud63/eredivisie',
-        github2: 'https://noud63.github.io/eredivisie/',
+        github: 'https://bitbucket.org/ajhvd/dutch-football-league/src/master/',
+        github2: '',
         description: `Dutch Football League App build with React and Football Api(https://api.football-data.org)<br />
                       `
     },
