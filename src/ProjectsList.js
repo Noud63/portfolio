@@ -17,7 +17,7 @@ export const projectsList = [
         { screenSmall: '/screens/elliecastelli8.png', screenBig: '/screens/elliecastelli8Big.png' }
         ],
         github: 'https://github.com/Noud63/real-estate-agent',
-        github2: '',
+        github2: 'https://real-estate-agent.onrender.com/',
         description: `Real Estate Agent Ellie Castelli is a MERN Stack application.<br />
                       It is an E-Commerce Web App where you can buy luxury real estate in France.<br />
                       I used React, Redux-Toolkit and Sass for the frontend part of the app, and for the back-end I used 
