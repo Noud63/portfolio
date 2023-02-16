@@ -7,15 +7,15 @@ export const projectsList = [
         languages: ['HTML5', 'Sass', 'Javascript(ES6)', 'React Redux-Toolkit', 'REST-api', 'MongoDB'],
         mockups: '/mockups/ellieResp.png',
         screens: [{ screenSmall: '/screens/elliecastelli.png', screenBig: '/screens/elliecastelliBig.png' },
-                  { screenSmall: '/screens/elliecastelli1.png', screenBig: '/screens/elliecastelli1Big.png' },
-                  { screenSmall: '/screens/elliecastelli2.png', screenBig: '/screens/elliecastelli2Big.png' },
-                  { screenSmall: '/screens/elliecastelli3.png', screenBig: '/screens/elliecastelli3Big.png' },
-                  { screenSmall: '/screens/elliecastelli4.png', screenBig: '/screens/elliecastelli4Big.png' },
-                  { screenSmall: '/screens/elliecastelli5.png', screenBig: '/screens/elliecastelli5Big.png' },
-                  { screenSmall: '/screens/elliecastelli6.png', screenBig: '/screens/elliecastelli6Big.png' },
-                  { screenSmall: '/screens/elliecastelli7.png', screenBig: '/screens/elliecastelli7Big.png' },
-                  { screenSmall: '/screens/elliecastelli8.png', screenBig: '/screens/elliecastelli8Big.png' }
-                ],
+        { screenSmall: '/screens/elliecastelli1.png', screenBig: '/screens/elliecastelli1Big.png' },
+        { screenSmall: '/screens/elliecastelli2.png', screenBig: '/screens/elliecastelli2Big.png' },
+        { screenSmall: '/screens/elliecastelli3.png', screenBig: '/screens/elliecastelli3Big.png' },
+        { screenSmall: '/screens/elliecastelli4.png', screenBig: '/screens/elliecastelli4Big.png' },
+        { screenSmall: '/screens/elliecastelli5.png', screenBig: '/screens/elliecastelli5Big.png' },
+        { screenSmall: '/screens/elliecastelli6.png', screenBig: '/screens/elliecastelli6Big.png' },
+        { screenSmall: '/screens/elliecastelli7.png', screenBig: '/screens/elliecastelli7Big.png' },
+        { screenSmall: '/screens/elliecastelli8.png', screenBig: '/screens/elliecastelli8Big.png' }
+        ],
         github: 'https://github.com/Noud63/real-estate-agent',
         github2: '',
         description: `Real Estate Agent Ellie Castelli is a MERN Stack application.<br />
@@ -48,7 +48,7 @@ export const projectsList = [
             { screenSmall: '/screens/bsba5.png', screenBig: '/screens/bsba5Big.png' },
         ],
         github: 'https://github.com/Noud63/besmartbuyart-react',
-        github2: '',
+        github2: 'https://bsba.onrender.com/',
         description: `<p>
                       Be Smart Buy Art is an art webshop with the basic features of an e-commerce webshop.<br />
                       There is an introduction page and a page that lists all the products. You can add products to a shopping cart, you can like certains items,
