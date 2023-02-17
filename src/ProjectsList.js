@@ -359,7 +359,7 @@ export const projectsList = [
         { screenSmall: '/screens/incexp1.png', screenBig: '/screens/incexp1Big.png' },
         { screenSmall: '/screens/incexp2.png', screenBig: '/screens/incexp2Big.png' }],
         github: 'https://github.com/Noud63/cashflow-controller',
-        github2: 'https://financecontroller.netlify.app/',
+        github2: 'https://finance-controller.netlify.app/',
         description: `Cashflow controller with Vite.js (vanilla) Javascript ES6 modules.<br/>
                       Cashflow balance, showing income and expences aswell as savings.<br />
                       Calculating available budget and show available budget in percentages of total deposits.<br />
