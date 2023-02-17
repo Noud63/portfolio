@@ -2,7 +2,7 @@
 
 Visit: https://appcollection.netlify.app/<br><br>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c5887eae-87dd-4f89-828a-56f94e3a33da/deploy-status)]<br><br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c5887eae-87dd-4f89-828a-56f94e3a33da/deploy-status)](https://app.netlify.com/sites/finance-controller/deploys)<br><br>
 
 ![noudvandun](https://user-images.githubusercontent.com/38325801/160831613-fbfe9c0f-abf4-473d-84af-680b00c62784.png)<br><br>
 ![noudvandun](https://user-images.githubusercontent.com/38325801/160831634-730f8b4a-6e38-450c-a1f8-60a34cabe7f8.png)<br><br>
