@@ -18,7 +18,9 @@ export const projectsList = [
         ],
         github: 'https://github.com/Noud63/real-estate-agent',
         github2: 'https://real-estate-agent.onrender.com/',
-        description: `Real Estate Agent Ellie Castelli is a MERN Stack application.<br />
+        description: ` Real Estate Agent Ellie Castelli is a MERN Stack application.<br /><br />
+                      Front-end: React Redux Toolkit,  Sass<br />
+                      Back-end: Express Node MongoDB<br/><br />
                       It is an E-Commerce Web App where you can buy luxury real estate in France.<br />
                       I used React, Redux-Toolkit and Sass for the frontend part of the app, and for the back-end I used 
                       MongoDB, Express and Node.<br />
@@ -30,7 +32,8 @@ export const projectsList = [
                       A user can update his profile when logged in.<br />
                       The owner can login as an administrator and perform exclusive tasks like delete a registered user.<br />
                       All registered users are stored in a mongoDB database aswell as the data (real-estate-properties) that are loaded by default, and all the email addresses of newsletter subscribers.<br />
-                      The application is responsive.`
+                      The application is responsive.<br />
+                      (NOTE! Deployed to Render at https://real-estate-agent.onrender.com , takes a while to load. )`
     },
     {
         id: 1,
@@ -65,6 +68,37 @@ export const projectsList = [
     },
     {
         id: 2,
+        title: 'BLOG',
+        screenshot: '/images/blog.png',
+        icons: '/images/allicons.png',
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'React Redux-Toolkit', 'REST-api', 'MongoDB'],
+        mockups: '/mockups/blogResp.png',
+        screens: [
+            { screenSmall: '/screens/blog.png', screenBig: '/screens/blogBig.png' },
+            { screenSmall: '/screens/blog1.png', screenBig: '/screens/blog1Big.png' },
+            { screenSmall: '/screens/blog2.png', screenBig: '/screens/blog2Big.png' },
+            { screenSmall: '/screens/blog3.png', screenBig: '/screens/blog3Big.png' },
+            { screenSmall: '/screens/blog4.png', screenBig: '/screens/blog4Big.png' },
+            { screenSmall: '/screens/blog5.png', screenBig: '/screens/blog5Big.png' }
+        ],
+        github: 'https://github.com/Noud63/react-redux-toolkit-blog',
+        github2: '',
+        description: `<p>React Redux Toolkit Blog.<br /><br />
+                       Front-end: React Redux Toolkit<br />
+                       Back-end: Express Node MongoDB<br/><br />
+                       Contains all the expected functionality:<br />
+                       View all posts.<br />
+                       View posts by user.<br />
+                       View single post.<br />
+                       Like post.<br />
+                       Create post.<br />
+                       Edit post.<br />
+                       Register and login.<br />
+                       The app is responsive.<br />
+                        </p>`
+    },
+    {
+        id: 3,
         title: 'COUNTRIES OF EUROPE',
         screenshot: '/images/europa.png',
         icons: '/images/allicons.png',
@@ -88,7 +122,7 @@ export const projectsList = [
                       The weather forcast data is fetched from the Openweathermap api. The application is responsive.</p>`
     },
     {
-        id: 3,
+        id: 4,
         title: 'DUTCH FOOTBALL LEAGUE',
         screenshot: '/images/eredivisie.png',
         icons: '/images/basicreactresticons.png',
@@ -103,7 +137,85 @@ export const projectsList = [
                       `
     },
     {
-        id: 4,
+        id: 5,
+        title: 'SEARCH RECIPES',
+        screenshot: '/images/food.png',
+        icons: '/images/basicresticons.png',
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6 Modules)', 'REST-api'],
+        mockups: '/mockups/forkifyResp.png',
+        screens: [{ screenSmall: '/screens/foodapi.png', screenBig: '/screens/foodapiBig.png' },
+        { screenSmall: '/screens/foodapi2.png', screenBig: '/screens/foodapi2Big.png' },
+        { screenSmall: '/screens/foodapi3.png', screenBig: '/screens/foodapi3Big.png' }],
+        github: 'https://github.com/Noud63/forkify',
+        github2: 'https://what-do-we-eat2.netlify.app/',
+        description: `Recipe Search Desktop App build with javascript ES6 modules, Webpack and Babel.<br />
+                      Simple Food Api with a limited number of search terms.<br />
+                      Allowed methods are GET and POST.<br />
+                      Great for practice purposes.`
+
+    },
+    {
+        id: 6,
+        title: 'QUIZ',
+        screenshot: '/images/quiz.png',
+        icons: '/images/basicicons.png',
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
+        mockups: '/mockups/quizResp.png',
+        screens: [
+            { screenSmall: '/screens/quiz.png', screenBig: '/screens/quizBig.png' },
+            { screenSmall: '/screens/quiz1.png', screenBig: '/screens/quiz1Big.png' },
+            { screenSmall: '/screens/quiz2.png', screenBig: '/screens/quiz2Big.png' }
+        ],
+        github: 'https://github.com/Noud63/Quiz',
+        github2: 'https://noud63.github.io/Quiz/',
+        description: `Vanilla Javascript Quiz App<br />
+                      Test your general knowledge by answering 30 multiple choice questions.`
+    },
+    {
+        id: 7,
+        title: 'TAKE A BREAK',
+        screenshot: '/images/relax.png',
+        icons: '/images/basicicons.png',
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
+        mockups: '/mockups/takeabreakResp.png',
+        screens: [
+            { screenSmall: '/screens/relaxe.png', screenBig: '/screens/relaxeBig.png' },
+            { screenSmall: '/screens/relaxe2.png', screenBig: '/screens/relaxe2Big.png' },
+            { screenSmall: '/screens/relaxe1.png', screenBig: '/screens/relaxe1Big.png' }
+        ],
+        github: 'https://github.com/Noud63/Relax',
+        github2: 'https://noud63.github.io/Relax/',
+        description: `Relax App build with Vanilla Javascript<br />
+                    The circle grows and shrinks with every breath you take.<br/>
+                    The white dot orbits the circle in a time span of fifteen seconds.<br />
+                    The animation is a javascript/css combination.<br />
+                    You can choose between two themes and three different background ambient sounds.<br />
+                    The application is responsive.`
+    },
+    {
+        id: 8,
+        title: 'CASHFLOW CONTROLLER',
+        screenshot: '/images/budgetcontroller.png',
+        icons: '/images/basiciconsvite.png',
+        languages: ['HTML5', 'Sass', 'Vite.js', 'Javascript(ES6 Modules)'],
+        mockups: '/mockups/incexpResp.png',
+        screens: [{ screenSmall: '/screens/incexp.png', screenBig: '/screens/incexpBig.png' },
+        { screenSmall: '/screens/incexp1.png', screenBig: '/screens/incexp1Big.png' },
+        { screenSmall: '/screens/incexp2.png', screenBig: '/screens/incexp2Big.png' }],
+        github: 'https://github.com/Noud63/cashflow-controller',
+        github2: 'https://finance-controller.netlify.app/',
+        description: `Cashflow controller with Vite.js (vanilla) Javascript ES6 modules.<br/>
+                      Cashflow balance, showing income and expences aswell as savings.<br />
+                      Calculating available budget and show available budget in percentages of total deposits.<br />
+                      The percentage related to the total deposits is also visualised as a progress bar.<br />
+                      If the percentage is less than 20% the progress bar will turn red. <br />
+                      If the available budget is less than 0 the green header will turn red and a sad emoji will be shown.<br/>
+                      You can withdraw money from the savings account and add it to the current account and vice versa. <br>
+                      These tranactions will be visible in both the current and savings account and everything will be recalculated.`
+    },
+
+    {
+        id: 9,
         title: 'GOALSETTER',
         screenshot: '/images/goalsetter.png',
         icons: '/images/allicons.png',
@@ -127,83 +239,11 @@ export const projectsList = [
                        </p>`
     },
     {
-        id: 5,
-        title: 'QUIZ',
-        screenshot: '/images/quiz.png',
-        icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
-        mockups: '/mockups/quizResp.png',
-        screens: [
-            { screenSmall: '/screens/quiz.png', screenBig: '/screens/quizBig.png' },
-            { screenSmall: '/screens/quiz1.png', screenBig: '/screens/quiz1Big.png' },
-            { screenSmall: '/screens/quiz2.png', screenBig: '/screens/quiz2Big.png' }
-        ],
-        github: 'https://github.com/Noud63/Quiz',
-        github2: 'https://noud63.github.io/Quiz/',
-        description: `Vanilla Javascript Quiz App<br />
-                      Test your general knowledge by answering 30 multiple choice questions.`
-    },
-    {
-        id: 6,
-        title: 'TAKE A BREAK',
-        screenshot: '/images/relax.png',
-        icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
-        mockups: '/mockups/takeabreakResp.png',
-        screens: [
-            { screenSmall: '/screens/relaxe.png', screenBig: '/screens/relaxeBig.png' },
-            { screenSmall: '/screens/relaxe2.png', screenBig: '/screens/relaxe2Big.png' },
-            { screenSmall: '/screens/relaxe1.png', screenBig: '/screens/relaxe1Big.png' }
-        ],
-        github: 'https://github.com/Noud63/Relax',
-        github2: 'https://noud63.github.io/Relax/',
-        description: `Relax App build with Vanilla Javascript<br />
-                    The circle grows and shrinks with every breath you take.<br/>
-                    The white dot orbits the circle in a time span of fifteen seconds.<br />
-                    The animation is a javascript/css combination.<br />
-                    You can choose between two themes and three different background ambient sounds.<br />
-                    The application is responsive.`
-    },
-    {
-        id: 7,
-        title: 'BUDGET CONTROLLER',
-        screenshot: '/images/budgetapp.png',
-        icons: '/images/basicicons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
-        mockups: '/mockups/budgetapp2Resp.png',
-        screens: [{ screenSmall: '/screens/budgetapp.png', screenBig: '/screens/budgetappBig.png' },
-        { screenSmall: '/screens/budgetapp1.png', screenBig: '/screens/budgetapp1Big.png' },
-        { screenSmall: '/screens/budgetapp2.png', screenBig: '/screens/budgetapp2Big.png' }
-        ],
-        github: 'https://github.com/Noud63/income-and-expenses',
-        github2: 'https://incomeandexpences.netlify.app/',
-        description: `<p>Budgetapp in vanilla Javascript.<br />
-                      Using the MVC design pattern and IIFE's ensuring data privacy through encapsulation and separation of concerns.`
-    },
-    {
-        id: 8,
-        title: 'SEARCH RECIPE',
-        screenshot: '/images/food.png',
-        icons: '/images/basicresticons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'REST-api'],
-        mockups: '/mockups/forkifyResp.png',
-        screens: [{ screenSmall: '/screens/foodapi.png', screenBig: '/screens/foodapiBig.png' },
-        { screenSmall: '/screens/foodapi2.png', screenBig: '/screens/foodapi2Big.png' },
-        { screenSmall: '/screens/foodapi3.png', screenBig: '/screens/foodapi3Big.png' }],
-        github: 'https://github.com/Noud63/forkify',
-        github2: 'https://what-do-we-eat2.netlify.app/',
-        description: `Recipe Search Desktop App build with javascript ES6 modules, Webpack and Babel.<br />
-                      Simple Food Api with a limited number of search terms.<br />
-                      Allowed methods are GET and POST.<br />
-                      Great for practice purposes.`
-
-    },
-    {
-        id: 9,
+        id: 10,
         title: 'ART IN AMSTERDAM',
         screenshot: '/images/artinamsterdam.png',
         icons: '/images/basicresticons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'REST-api'],
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'REST-api', 'Leaflet Map'],
         mockups: '/mockups/artinamsterdamResp.png',
         screens: [{ screenSmall: '/screens/artinamsterdam.png', screenBig: '/screens/artinamsterdamBig.png' },
         { screenSmall: '/screens/artinamsterdam1.png', screenBig: '/screens/artinamsterdam1Big.png' },
@@ -216,7 +256,7 @@ export const projectsList = [
                       The app is responsive`
     },
     {
-        id: 10,
+        id: 11,
         title: 'ROLL THE DICE',
         screenshot: '/images/piggame.png',
         icons: '/images/basicicons.png',
@@ -242,7 +282,7 @@ export const projectsList = [
                       Before start playing set a limit in the set limit box.<br />`
     },
     {
-        id: 11,
+        id: 12,
         title: 'NOUD VAN DUN',
         screenshot: '/images/noudvandun.png',
         icons: '/images/basicicons.png',
@@ -256,7 +296,7 @@ export const projectsList = [
         description: `My own personal Web App is all about contemporary art and more.`
     },
     {
-        id: 12,
+        id: 13,
         title: 'GOTHIC TAC TOE',
         screenshot: '/images/gothictactoe.png',
         icons: '/images/basicicons.png',
@@ -274,7 +314,7 @@ export const projectsList = [
                       The thumbs below show the app in it's own browserwindow created by Electron.`
     },
     {
-        id: 13,
+        id: 14,
         title: 'WEATHER FORECAST',
         screenshot: '/images/weatherapp.png',
         icons: '/images/basicresticons.png',
@@ -293,7 +333,7 @@ export const projectsList = [
                        Default input parameter set to Amsterdam.`
     },
     {
-        id: 14,
+        id: 15,
         title: 'PERSONAL DATABASE',
         screenshot: '/images/personaldatabase.png',
         icons: '/images/basicicons.png',
@@ -315,7 +355,7 @@ export const projectsList = [
                       Several options for deleting entries and searchresults from UI and localStorage.`
     },
     {
-        id: 15,
+        id: 16,
         title: 'WHAT\'S ON YOUR MIND',
         screenshot: '/images/whatsonyourmind.png',
         icons: '/images/basicicons.png',
@@ -335,7 +375,7 @@ export const projectsList = [
                     The app is responsive.`
     },
     {
-        id: 16,
+        id: 17,
         title: 'REGISTRATION',
         screenshot: '/images/register.png',
         icons: '/images/basicicons.png',
@@ -349,28 +389,23 @@ export const projectsList = [
         description: `Vanilla javascript registration form with validation.`
     },
     {
-        id: 17,
-        title: 'INC&EXP',
-        screenshot: '/images/budgetcontroller.png',
+        id: 18,
+        title: 'BUDGET CONTROLLER',
+        screenshot: '/images/budgetapp.png',
         icons: '/images/basicicons.png',
         languages: ['HTML5', 'CSS3', 'Javascript(ES6)'],
-        mockups: '/mockups/incexpResp.png',
-        screens: [{ screenSmall: '/screens/incexp.png', screenBig: '/screens/incexpBig.png' },
-        { screenSmall: '/screens/incexp1.png', screenBig: '/screens/incexp1Big.png' },
-        { screenSmall: '/screens/incexp2.png', screenBig: '/screens/incexp2Big.png' }],
-        github: 'https://github.com/Noud63/cashflow-controller',
-        github2: 'https://finance-controller.netlify.app/',
-        description: `Cashflow controller with Vite.js (vanilla) Javascript ES6 modules.<br/>
-                      Cashflow balance, showing income and expences aswell as savings.<br />
-                      Calculating available budget and show available budget in percentages of total deposits.<br />
-                      The percentage related to the total deposits is also visualised as a progress bar.<br />
-                      If the percentage is less than 20% the progress bar will turn red. <br />
-                      If the available budget is less than 0 the green header will turn red and a sad emoji will be shown.<br/>
-                      You can withdraw money from the savings account and add it to the current account and vice versa. <br>
-                      These tranactions will be visible in both the current and savings account and everything will be recalculated.`
+        mockups: '/mockups/budgetapp2Resp.png',
+        screens: [{ screenSmall: '/screens/budgetapp.png', screenBig: '/screens/budgetappBig.png' },
+        { screenSmall: '/screens/budgetapp1.png', screenBig: '/screens/budgetapp1Big.png' },
+        { screenSmall: '/screens/budgetapp2.png', screenBig: '/screens/budgetapp2Big.png' }
+        ],
+        github: 'https://github.com/Noud63/income-and-expenses',
+        github2: 'https://incomeandexpences.netlify.app/',
+        description: `<p>Budgetapp in vanilla Javascript.<br />
+                      Using the MVC design pattern and IIFE's ensuring data privacy through encapsulation and separation of concerns.`
     },
     {
-        id: 18,
+        id: 19,
         title: 'TIP-CALCULATOR',
         screenshot: '/images/tip.png',
         icons: '/images/basicicons.png',
@@ -386,7 +421,7 @@ export const projectsList = [
                       With some simple css animations.`
     },
     {
-        id: 19,
+        id: 20,
         title: 'TO-DO',
         screenshot: '/images/todo.png',
         icons: '/images/basicicons.png',
@@ -402,4 +437,6 @@ export const projectsList = [
                       valuable inroduction to CRUD applications.`
     }
 ]
+
+
 
