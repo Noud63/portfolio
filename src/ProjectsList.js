@@ -91,6 +91,7 @@ export const projectsList = [
                        View posts by user.<br />
                        View single post.<br />
                        Like post.<br />
+                       List of all users.<br />
                        Create post.<br />
                        Edit post.<br />
                        Register and login.<br />
