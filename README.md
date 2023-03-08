@@ -1,6 +1,6 @@
 <h1>My Personal Portfolio</h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/38a6870b-f35c-454c-97d9-90823c344896/deploy-status)](https://app.netlify.com/sites/appcollection/deploys)<br><br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/38a6870b-f35c-454c-97d9-90823c344896/deploy-status)](https://appcollection.netlify.app/)<br><br>
 
 ![noudvandun](https://user-images.githubusercontent.com/38325801/160831613-fbfe9c0f-abf4-473d-84af-680b00c62784.png)<br><br>
 ![noudvandun](https://user-images.githubusercontent.com/38325801/160831634-730f8b4a-6e38-450c-a1f8-60a34cabe7f8.png)<br><br>
