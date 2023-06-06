@@ -37,6 +37,28 @@ export const projectsList = [
     },
     {
         id: 1,
+        title: 'DASHBOARD',
+        screenshot: '/images/dashboard.png',
+        icons: '/images/alliconsmui.png',
+        languages: ['HTML5', 'MaterialUI', 'React', 'React Redux-Toolkit', 'REST-api', 'MongoDB'],
+        mockups: '/mockups/dashboardResp.png',
+        screens: [{ screenSmall: '/screens/dashboard.png', screenBig: '/screens/dashboardBig.png' },
+            { screenSmall: '/screens/dashboard1.png', screenBig: '/screens/dashboard1Big.png' },
+        { screenSmall: '/screens/dashboard2.png', screenBig: '/screens/dashboard2Big.png' },
+        { screenSmall: '/screens/dashboard3.png', screenBig: '/screens/dashboard3Big.png' },
+        { screenSmall: '/screens/dashboard4.png', screenBig: '/screens/dashboard4Big.png' },
+        { screenSmall: '/screens/dashboard5.png', screenBig: '/screens/dashboard5Big.png' }
+        ],
+        github: 'https://github.com/Noud63/dashboard',
+        github2: '',
+        description: ` Dashboard is a MERN Stack application.<br /><br />
+                      Front-end: React, React Redux-Toolkit, MaterialUI, RTK Query, NIVO<br />
+                      Back-end: Express, Node and MongoDB<br /><br/>
+                      A dashboard is an information management tool that receives data from a linked database to provide data visualizations.
+                      A dashboard can be a very useful tool for end-users in order to provide information to identify certains trends.<br/>`
+    },
+    {
+        id: 2,
         title: 'BE SMART BUY ART',
         screenshot: '/images/artshop.png',
         icons: '/images/allicons.png',
@@ -67,7 +89,7 @@ export const projectsList = [
                       </p>`
     },
     {
-        id: 2,
+        id: 3,
         title: 'BLOG',
         screenshot: '/images/blog.png',
         icons: '/images/allicons.png',
@@ -99,7 +121,7 @@ export const projectsList = [
                         </p>`
     },
     {
-        id: 3,
+        id: 4,
         title: 'COUNTRIES OF EUROPE',
         screenshot: '/images/europa.png',
         icons: '/images/allicons.png',
@@ -123,7 +145,7 @@ export const projectsList = [
                       The weather forcast data is fetched from the Openweathermap api. The application is responsive.</p>`
     },
     {
-        id: 4,
+        id: 5,
         title: 'DUTCH FOOTBALL LEAGUE',
         screenshot: '/images/eredivisie.png',
         icons: '/images/basicreactresticons.png',
@@ -138,7 +160,7 @@ export const projectsList = [
                       `
     },
     {
-        id: 5,
+        id: 6,
         title: 'SEARCH RECIPES',
         screenshot: '/images/food.png',
         icons: '/images/basicresticons.png',
@@ -156,7 +178,7 @@ export const projectsList = [
 
     },
     {
-        id: 6,
+        id: 7,
         title: 'QUIZ',
         screenshot: '/images/quiz.png',
         icons: '/images/basicicons.png',
@@ -173,7 +195,7 @@ export const projectsList = [
                       Test your general knowledge by answering 30 multiple choice questions.`
     },
     {
-        id: 7,
+        id: 8,
         title: 'TAKE A BREAK',
         screenshot: '/images/relax.png',
         icons: '/images/basicicons.png',
@@ -194,7 +216,7 @@ export const projectsList = [
                     The application is responsive.`
     },
     {
-        id: 8,
+        id: 9,
         title: 'CASHFLOW CONTROLLER',
         screenshot: '/images/budgetcontroller.png',
         icons: '/images/basiciconsvite.png',
@@ -216,7 +238,7 @@ export const projectsList = [
     },
 
     {
-        id: 9,
+        id: 10,
         title: 'GOALSETTER',
         screenshot: '/images/goalsetter.png',
         icons: '/images/allicons.png',
@@ -240,7 +262,7 @@ export const projectsList = [
                        </p>`
     },
     {
-        id: 10,
+        id: 11,
         title: 'ART IN AMSTERDAM',
         screenshot: '/images/artinamsterdam.png',
         icons: '/images/basicresticons.png',
@@ -257,7 +279,7 @@ export const projectsList = [
                       The app is responsive`
     },
     {
-        id: 11,
+        id: 12,
         title: 'ROLL THE DICE',
         screenshot: '/images/piggame.png',
         icons: '/images/basicicons.png',
@@ -283,7 +305,7 @@ export const projectsList = [
                       Before start playing set a limit in the set limit box.<br />`
     },
     {
-        id: 12,
+        id: 13,
         title: 'NOUD VAN DUN',
         screenshot: '/images/noudvandun.png',
         icons: '/images/basicicons.png',
@@ -297,7 +319,7 @@ export const projectsList = [
         description: `My own personal Web App is all about contemporary art and more.`
     },
     {
-        id: 13,
+        id: 14,
         title: 'GOTHIC TAC TOE',
         screenshot: '/images/gothictactoe.png',
         icons: '/images/basicicons.png',
@@ -315,7 +337,7 @@ export const projectsList = [
                       The thumbs below show the app in it's own browserwindow created by Electron.`
     },
     {
-        id: 14,
+        id: 15,
         title: 'WEATHER FORECAST',
         screenshot: '/images/weatherapp.png',
         icons: '/images/basicresticons.png',
@@ -334,7 +356,7 @@ export const projectsList = [
                        Default input parameter set to Amsterdam.`
     },
     {
-        id: 15,
+        id: 16,
         title: 'PERSONAL DATABASE',
         screenshot: '/images/personaldatabase.png',
         icons: '/images/basicicons.png',
@@ -356,7 +378,7 @@ export const projectsList = [
                       Several options for deleting entries and searchresults from UI and localStorage.`
     },
     {
-        id: 16,
+        id: 17,
         title: 'WHAT\'S ON YOUR MIND',
         screenshot: '/images/whatsonyourmind.png',
         icons: '/images/basicicons.png',
@@ -376,7 +398,7 @@ export const projectsList = [
                     The app is responsive.`
     },
     {
-        id: 17,
+        id: 18,
         title: 'REGISTRATION',
         screenshot: '/images/register.png',
         icons: '/images/basicicons.png',
@@ -390,7 +412,7 @@ export const projectsList = [
         description: `Vanilla javascript registration form with validation.`
     },
     {
-        id: 18,
+        id: 19,
         title: 'BUDGET CONTROLLER',
         screenshot: '/images/budgetapp.png',
         icons: '/images/basicicons.png',
@@ -406,7 +428,7 @@ export const projectsList = [
                       Using the MVC design pattern and IIFE's ensuring data privacy through encapsulation and separation of concerns.`
     },
     {
-        id: 19,
+        id: 20,
         title: 'TIP-CALCULATOR',
         screenshot: '/images/tip.png',
         icons: '/images/basicicons.png',
@@ -422,7 +444,7 @@ export const projectsList = [
                       With some simple css animations.`
     },
     {
-        id: 20,
+        id: 21,
         title: 'TO-DO',
         screenshot: '/images/todo.png',
         icons: '/images/basicicons.png',
