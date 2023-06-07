@@ -55,7 +55,10 @@ export const projectsList = [
                       Front-end: React, React Redux-Toolkit, MaterialUI, RTK Query, NIVO<br />
                       Back-end: Express, Node and MongoDB<br /><br/>
                       A dashboard is an information management tool that receives data from a linked database to provide data visualizations.
-                      A dashboard can be a very useful tool for end-users in order to provide information to identify certains trends.<br/>`
+                      A dashboard can be a very useful tool for end-users in order to provide information to identify certains trends.<br/><br/>
+                      For the actual visualization of the data I used <a href="https://nivo.rocks/">NIVO</a>.<br/>
+                      NIVO provides data visualization components built on React. The screens below show some examples of the different visualizations to choose from,
+                      like a Line chart, Pie chart, Choropleth map, Bar chart etc.<br/>`
     },
     {
         id: 2,
