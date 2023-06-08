@@ -19,12 +19,11 @@ const Projects = () => {
 
                     <div className={style.text}>
                         The projects, a brief introduction.<br />
-                        All projects are built with HTML5, CSS3/Sass, Javascript ES6+/ES6 Modules. React(hooks),  React-Redux-Toolkit or Vite.js.
+                        All projects are built with HTML5, CSS3/Sass/MaterialUI, Javascript ES6+/ES6 Modules. React(hooks), React-Redux-Toolkit or Vite.js.
                         Some applications are frontend only, others al fullstack applications like applications built with the MERN stack.<br/>
-                        Express, Node and MongoDB are used for the backend using http methods like get, post, put, patch and delete for common practices
-                        like storing data, register user information, login validation, authentication and authorization, hiding api keys etc, etc.<br/>
+                        Express, Node and MongoDB are used for the backend for common practices like fetching data, filtering data, register user information, login validation, authentication and authorization etc.<br/>
                         There are several REST-api use cases aswell.
-                        In one particular case there is a web-app converted to a desktop-app with Electron.
+                        In one particular case there is a web-app converted to a desktop-app with Electron.<br/>
                         Click the 'view all projects' button to see all the projects I've done so far with all the information needed.
                         To view the code there is a link to that specific github repo. If the app is deployed click the 'live demo' button.
                     </div>

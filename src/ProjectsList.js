@@ -58,7 +58,8 @@ export const projectsList = [
                       A dashboard can be a very useful tool for end-users in order to provide information to identify certains trends.<br/><br/>
                       For the actual visualization of the data I used <a href="https://nivo.rocks/">NIVO</a>.<br/>
                       NIVO provides data visualization components built on React. The screens below show some examples of the different visualizations to choose from,
-                      like a Line chart, Pie chart, Choropleth map, Bar chart etc.<br/>`
+                      like a Line chart, Pie chart, Choropleth map, Bar chart etc.<br/><br/>
+                      All the data visualized is fetched from MongoDB database collections.`
     },
     {
         id: 2,

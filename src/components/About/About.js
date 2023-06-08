@@ -39,13 +39,13 @@ const About = () => {
                     Subsequently I wanted to broaden my knowledge and skills and add a framework or library to my tiny stack.
                     For the same reason I chose Javascript I chose React(hooks), just because it is the most popular Javascript library
                     and I fell in love with it immediately. Along the way I learned how to use REST-api's, git/github and some basic
-                    knowledge on lots of stuff like Redux, Redux Toolkit, MongoDB, Express, Postman, GSAP etc. 
-                    Alongside this I added Next.js, TypeScript and Sass to my wishlist for the near future.
+                    knowledge on lots of stuff like Sass, Redux, Redux Toolkit, MongoDB, Express, Postman, MaterialUI and Tailwind. 
+                    Alongside this I added Next.js and TypeScript to my wishlist for the near future.
                     Photoshop for editing images comes in handy as well, since it is hard to imagine a website without any images.<br /><br />
 
                     Anyway, right from the start I was mesmerized by how coding works, the sheer possibilities and it's effect on society.
                     I must admit that, lacking technological knowledge on how an application exactly works behind the scenes made me believe
-                    there was a lot of magic going on. Now after 2,5 years I know there are no magicians at work but only very clever people.
+                    there was a lot of magic going on. Now after 2,5 years I know there are no magicians at work but only very creative and clever people.
                     My interest and motivation only grew, and with an artistic background the symbiosis between art/design and technology
                     only added to the enthusiasm. But studying for years all by your self has major drawbacks. I am not going to recite the
                     long list of problems you encounter but for me personal it's the slow pace of your development as a future developer that

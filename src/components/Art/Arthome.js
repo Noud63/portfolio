@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './Arthome.module.css';
 import { Link } from "react-router-dom";
-import frame from '../../images/frame2.png'
-import frame3 from '../../images/frame3.png'
-import frame5 from '../../images/frame5.png'
+import dripping from '../../images/dripping.png'
+import dripping2 from '../../images/dripping2.png'
+import dripping3 from '../../images/dripping3.png'
 
 const Arthome = () => {
 
@@ -13,21 +13,18 @@ const Arthome = () => {
             <div className={style.title}>Art</div>
 
             <div className={style.wrapper}>
-
-                <img src={frame5} alt="frame" className={style.frame} />
-                <img src={frame3} alt="frame" className={style.frame3} />
-                <div className={style.artAndBtn}>
-                    <div className={style.art}>
-                            I've been a professional independant artist.<br/>
-                            If you are interested in art or just curious,<br/>
-                            have a look....
+    
+                    <div className={style.text}>A R T
                     </div>
-                    <div className={style.btnBox}>
-                        <Link to={'/art'}>
-                            <button className={style.btn}>Preview and more...</button>
-                        </Link>
-                    </div>
-                </div>
+                        <div className={style.btnBox}>
+                            <Link to={'/art'}>
+                                <button className={style.btn}>Preview</button>
+                            </Link>
+                            
+                        </div>
+                <div className={style.dripping}><img src={dripping} alt="" /></div>
+                <div className={style.dripping2}><img src={dripping2} alt="" /></div>
+                <div className={style.dripping3}><img src={dripping3} alt="" /></div>
                 
             </div>
         </div>
