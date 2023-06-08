@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9a7b78b.css",
-    "main.js": "/static/js/main.82ebb74e.js",
-    "static/media/frame2.png": "/static/media/frame2.840a876839a4bcfaf7da.png",
-    "static/media/frame3.png": "/static/media/frame3.64c6ae3d69201644b5c2.png",
-    "static/media/frame5.png": "/static/media/frame5.8ed2baff008a214f3bf3.png",
+    "main.css": "/static/css/main.c8f75258.css",
+    "main.js": "/static/js/main.8fd8070b.js",
     "static/media/wp42b.jpg": "/static/media/wp42b.b0afdf4ab7bd15891169.jpg",
     "static/media/europebg.png": "/static/media/europebg.bc549bad2b72bd6f3ff9.png",
     "static/media/amsterdam.jpg": "/static/media/amsterdam.5aea6979ec063584c5ac.jpg",
     "static/media/wp42.jpg": "/static/media/wp42.9c33ca671916191fcc30.jpg",
     "static/media/wpprojects.jpg": "/static/media/wpprojects.8707f4485c83183ab829.jpg",
-    "static/media/wp5.jpg": "/static/media/wp5.12a60eec264fb08fd0f9.jpg",
+    "static/media/wp5.jpg": "/static/media/wp5.a9a1d47b5b05311ac38f.jpg",
     "static/media/ufogroot.jpg": "/static/media/ufogroot.a6fa277c1665ed76410d.jpg",
     "static/media/hotelgroot.jpg": "/static/media/hotelgroot.f1fb9e6448ed04064d3c.jpg",
     "static/media/enigmagroot.jpg": "/static/media/enigmagroot.75f5b1955ef01aad81b1.jpg",
@@ -20,15 +17,17 @@
     "static/media/dia3.jpg": "/static/media/dia3.b599409220753a401468.jpg",
     "static/media/dia1.jpg": "/static/media/dia1.18efe3ced9838da01502.jpg",
     "static/media/mongodb.png": "/static/media/mongodb.cff36f2fa63e9a417d56.png",
+    "static/media/dripping2.png": "/static/media/dripping2.aae60dc2d8dcd9a1b0ca.png",
     "static/media/reacticon.png": "/static/media/reacticon.648d854899b9dd7b3f8b.png",
+    "static/media/dripping3.png": "/static/media/dripping3.630386c7a5fe5ee15848.png",
     "static/media/wink.png": "/static/media/wink.96949592bb4d4bca3c8d.png",
     "static/media/restapi.png": "/static/media/restapi.5266b2153e1ed60620e5.png",
     "index.html": "/index.html",
-    "main.d9a7b78b.css.map": "/static/css/main.d9a7b78b.css.map",
-    "main.82ebb74e.js.map": "/static/js/main.82ebb74e.js.map"
+    "main.c8f75258.css.map": "/static/css/main.c8f75258.css.map",
+    "main.8fd8070b.js.map": "/static/js/main.8fd8070b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9a7b78b.css",
-    "static/js/main.82ebb74e.js"
+    "static/css/main.c8f75258.css",
+    "static/js/main.8fd8070b.js"
   ]
 }
