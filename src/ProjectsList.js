@@ -33,7 +33,7 @@ export const projectsList = [
                       The owner can login as an administrator and perform exclusive tasks like delete a registered user.<br />
                       All registered users are stored in a mongoDB database aswell as the data (real-estate-properties) that are loaded by default, and all the email addresses of newsletter subscribers.<br />
                       The application is responsive.<br />
-                      (NOTE! Deployed to Render at https://real-estate-agent.onrender.com , takes a while to load. )`
+                      (NOTE! Deployed to Render at https://real-estate-agent.onrender.com , takes a while to load +/- 30sec. )`
     },
     {
         id: 1,
@@ -159,7 +159,7 @@ export const projectsList = [
         { screenSmall: '/screens/eredivisie1.png', screenBig: '/screens/eredivisie1Big.png' },
         { screenSmall: '/screens/eredivisie2.png', screenBig: '/screens/eredivisie2Big.png' }],
         github: 'https://bitbucket.org/ajhvd/dutch-football-league/src/master/',
-        github2: '',
+        github2: 'https://dutch-football-league.onrender.com/',
         description: `Dutch Football League App build with React and Football Api(https://api.football-data.org)<br />
                       `
     },
