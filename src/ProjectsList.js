@@ -42,12 +42,12 @@ export const projectsList = [
         icons: '/images/alliconsmui.png',
         languages: ['HTML5', 'MaterialUI', 'React', 'React Redux-Toolkit', 'REST-api', 'MongoDB'],
         mockups: '/mockups/dashboardResp.png',
-        screens: [{ screenSmall: '/screens/dashboard.png', screenBig: '/screens/dashboardBig.png' },
-            { screenSmall: '/screens/dashboard1.png', screenBig: '/screens/dashboard1Big.png' },
-        { screenSmall: '/screens/dashboard2.png', screenBig: '/screens/dashboard2Big.png' },
-        { screenSmall: '/screens/dashboard3.png', screenBig: '/screens/dashboard3Big.png' },
-        { screenSmall: '/screens/dashboard4.png', screenBig: '/screens/dashboard4Big.png' },
-        { screenSmall: '/screens/dashboard5.png', screenBig: '/screens/dashboard5Big.png' }
+        screens: [{ screenSmall: '/screens/dashboard.png', screenBig: '/screens/dashboardBig.png'},
+                  { screenSmall: '/screens/dashboard1.png', screenBig: '/screens/dashboard1Big.png'},
+                  { screenSmall: '/screens/dashboard2.png', screenBig: '/screens/dashboard2Big.png'},
+                  { screenSmall: '/screens/dashboard3.png', screenBig: '/screens/dashboard3Big.png'},
+                  { screenSmall: '/screens/dashboard4.png', screenBig: '/screens/dashboard4Big.png'},
+                  { screenSmall: '/screens/dashboard5.png', screenBig: '/screens/dashboard5Big.png'}
         ],
         github: 'https://github.com/Noud63/dashboard',
         github2: '',
