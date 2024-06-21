@@ -30,7 +30,7 @@ export const projectsList = [
                       To subscribe to the newsletter and magazine a user can choose a payment method provided by Stripe.js. It is an integraded payment procedure so no redirect to stripe.<br />
                       A user can register and login. JSON Web Token is used for authentication and authorization.<br />
                       A user can update his profile when logged in.<br />
-                      The owner can login as an administrator and perform exclusive tasks like delete a registered user.<br />
+                      The owner can login as an administrator and perform exclusive tasks like delete a registered user or upload a new estate (document) to the database.<br />
                       All registered users are stored in a mongoDB database aswell as the data (real-estate-properties) that are loaded by default, and all the email addresses of newsletter subscribers.<br />
                       The application is responsive.<br />
                       (NOTE! Deployed to Render at https://real-estate-agent.onrender.com , takes a while to load +/- 30sec. )`
