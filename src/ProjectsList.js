@@ -159,7 +159,7 @@ export const projectsList = [
         { screenSmall: '/screens/eredivisie1.png', screenBig: '/screens/eredivisie1Big.png' },
         { screenSmall: '/screens/eredivisie2.png', screenBig: '/screens/eredivisie2Big.png' }],
         github: 'https://bitbucket.org/ajhvd/dutch-football-league/src/master/',
-        github2: 'https://dutch-football-league.onrender.com/',
+        github2: 'https://dutchfootballleague.vercel.app/',
         description: `Dutch Football League App build with React and Football Api(https://api.football-data.org)<br />
                       `
     },
@@ -292,8 +292,8 @@ export const projectsList = [
         screens: [{ screenSmall: '/screens/piggame.png', screenBig: '/screens/piggameBig.png' },
         { screenSmall: '/screens/piggame1.png', screenBig: '/screens/piggame1Big.png' },
         { screenSmall: '/screens/piggame2.png', screenBig: '/screens/piggame2Big.png' }],
-        github: 'https://github.com/Noud63/Pig-game',
-        github2: '',
+        github: 'https://noud63.github.io/Pig-game/',
+        github2: 'https://noud63.github.io/Pig-game/',
         description: `Vanilla Javascript Pig Game Desktop App.<br />
                       Rules of the game are:<br />
                       The game has two players playing in rounds.<br />
