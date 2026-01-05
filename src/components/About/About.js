@@ -25,11 +25,9 @@ const About = () => {
                     some years in making art.
                     Different from any artistic crisis I experienced over the years something was undermining the very
                     foundation of making art and being an artist.<br /> The outcome
-                    of the fight would soon be evident. No winner, no loser but a clear insight.
+                    would soon be evident. No winner, no loser but a clear insight.
                     I decided to make a U-turn and retrain myself and learn web development.
-                    Coming from a artistic background, teaching yourself to code without any prior knowledge, without a mentor
-                    is a time consuming enterprise with a relatively steep learning curve.
-                    But the goal I set myself was clear.<br /><br />
+                    <br /><br />
 
                     I started out with HTML5, CSS3 and javascript ES5/ES6. I chose for Javascript because it is one of the most popular
                     and most commonly used languages out there. I followed a comprehensive course to learn JavaScript on Udemy among
