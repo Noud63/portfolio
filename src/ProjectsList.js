@@ -3,7 +3,7 @@ export const projectsList = [
         id: 0,
         title: 'REAL ESTATE AGENT',
         screenshot: '/images/elliecastelli.png',
-        icons: '/images/alliconssass.png',
+        icons: '/images/alliconssass_big.png',
         languages: ['HTML5', 'Sass', 'Javascript(ES6)', 'React Redux-Toolkit', 'REST-api', 'MongoDB'],
         mockups: '/mockups/ellieResp.png',
         screens: [{ screenSmall: '/screens/elliecastelli.png', screenBig: '/screens/elliecastelliBig.png' },
