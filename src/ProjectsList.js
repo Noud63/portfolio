@@ -37,29 +37,18 @@ export const projectsList = [
     },
     {
         id: 1,
-        title: 'DASHBOARD',
-        screenshot: '/images/dashboard.png',
-        icons: '/images/alliconsmui.png',
-        languages: ['HTML5', 'MaterialUI', 'React', 'React Redux-Toolkit', 'REST-api', 'MongoDB'],
-        mockups: '/mockups/dashboardResp.png',
-        screens: [{ screenSmall: '/screens/dashboard.png', screenBig: '/screens/dashboardBig.png'},
-                  { screenSmall: '/screens/dashboard1.png', screenBig: '/screens/dashboard1Big.png'},
-                  { screenSmall: '/screens/dashboard2.png', screenBig: '/screens/dashboard2Big.png'},
-                  { screenSmall: '/screens/dashboard3.png', screenBig: '/screens/dashboard3Big.png'},
-                  { screenSmall: '/screens/dashboard4.png', screenBig: '/screens/dashboard4Big.png'},
-                  { screenSmall: '/screens/dashboard5.png', screenBig: '/screens/dashboard5Big.png'}
-        ],
-        github: 'https://github.com/Noud63/dashboard',
-        github2: '',
-        description: ` Dashboard is a MERN Stack application.<br /><br />
-                      Front-end: React, React Redux-Toolkit, MaterialUI, RTK Query, NIVO<br />
-                      Back-end: Express, Node and MongoDB<br /><br/>
-                      A dashboard is an information management tool that receives data from a linked database to provide data visualizations.
-                      A dashboard can be a very useful tool for end-users in order to provide information to identify certains trends.<br/><br/>
-                      For the actual visualization of the data I used <a href="https://nivo.rocks/">NIVO</a>.<br/>
-                      NIVO provides data visualization components built on React. The screens below show some examples of the different visualizations to choose from,
-                      like a Line chart, Pie chart, Choropleth map, Bar chart etc.<br/><br/>
-                      All the data visualized is fetched from MongoDB database collections.`
+        title: 'DUTCH FOOTBALL LEAGUE',
+        screenshot: '/images/eredivisie.png',
+        icons: '/images/basicreactresticons.png',
+        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'React', 'REST-api'],
+        mockups: '/mockups/eredivisieResp.png',
+        screens: [{ screenSmall: '/screens/eredivisie.png', screenBig: '/screens/eredivisieBig.png' },
+        { screenSmall: '/screens/eredivisie1.png', screenBig: '/screens/eredivisie1Big.png' },
+        { screenSmall: '/screens/eredivisie2.png', screenBig: '/screens/eredivisie2Big.png' }],
+        github: 'https://bitbucket.org/ajhvd/dutch-football-league/src/master/',
+        github2: 'https://dutchfootballleague.vercel.app/',
+        description: `Dutch Football League App build with React and Football Api(https://api.football-data.org)<br />
+                      `
     },
     {
         id: 2,
@@ -148,20 +137,31 @@ export const projectsList = [
                       For the backend I used MongoDB, Express, Node.js and Mongoose.
                       The weather forcast data is fetched from the Openweathermap api. The application is responsive.</p>`
     },
-    {
+     {
         id: 5,
-        title: 'DUTCH FOOTBALL LEAGUE',
-        screenshot: '/images/eredivisie.png',
-        icons: '/images/basicreactresticons.png',
-        languages: ['HTML5', 'CSS3', 'Javascript(ES6)', 'React', 'REST-api'],
-        mockups: '/mockups/eredivisieResp.png',
-        screens: [{ screenSmall: '/screens/eredivisie.png', screenBig: '/screens/eredivisieBig.png' },
-        { screenSmall: '/screens/eredivisie1.png', screenBig: '/screens/eredivisie1Big.png' },
-        { screenSmall: '/screens/eredivisie2.png', screenBig: '/screens/eredivisie2Big.png' }],
-        github: 'https://bitbucket.org/ajhvd/dutch-football-league/src/master/',
-        github2: 'https://dutchfootballleague.vercel.app/',
-        description: `Dutch Football League App build with React and Football Api(https://api.football-data.org)<br />
-                      `
+        title: 'DASHBOARD',
+        screenshot: '/images/dashboard.png',
+        icons: '/images/alliconsmui.png',
+        languages: ['HTML5', 'MaterialUI', 'React', 'React Redux-Toolkit', 'REST-api', 'MongoDB'],
+        mockups: '/mockups/dashboardResp.png',
+        screens: [{ screenSmall: '/screens/dashboard.png', screenBig: '/screens/dashboardBig.png'},
+                  { screenSmall: '/screens/dashboard1.png', screenBig: '/screens/dashboard1Big.png'},
+                  { screenSmall: '/screens/dashboard2.png', screenBig: '/screens/dashboard2Big.png'},
+                  { screenSmall: '/screens/dashboard3.png', screenBig: '/screens/dashboard3Big.png'},
+                  { screenSmall: '/screens/dashboard4.png', screenBig: '/screens/dashboard4Big.png'},
+                  { screenSmall: '/screens/dashboard5.png', screenBig: '/screens/dashboard5Big.png'}
+        ],
+        github: 'https://github.com/Noud63/dashboard',
+        github2: '',
+        description: ` Dashboard is a MERN Stack application.<br /><br />
+                      Front-end: React, React Redux-Toolkit, MaterialUI, RTK Query, NIVO<br />
+                      Back-end: Express, Node and MongoDB<br /><br/>
+                      A dashboard is an information management tool that receives data from a linked database to provide data visualizations.
+                      A dashboard can be a very useful tool for end-users in order to provide information to identify certains trends.<br/><br/>
+                      For the actual visualization of the data I used <a href="https://nivo.rocks/">NIVO</a>.<br/>
+                      NIVO provides data visualization components built on React. The screens below show some examples of the different visualizations to choose from,
+                      like a Line chart, Pie chart, Choropleth map, Bar chart etc.<br/><br/>
+                      All the data visualized is fetched from MongoDB database collections.`
     },
     {
         id: 6,

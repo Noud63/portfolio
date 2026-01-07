@@ -49,7 +49,7 @@ const Projects = () => {
                         <ListItems />
                     </div>
 
-                    <a href="https://github.com/Noud63?tab=repositories" target="_blank" className={style.githubRepos} style={{ textDecoration: "none" }}>
+                    <a href="https://github.com/Noud63?tab=repositories" target="_blank" rel="noreferrer" className={style.githubRepos} style={{ textDecoration: "none" }}>
                         <button className={style.btn}>All Github Repo's<img src={github} alt="github" className={style.githubPng} /></button>
                     </a>
 

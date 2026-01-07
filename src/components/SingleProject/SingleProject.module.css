@@ -36,12 +36,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: auto;
-    height: 40px;
+    width: 380px;
+    height: auto;
 }
 
 .icons {
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 
@@ -209,7 +209,7 @@
        }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1070px) {
        .header {
            justify-content: center;
           flex-direction: column;
@@ -230,6 +230,9 @@
        .screenBox {
            width: 30%;
        }
+       .title {
+          font-size: 1.8rem;
+      } 
 }
 
 
@@ -246,7 +249,7 @@
            width: 100%;
        }
        .title {
-           font-size: 2rem;
+           font-size: 1.4rem;
        }
        .header {
            margin: 20px auto;
@@ -266,6 +269,10 @@
           width: 70%;
           margin-bottom: 20px;
        }
+        .iconsBox {
+          width: 290px;
+      }
+
     }
 
 @media only screen and (max-width: 400px) {
@@ -273,11 +280,14 @@
           width: 90%;
        }
        .title {
-          font-size: 1.7rem;
+          font-size: 1.2rem;
        }
       .description {
           font-size: 1.1rem;
       }
-
+      .iconsBox {
+          width: 240px;
+      }
+     
 }
 
