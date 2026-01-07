@@ -4,7 +4,6 @@ import Menu from '../Menu.js';
 import Namemenu from '../Namemenu.js';
 import DuoMenu from '../DuoMenu.js'
 import ListItems from './ListItems.js'
-import LastTwoItems from './LastTwoItems.js'
 import totop from '../../images/totop.png'
 import wink from '../../images/wink.png'
 import github from '../../images/github.png'
@@ -48,12 +47,6 @@ const Projects = () => {
                     </div>
                     <div className={style.projectsList}>
                         <ListItems />
-                    </div>
-
-                    <div className={style.lastTwo}>You gotta start somewhere &nbsp;<img src={wink} alt="wink" style={{ width: '20px' }} /></div>
-
-                    <div className={style.projectsList2}>
-                        <LastTwoItems />
                     </div>
 
                     <a href="https://github.com/Noud63?tab=repositories" target="_blank" className={style.githubRepos} style={{ textDecoration: "none" }}>

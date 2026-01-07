@@ -59,29 +59,16 @@
 
 .projectsList {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 80px;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    margin-top: 40px;
     margin-bottom: 50px;
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(4, 250px);
-    grid-template-rows: repeat(4, 437px) ;
-    gap: 80px;
-}
-
-.projectsList2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 60px;
-    margin-bottom: 50px;
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(4, 250px);
-    grid-column-start: auto;
-    grid-template-rows: repeat(1, 437px) ;
-    gap: 80px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    /* grid-template-rows: repeat(4, 530px) ; */
+    gap: 40px;
+    /* border: 1px solid yellow; */
 }
 
 .lastTwo {
@@ -100,11 +87,13 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    width: 250px;
-    height: 437px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    background-image: linear-gradient(to top, rgb(8, 20, 31), rgb(51, 89, 120));
+    /* width: 100%;
+    max-width:350px;
+    height: 100%;
+    min-height: 500px;  */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(51, 89, 120));
     box-shadow: 0px 4px 12px black;
     border-top: 1px solid rgb(121, 169, 209);
     cursor: pointer;
@@ -118,14 +107,15 @@
     justify-content: center;
     color:rgb(155, 215, 255);
     padding: 15px;
+    letter-spacing: 5px;
 }
 
 .imageBox {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 141px;
+    width: 100%;
+    height: auto;
 }
 
 .image {
@@ -134,12 +124,13 @@
 }
 
 .iconsBox {
-    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
+    width: 350px;
     height:25px;
+    padding-top: 28px;
+    padding-bottom: 20px;
 }
 
 .icons {
@@ -149,8 +140,9 @@
 
 .languagesBox {
      margin-top: 10px;
+     margin-bottom: 30px;
     width: 250px;
-    height: auto;
+    min-height: 138px;
 }
 
 .languages {
@@ -166,19 +158,20 @@
 .languages > li {
     color :rgb(99, 151, 185);
     padding-bottom: 5px;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 .footer {
     display: flex;
     align-items:center;
     justify-content: center;
-    width:250px;
+    width:100%;
     height: 60px;
     bottom: 0;
-    position: absolute;
-    border-bottom: 2px solid rgb(201, 114, 0);
-    background-color: rgb(0, 0, 0);
+    /* position: absolute; */
+    border-bottom: 2px solid rgb(33, 60, 85);
+    /* border-top: 2px solid rgb(33, 60, 85); */
+    /* background-color: rgb(0, 0, 0); */
 }
 
 .linkIcon {
@@ -245,15 +238,6 @@ width: 60px;
     .menuBox {
         margin-top: 30px;
     }
-    .projectsList {
-        grid-template-columns: repeat(3, 250px);
-        grid-template-rows: repeat(6, 435px) ;
-    }
-
-     .projectsList2 {
-        grid-template-columns: repeat(3, 250px);
-        grid-template-rows: repeat(1, 435px) ;
-    }
     .title {
         font-size: .8rem;
         padding: 6px;
@@ -263,19 +247,6 @@ width: 60px;
     
 }
 
-@media only screen and (max-width: 1000px){
-    .projectsList {
-        grid-template-columns: repeat(2, 250px);
-        grid-template-rows: repeat(8, 435px) ;
-         justify-content: center;
-    }
-.projectsList2 {
-        grid-template-columns: repeat(2, 250px);
-        grid-template-rows: repeat(2, 435px) ;
-         justify-content: center;
-         gap: 80px;
-    }
-}
 
 @media only screen and (max-width: 700px){
     .headerWrapper {
@@ -283,26 +254,9 @@ width: 60px;
         padding-bottom: 10px;
         /* border-bottom: 0; */
     }
-    .projectsList {
-        grid-template-columns: repeat(2, 250px);
-        grid-template-rows: repeat(8, 435px) ;
-         justify-content: center;
-         margin-top: 40px;
-    }
 }
 
 @media only screen and (max-width: 650px){
-    .projectsList {
-        grid-template-columns: repeat(1, 250px);
-        grid-template-rows: repeat(8, 435px) ;
-         justify-content: center;
-    }
-    .projectsList2 {
-        grid-template-columns: repeat(1, 250px);
-        grid-template-rows: repeat(2, 435px) ;
-         justify-content: center;
-         gap: 80px;
-    }
     .arrowTop {
       width: 40px;
       height: 40px;
