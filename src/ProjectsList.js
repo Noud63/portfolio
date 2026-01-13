@@ -421,7 +421,7 @@ export const projectsList = [
     ],
     github: "https://github.com/Noud63/staatslieden",
     github2: "https://staatslieden.vercel.app",
-    description: `STAATSLIEDEN is a NEXT.js application.<br /><br />
+    description: `STAATSLIEDEN is a NEXT.js 14 app router application.<br /><br />
                       It is an E-Commerce Web App where you can buy luxury real estate in France.<br />
                       I used React, Redux-Toolkit and Sass for the frontend part of the app, and for the back-end I used 
                       MongoDB, Express and Node.<br />
