@@ -236,7 +236,7 @@
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
        .buttons {
            width: 90%;
            flex-direction: column;

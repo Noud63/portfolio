@@ -9,7 +9,7 @@ const SingleProject = () => {
 
     const { id } = useParams();
     const [project, setProject] = useState({});
-    const [screens, setScreen] = useState([]);
+    const [screens, setScreens] = useState([]);
     const [currentImage, setCurrentImage] = useState(0);
     const [isViewerOpen, setIsViewerOpen] = useState(false);
 
@@ -30,7 +30,7 @@ const SingleProject = () => {
         setProject(item)
         let screens = item.screens
         screens = screens.map(el => el.screenBig)
-        setScreen(screens)
+        setScreens(screens)
     }, [id]);
 
     useEffect(() => {

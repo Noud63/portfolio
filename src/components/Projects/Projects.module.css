@@ -104,7 +104,7 @@
     justify-content: center;
     color:rgb(155, 215, 255);
     padding: 15px;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     font-weight: 600;
 }
 
@@ -143,7 +143,7 @@
      margin-bottom: 30px;
      padding-left: 15px;
     width: 100%;
-    min-height: 138px;
+    min-height: 153px;
 }
 
 .languages {
