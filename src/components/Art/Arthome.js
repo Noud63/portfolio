@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import dripping from '../../images/dripping.png'
 import dripping2 from '../../images/dripping2.png'
 import dripping3 from '../../images/dripping3.png'
+import enigma from '../../images/enigmagroot_blauw.jpg'
 
 const Arthome = () => {
 
@@ -14,7 +15,8 @@ const Arthome = () => {
 
             <div className={style.wrapper}>
     
-                    <div className={style.text}>A R T
+                    <div className={style.enigmaBox}>
+                        <img src={enigma} alt="" className={style.enigma}/>
                     </div>
                         <div className={style.btnBox}>
                             <Link to={'/art'}>

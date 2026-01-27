@@ -43,6 +43,23 @@
     border-right: 1px solid rgb(30, 62, 83);
 }
 
+.enigmaBox {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0px 10px 20px black;
+}
+
+.enigma {
+    width: 100%
+}
+
 .text {
     display: flex;
     align-items: center;

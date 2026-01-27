@@ -1,6 +1,36 @@
 export const projectsList = [
   {
     id: 0,
+    title: "STAATSLIEDEN",
+    screenshot: "/images/staatslieden.png",
+    icons: "/images/alliconssass_big.png",
+    languages: [
+      "Next.js 14",
+      "Tailwind",
+      "NextAuth",
+      "Next-intl(i18n)",
+      "SWR",
+      "Cloudinary",
+      "MongoDB",
+    ],
+    mockups: "/mockups/staatsliedenResp.png",
+    screens: [
+      { screenBig: "/screens/elliecastelliBig.png" },
+      { screenBig: "/screens/elliecastelli1Big.png" },
+      { screenBig: "/screens/elliecastelli2Big.png" },
+      { screenBig: "/screens/elliecastelli3Big.png" },
+      { screenBig: "/screens/elliecastelli4Big.png" },
+      { screenBig: "/screens/elliecastelli5Big.png" },
+      { screenBig: "/screens/elliecastelli6Big.png" },
+      { screenBig: "/screens/elliecastelli7Big.png" },
+      { screenBig: "/screens/elliecastelli8Big.png" },
+    ],
+    github: "https://github.com/Noud63/staatslieden",
+    github2: "https://staatslieden.vercel.app",
+    description: `STAATSLIEDEN is a NEXT.js 14 app router application.<br /><br />`,
+  },
+  {
+    id: 1,
     title: "REAL ESTATE AGENT",
     screenshot: "/images/elliecastelli.png",
     icons: "/images/alliconssass_big.png",
@@ -44,7 +74,7 @@ export const projectsList = [
                       (NOTE! Deployed to Render at https://real-estate-agent.onrender.com , takes a while to load +/- 30sec. )`,
   },
   {
-    id: 1,
+    id: 2,
     title: "DUTCH FOOTBALL LEAGUE",
     screenshot: "/images/eredivisie.png",
     icons: "/images/basicreactresticons.png",
@@ -60,7 +90,7 @@ export const projectsList = [
     description: `Dutch Football League App build with React and Football Api(https://api.football-data.org)<br />`,
   },
   {
-    id: 2,
+    id: 3,
     title: "BE SMART BUY ART",
     screenshot: "/images/artshop.png",
     icons: "/images/allicons.png",
@@ -79,7 +109,7 @@ export const projectsList = [
     description: `<p>Be Smart Buy Art is an art webshop with the basic features of an e-commerce webshop.</p>`,
   },
   {
-    id: 3,
+    id: 4,
     title: "BLOG",
     screenshot: "/images/blog.png",
     icons: "/images/allicons.png",
@@ -105,7 +135,7 @@ export const projectsList = [
     description: `<p>React Redux Toolkit Blog.</p>`,
   },
   {
-    id: 4,
+    id: 5,
     title: "COUNTRIES OF EUROPE",
     screenshot: "/images/europa.png",
     icons: "/images/allicons.png",
@@ -121,7 +151,7 @@ export const projectsList = [
     description: `<p>Countries of Europe introduces you to all the countries in Europe.</p>`,
   },
   {
-    id: 5,
+    id: 6,
     title: "DASHBOARD",
     screenshot: "/images/dashboard.png",
     icons: "/images/alliconsmui.png",
@@ -147,7 +177,7 @@ export const projectsList = [
     description: `Dashboard is a MERN Stack application.`,
   },
   {
-    id: 6,
+    id: 7,
     title: "SEARCH RECIPES",
     screenshot: "/images/food.png",
     icons: "/images/basicresticons.png",
@@ -163,7 +193,7 @@ export const projectsList = [
     description: `Recipe Search Desktop App build with javascript ES6 modules.`,
   },
   {
-    id: 7,
+    id: 8,
     title: "QUIZ",
     screenshot: "/images/quiz.png",
     icons: "/images/basicicons.png",
@@ -179,7 +209,7 @@ export const projectsList = [
     description: `Vanilla Javascript Quiz App`,
   },
   {
-    id: 8,
+    id: 9,
     title: "TAKE A BREAK",
     screenshot: "/images/relax.png",
     icons: "/images/basicicons.png",
@@ -195,7 +225,7 @@ export const projectsList = [
     description: `Relax App build with Vanilla Javascript`,
   },
   {
-    id: 9,
+    id: 10,
     title: "CASHFLOW CONTROLLER",
     screenshot: "/images/budgetcontroller.png",
     icons: "/images/basiciconsvite.png",
@@ -211,7 +241,7 @@ export const projectsList = [
     description: `Cashflow controller with Vite.js.`,
   },
   {
-    id: 10,
+    id: 11,
     title: "GOALSETTER",
     screenshot: "/images/goalsetter.png",
     icons: "/images/allicons.png",
@@ -234,7 +264,7 @@ export const projectsList = [
     description: `<p>GoalSetter is a full-stack MERN application.</p>`,
   },
   {
-    id: 11,
+    id: 12,
     title: "ART IN AMSTERDAM",
     screenshot: "/images/artinamsterdam.png",
     icons: "/images/basicresticons.png",
@@ -250,7 +280,7 @@ export const projectsList = [
     description: `Art in Amsterdam App built with Javascript and Leaflet.`,
   },
   {
-    id: 12,
+    id: 13,
     title: "ROLL THE DICE",
     screenshot: "/images/piggame.png",
     icons: "/images/basicicons.png",
@@ -266,7 +296,7 @@ export const projectsList = [
     description: `Vanilla Javascript Pig Game Desktop App.`,
   },
   {
-    id: 13,
+    id: 14,
     title: "NOUD VAN DUN",
     screenshot: "/images/noudvandun.png",
     icons: "/images/basicicons.png",
@@ -282,7 +312,7 @@ export const projectsList = [
     description: `My own personal Web App is all about contemporary art and more.`,
   },
   {
-    id: 14,
+    id: 15,
     title: "GOTHIC TAC TOE",
     screenshot: "/images/gothictactoe.png",
     icons: "/images/basicicons.png",
@@ -298,7 +328,7 @@ export const projectsList = [
     description: `Gothic-Tac-Toe desktop game built with Javascript.`,
   },
   {
-    id: 15,
+    id: 16,
     title: "WEATHER FORECAST",
     screenshot: "/images/weatherapp.png",
     icons: "/images/basicresticons.png",
@@ -314,7 +344,7 @@ export const projectsList = [
     description: `Weather app built with Javascript ES6 modules.`,
   },
   {
-    id: 16,
+    id: 17,
     title: "PERSONAL DATABASE",
     screenshot: "/images/personaldatabase.png",
     icons: "/images/basicicons.png",
@@ -330,7 +360,7 @@ export const projectsList = [
     description: `Persons database desktop app.`,
   },
   {
-    id: 17,
+    id: 18,
     title: "WHAT'S ON YOUR MIND",
     screenshot: "/images/whatsonyourmind.png",
     icons: "/images/basicicons.png",
@@ -346,7 +376,7 @@ export const projectsList = [
     description: `Vanilla javascript Message Box`,
   },
   {
-    id: 18,
+    id: 19,
     title: "REGISTRATION",
     screenshot: "/images/register.png",
     icons: "/images/basicicons.png",
@@ -362,7 +392,7 @@ export const projectsList = [
     description: `Vanilla javascript registration form with validation.`,
   },
   {
-    id: 19,
+    id: 20,
     title: "BUDGET CONTROLLER",
     screenshot: "/images/budgetapp.png",
     icons: "/images/basicicons.png",
@@ -378,7 +408,7 @@ export const projectsList = [
     description: `<p>Budgetapp in vanilla Javascript.</p>`,
   },
   {
-    id: 20,
+    id: 21,
     title: "TIP-CALCULATOR",
     screenshot: "/images/tip.png",
     icons: "/images/basicicons.png",
@@ -392,49 +422,6 @@ export const projectsList = [
     github: "https://github.com/Noud63/tip-calculator",
     github2: "https://tipperperson.netlify.app/",
     description: `Tip Calculator`,
-  },
-  {
-    id: 21,
-    title: "STAATSLIEDEN",
-    screenshot: "/images/staatslieden.png",
-    icons: "/images/alliconssass_big.png",
-    languages: [
-      "Next.js 14",
-      "Tailwind",
-      "NextAuth",
-      "Next-intl(i18n)",
-      "SWR (stale while revalidate)",
-      "Cloudinary",
-      "MongoDB",
-    ],
-    mockups: "/mockups/staatsliedenResp.png",
-    screens: [
-      { screenBig: "/screens/elliecastelliBig.png" },
-      { screenBig: "/screens/elliecastelli1Big.png" },
-      { screenBig: "/screens/elliecastelli2Big.png" },
-      { screenBig: "/screens/elliecastelli3Big.png" },
-      { screenBig: "/screens/elliecastelli4Big.png" },
-      { screenBig: "/screens/elliecastelli5Big.png" },
-      { screenBig: "/screens/elliecastelli6Big.png" },
-      { screenBig: "/screens/elliecastelli7Big.png" },
-      { screenBig: "/screens/elliecastelli8Big.png" },
-    ],
-    github: "https://github.com/Noud63/staatslieden",
-    github2: "https://staatslieden.vercel.app",
-    description: `STAATSLIEDEN is a NEXT.js 14 app router application.<br /><br />
-                      It is an E-Commerce Web App where you can buy luxury real estate in France.<br />
-                      I used React, Redux-Toolkit and Sass for the frontend part of the app, and for the back-end I used 
-                      MongoDB, Express and Node.<br />
-                      There is a search function where you can filter data from an api request based on certain criteria.<br />
-                      With each item in the list of real-estate objects you can write an enquiry email for more information.<br />
-                      You can subscribe to a newsletter and magazine.<br />
-                      To subscribe to the newsletter and magazine a user can choose a payment method provided by Stripe.js. It is an integraded payment procedure so no redirect to stripe.<br />
-                      A user can register and login. JSON Web Token is used for authentication and authorization.<br />
-                      A user can update his profile when logged in.<br />
-                      The owner can login as an administrator and perform exclusive tasks like delete a registered user or upload a new estate (document) to the database.<br />
-                      All registered users are stored in a mongoDB database aswell as the data (real-estate-properties) that are loaded by default, and all the email addresses of newsletter subscribers.<br />
-                      The application is responsive.<br />
-                      (NOTE! Deployed to Render at https://real-estate-agent.onrender.com , takes a while to load +/- 30sec. )`,
-  },
+  }
 ];
 
