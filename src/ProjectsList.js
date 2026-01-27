@@ -3,7 +3,7 @@ export const projectsList = [
     id: 0,
     title: "STAATSLIEDEN",
     screenshot: "/images/staatslieden.png",
-    icons: "/images/alliconssass_big.png",
+    icons: "/images/alliconsnextjs.png",
     languages: [
       "Next.js 14",
       "Tailwind",
