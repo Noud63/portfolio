@@ -3,7 +3,7 @@ import style from './Art.module.css'
 import Menu from '../Menu.js';
 import Namemenu from '../Namemenu.js';
 import Newmenu from '../Newmenu.js'
-import dia1 from '../../images/dia1.jpg'
+import dia1 from '../../images/dia1.png'
 import dia2 from '../../images/dia2.jpg'
 import dia3 from '../../images/dia3.jpg'
 import dia4 from '../../images/dia4.jpg'

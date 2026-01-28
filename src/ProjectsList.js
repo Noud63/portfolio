@@ -73,8 +73,48 @@ export const projectsList = [
                       The application is responsive.<br />
                       (NOTE! Deployed to Render at https://real-estate-agent.onrender.com , takes a while to load +/- 30sec. )`,
   },
-  {
+   {
     id: 2,
+    title: "RENT YOUR DREAM",
+    screenshot: "/images/ec_rental.png",
+    icons: "/images/alliconsnextjs.png",
+    languages: ["HTML5", "Tailwind", "Nextjs", "NextAuth.js", "OAuth 2.0", "MongoDB" ],
+    mockups: "/mockups/ecrentalResp.png",
+    screens: [
+      { screenBig: "/screens/ec_rental_1.png" },
+      { screenBig: "/screens/ec_rental_2.png" },
+      { screenBig: "/screens/ec_rental_3.png" },
+      { screenBig: "/screens/ec_rental_4.png" },
+      { screenBig: "/screens/ec_rental_5.png" },
+      { screenBig: "/screens/ec_rental_7.png" }
+    ],
+    github: "https://github.com/Noud63/Register-form",
+    github2: "https://elliecastelli-rental.vercel.app/",
+    description: `Platform where real-estate owners can list their properties for rent.<br /><br />
+                  Build with:<br /> 
+                  Next.js 14, NextAuth.js, OAuth 2.0, MongoDB, Resend, Tailwind, Shadcn/ui, Cloudinary, opencage-api-client (geocoding), Leaflet OpenStreetMap<br /><br />
+                  Features:<br />
+                  register<br />
+                  login with:<br />
+                  - credentials<br />
+                  - email (magic link)<br />
+                  - google<br />
+                  - facebook<br />
+                  Reset password<br />
+                  Upload property (attached image files uploaded to Cloudinary)<br />
+                  Edit or delete uploaded property<br />
+                  Edit user profile (+ upload new avatar to cloudinary)<br />
+                  Search property<br />
+                  Share property on social media<br />
+                  Send message to property owner<br />
+                  List messages<br />
+                  View listed properties as owner<br />
+                  Bookmark property<br />
+                  View Bookmarked properties<br />
+                  SignOut`,
+  },
+  {
+    id: 3,
     title: "DUTCH FOOTBALL LEAGUE",
     screenshot: "/images/eredivisie.png",
     icons: "/images/basicreactresticons.png",
@@ -90,7 +130,7 @@ export const projectsList = [
     description: `Dutch Football League App build with React and Football Api(https://api.football-data.org)<br />`,
   },
   {
-    id: 3,
+    id: 4,
     title: "BE SMART BUY ART",
     screenshot: "/images/artshop.png",
     icons: "/images/allicons.png",
@@ -109,7 +149,7 @@ export const projectsList = [
     description: `<p>Be Smart Buy Art is an art webshop with the basic features of an e-commerce webshop.</p>`,
   },
   {
-    id: 4,
+    id: 5,
     title: "BLOG",
     screenshot: "/images/blog.png",
     icons: "/images/allicons.png",
@@ -135,7 +175,7 @@ export const projectsList = [
     description: `<p>React Redux Toolkit Blog.</p>`,
   },
   {
-    id: 5,
+    id: 6,
     title: "COUNTRIES OF EUROPE",
     screenshot: "/images/europa.png",
     icons: "/images/allicons.png",
@@ -151,7 +191,7 @@ export const projectsList = [
     description: `<p>Countries of Europe introduces you to all the countries in Europe.</p>`,
   },
   {
-    id: 6,
+    id: 7,
     title: "DASHBOARD",
     screenshot: "/images/dashboard.png",
     icons: "/images/alliconsmui.png",
@@ -177,7 +217,7 @@ export const projectsList = [
     description: `Dashboard is a MERN Stack application.`,
   },
   {
-    id: 7,
+    id: 8,
     title: "SEARCH RECIPES",
     screenshot: "/images/food.png",
     icons: "/images/basicresticons.png",
@@ -193,7 +233,7 @@ export const projectsList = [
     description: `Recipe Search Desktop App build with javascript ES6 modules.`,
   },
   {
-    id: 8,
+    id: 9,
     title: "QUIZ",
     screenshot: "/images/quiz.png",
     icons: "/images/basicicons.png",
@@ -209,7 +249,7 @@ export const projectsList = [
     description: `Vanilla Javascript Quiz App`,
   },
   {
-    id: 9,
+    id: 10,
     title: "TAKE A BREAK",
     screenshot: "/images/relax.png",
     icons: "/images/basicicons.png",
@@ -225,7 +265,7 @@ export const projectsList = [
     description: `Relax App build with Vanilla Javascript`,
   },
   {
-    id: 10,
+    id: 11,
     title: "CASHFLOW CONTROLLER",
     screenshot: "/images/budgetcontroller.png",
     icons: "/images/basiciconsvite.png",
@@ -241,7 +281,7 @@ export const projectsList = [
     description: `Cashflow controller with Vite.js.`,
   },
   {
-    id: 11,
+    id: 12,
     title: "GOALSETTER",
     screenshot: "/images/goalsetter.png",
     icons: "/images/allicons.png",
@@ -264,7 +304,7 @@ export const projectsList = [
     description: `<p>GoalSetter is a full-stack MERN application.</p>`,
   },
   {
-    id: 12,
+    id: 13,
     title: "ART IN AMSTERDAM",
     screenshot: "/images/artinamsterdam.png",
     icons: "/images/basicresticons.png",
@@ -280,7 +320,7 @@ export const projectsList = [
     description: `Art in Amsterdam App built with Javascript and Leaflet.`,
   },
   {
-    id: 13,
+    id: 14,
     title: "ROLL THE DICE",
     screenshot: "/images/piggame.png",
     icons: "/images/basicicons.png",
@@ -296,7 +336,7 @@ export const projectsList = [
     description: `Vanilla Javascript Pig Game Desktop App.`,
   },
   {
-    id: 14,
+    id: 15,
     title: "NOUD VAN DUN",
     screenshot: "/images/noudvandun.png",
     icons: "/images/basicicons.png",
@@ -312,7 +352,7 @@ export const projectsList = [
     description: `My own personal Web App is all about contemporary art and more.`,
   },
   {
-    id: 15,
+    id: 16,
     title: "GOTHIC TAC TOE",
     screenshot: "/images/gothictactoe.png",
     icons: "/images/basicicons.png",
@@ -328,7 +368,7 @@ export const projectsList = [
     description: `Gothic-Tac-Toe desktop game built with Javascript.`,
   },
   {
-    id: 16,
+    id: 17,
     title: "WEATHER FORECAST",
     screenshot: "/images/weatherapp.png",
     icons: "/images/basicresticons.png",
@@ -344,7 +384,7 @@ export const projectsList = [
     description: `Weather app built with Javascript ES6 modules.`,
   },
   {
-    id: 17,
+    id: 18,
     title: "PERSONAL DATABASE",
     screenshot: "/images/personaldatabase.png",
     icons: "/images/basicicons.png",
@@ -360,7 +400,7 @@ export const projectsList = [
     description: `Persons database desktop app.`,
   },
   {
-    id: 18,
+    id: 19,
     title: "WHAT'S ON YOUR MIND",
     screenshot: "/images/whatsonyourmind.png",
     icons: "/images/basicicons.png",
@@ -376,7 +416,7 @@ export const projectsList = [
     description: `Vanilla javascript Message Box`,
   },
   {
-    id: 19,
+    id: 20,
     title: "REGISTRATION",
     screenshot: "/images/register.png",
     icons: "/images/basicicons.png",
@@ -392,7 +432,7 @@ export const projectsList = [
     description: `Vanilla javascript registration form with validation.`,
   },
   {
-    id: 20,
+    id: 21,
     title: "BUDGET CONTROLLER",
     screenshot: "/images/budgetapp.png",
     icons: "/images/basicicons.png",
@@ -406,22 +446,6 @@ export const projectsList = [
     github: "https://github.com/Noud63/income-and-expenses",
     github2: "https://incomeandexpences.netlify.app/",
     description: `<p>Budgetapp in vanilla Javascript.</p>`,
-  },
-  {
-    id: 21,
-    title: "TIP-CALCULATOR",
-    screenshot: "/images/tip.png",
-    icons: "/images/basicicons.png",
-    languages: ["HTML5", "CSS3", "Javascript"],
-    mockups: "/mockups/tipResp.png",
-    screens: [
-      { screenBig: "/screens/tipBig.png" },
-      { screenBig: "/screens/tip1Big.png" },
-      { screenBig: "/screens/tip2Big.png" },
-    ],
-    github: "https://github.com/Noud63/tip-calculator",
-    github2: "https://tipperperson.netlify.app/",
-    description: `Tip Calculator`,
   }
+ 
 ];
-
