@@ -315,8 +315,8 @@ export const projectsList = [
       { screenBig: "/screens/artinamsterdam1Big.png" },
       { screenBig: "/screens/artinamsterdam2Big.png" },
     ],
-    github: "https://github.com/Noud63/Art-in-Amsterdam",
-    github2: "https://noud63.github.io/Art-in-Amsterdam/",
+    github: "https://github.com/Noud63/amsterdam-art",
+    github2: "https://noud63.github.io/amsterdam-art",
     description: `Art in Amsterdam App built with Javascript and Leaflet.`,
   },
   {

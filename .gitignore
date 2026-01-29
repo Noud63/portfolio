@@ -23,5 +23,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# git add . && git commit -m "*" && git push origin main
+# git add . && git commit -m "*" && git push origin main && npm run build && netlify deploy --prod
 # npm run build && netlify deploy --prod
