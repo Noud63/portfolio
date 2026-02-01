@@ -308,7 +308,7 @@ export const projectsList = [
     title: "ART IN AMSTERDAM",
     screenshot: "/images/artinamsterdam.png",
     icons: "/images/basicresticons.png",
-    languages: ["HTML5", "CSS3", "Javascript", "REST-api", "Leaflet Map"],
+    languages: ["HTML5", "CSS3", "Javascript", "REST-api", "Leaflet Map", "MapBox"],
     mockups: "/mockups/artinamsterdamResp.png",
     screens: [
       { screenBig: "/screens/artinamsterdamBig.png" },
@@ -317,7 +317,7 @@ export const projectsList = [
     ],
     github: "https://github.com/Noud63/amsterdam-art",
     github2: "https://noud63.github.io/amsterdam-art",
-    description: `Art in Amsterdam App built with Javascript and Leaflet.`,
+    description: `Art in Amsterdam App built with Javascript and Leaflet OpenStreetMap.`,
   },
   {
     id: 14,
