@@ -1,0 +1,137 @@
+.about {
+    background-image: url('../../images/wp5.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    top:0;
+    position: absolute;
+    font-weight: bold;
+    height: auto;
+    font-size: 1rem;
+    padding: 8px;
+    color: rgb(17, 32, 43);
+    background-color: rgb(155, 215, 255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.headerWrapper {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+    border-bottom: 1px solid rgb(155, 215, 255);
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+.text {
+    width: 90%;
+    color:rgb(138, 199, 240);
+    font-size: 1.2rem;
+    line-height: 1.4;
+    padding-bottom: 40px;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(155, 215, 255);
+    overflow:auto;
+    scrollbar-width: none;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textBox {
+    width: 60%;
+    height: auto;
+}
+
+span {
+    font-size: 1.2rem;
+    color:rgb(155, 215, 255);
+    margin-bottom: 20px;
+}
+
+.text::-webkit-scrollbar-track
+{
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.text::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: transparent;
+}
+
+.text::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 9px rgb(0, 11, 34, 1);
+  box-shadow: inset 0 0 9px rgb(0, 0, 0);
+  background-color: rgb(123, 185, 221);
+}
+
+/* .text::-webkit-scrollbar-button {
+  height: 10px;
+} */
+
+
+@media only screen and (max-width: 1400px){
+    .headerWrapper {
+        flex-direction: column;
+         margin-top: 30px;
+    }
+    .text {
+        font-size: 1.1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .text::-webkit-scrollbar-button {
+     height: 15px;
+    }
+    .title {
+        font-size: .8rem;
+        padding: 6px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .textBox {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 670px){
+    .text {
+        margin-top: 10px;
+    }
+    .textBox {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .headerWrapper{
+        width: 95%;
+    }
+    .textBox {
+        width: 95%;
+    }
+}

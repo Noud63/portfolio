@@ -1,0 +1,182 @@
+.artContainer {
+    background-image: url('../../images/wp5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    top: 0;
+    position: absolute;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 8px;
+    color: rgb(17, 32, 43);
+    background-color: rgb(155, 215, 255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 1000px;
+    height: 50vh;
+    border-radius: 20px;
+    box-shadow: 0px -10px 50px black, 0px 0px 50px black;
+    border-bottom: 1px solid rgb(55, 89, 121);
+    border-top: 1px solid rgb(25, 51, 68);
+    border-left: 1px solid rgb(30, 62, 83);
+    border-right: 1px solid rgb(30, 62, 83);
+}
+
+.enigmaBox {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0px 10px 20px black;
+}
+
+.enigma {
+    width: 100%
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14.8rem;
+    color:rgb(2, 10, 15);
+    width: 80%;
+    text-shadow: 0px 0px 15px rgb(123, 180, 206);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(124, 174, 221);
+    margin-bottom: 30px;
+}
+
+.btnBox {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+.dripping img {
+    position: absolute;
+    bottom: 4px;
+    left: 10%;
+    width: 100px;
+}
+
+.dripping2 img {
+    position: absolute;
+    bottom: 0px;
+    right: 15%;
+    width: 100px;
+    height: 50px;
+}
+
+.dripping3 img {
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+    width: 100px;
+    height: 50px;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(4, 8, 14, 1);
+    color: rgb(10, 33, 48);
+    border-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: rgb(92, 140, 172);
+    transition: .2s ease-in-out;
+    letter-spacing: 2px;
+    /* background-image: linear-gradient(to top,rgb(0, 0, 0), rgb(17, 32, 44)); */
+}
+
+/* .btn:hover {
+    transform: scale(1.2);
+} */
+
+@media only screen and (max-width: 1050px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .dripping3 {
+        display: none;
+    }
+    .text {
+        font-size: 14rem;
+        width:90%;
+    }
+    
+}
+
+@media only screen and (max-width: 760px) {
+  .text {
+        font-size: 10rem;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .wrapper {
+        width: 520px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .wrapper {
+        width: 450px;
+    }
+    .text {
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .wrapper {
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .wrapper {
+        width: 330px;
+    }
+        .dripping2 {
+            display: none;
+        }
+        .text {
+            font-size: 6rem
+        }
+}

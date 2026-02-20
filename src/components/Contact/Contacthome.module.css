@@ -1,0 +1,161 @@
+.contactHome {
+    background-image: url('../../images/amsterdam.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color:  rgb(155, 215, 255);
+    position: relative;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    top:0;
+    position: absolute;
+    font-weight: bold;
+    height: auto;
+    font-size: 1rem;
+    padding: 8px;
+    color: rgb(17, 32, 43);
+    background-color: rgb(155, 215, 255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* Contact Form */
+
+.contactWrapper {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+}
+
+.mapBox {
+    max-width: 800px;
+    height: auto;
+    border: 2px solid rgb(95, 141, 172);
+    position: relative;
+    margin: 50px 20px 50px 20px;
+    background-color: black;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0), 0px 0px 20px rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+     border-radius: 20px;
+}
+
+.personal {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    left: 10px;
+}
+
+.personal2 {
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location, .myemail {
+     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    color: rgb(155, 215, 255);
+}
+
+.location {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.myemail {
+    margin-bottom: 15px;
+}
+
+.iconBox {
+    width: 40px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city, .mail {
+    padding-left: 15px;
+    font-size: 1.rem;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    background-color:transparent;
+    color:rgb(155, 215, 255);
+    border-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+    border: 2px solid rgb(108, 159, 194);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0), 0px 0px 20px rgb(0, 0, 0);
+    transition: .2s ease-in-out;
+    margin-bottom: 50px;
+
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.linkBtn {
+    position: absolute;
+    bottom: 50px;
+}
+
+@media only screen and (max-width: 600px){
+    .personal {
+        display: none;
+    }
+
+    .personal2 {
+        display: flex;
+    }
+
+    .mapBox {
+        margin: 80px 20px 20px 20px;
+    }
+    .contactHome {
+        justify-content: flex-start;
+    }
+    .btn {
+        margin-top: 30px;
+    }
+    .linkBtn {
+     position: relative;
+     margin-top: 50px;
+    }
+    .contactWrapper {
+        margin-top: 50px;
+    }
+}

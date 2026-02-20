@@ -1,0 +1,295 @@
+
+
+.background {
+    background-image: url('../../images/wpprojects.jpg');
+     background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.header {
+    margin: 50px auto;
+    padding-bottom: 30px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+    border-bottom: 1px solid rgb(155, 215, 255)
+}
+
+.title {
+    width: 50%;
+    color: white;
+    font-size: 2.4rem;
+    color: rgb(155, 215, 255);
+}
+
+.iconsBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: auto;
+}
+
+.icons {
+    width: 100%;
+    height: auto;
+}
+
+.imageBox {
+    display: grid; 
+    align-items: center;
+    justify-content: center; 
+    width: 60%; 
+    height: auto;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(155, 215, 255);
+}
+
+.slides {
+    width: 100%;
+    height:auto;
+    font-size: 0;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    color: rgb(155, 215, 255);
+    white-space: pre-line;
+}
+
+.text a {
+    color: rgb(155, 215, 255);
+}
+
+.infoBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:100%;
+    height: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.description {
+    width:100%;
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+.uxui {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 60%;
+    height: auto;
+}
+
+.screenBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26%;
+    height: auto;
+    cursor: pointer;
+    font-size:0;
+    margin-bottom: 20px;
+}
+
+.screen {
+    width:100%;
+    height: auto;
+    border: 2px solid rgb(92, 139, 170);
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 32px rgb(0, 0, 0);
+    transition: all .5s ease-in-out
+}
+
+.screen:hover {
+    transform: scale(1.1);
+}
+
+.buttons {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+    height: auto;
+}
+
+.btnBox, .btnBox2 {
+    width: 33.33%;
+}
+
+.btnBox a, .btnBox2 a {
+    text-decoration: none;
+    color: rgb(177, 223, 255);
+}
+
+.btn, .btn2, .btn1 {
+    width: 100%;
+    height: 60px;
+     border-style: none;
+     background-color: rgb(155, 215, 255);
+     border-radius: 8px;
+     background-image: linear-gradient(to top, rgb(1, 15, 24), rgb(64, 116, 151));
+     color: rgb(177, 223, 255);
+     font-weight: bold;
+     border-top: 1px solid rgb(159, 212, 255);
+     border-bottom: 1px solid rgb(0, 0, 0);
+     cursor: pointer;
+     text-shadow: 0px 0px 8px rgb(0, 5, 14);
+     font-size: .8rem;
+     box-shadow: 0px 2px 10px black;
+}
+
+.btnBox2 {
+    margin: 0 8px 0 8px;
+}
+
+/* ---- Media Queries --- */
+
+@media only screen and (max-width: 1440px) {
+       .text, .buttons, .imageBox {
+           width: 80%;
+       }
+       .uxui {
+           width: 80%;
+       }
+       .header {
+           padding-bottom: 20px;
+       }
+       .iconsBox {
+           margin-top: 8px;
+       }
+}
+
+@media only screen and (max-width: 1000px) {
+       .text, .buttons, .imageBox {
+           width: 90%;
+       }
+       .uxui {
+           width: 90%;
+       }
+       .header {
+           margin: 30px auto;
+       }
+}
+
+@media only screen and (max-width: 1070px) {
+       .header {
+           justify-content: center;
+          flex-direction: column;
+       }
+       .title {
+           width: 100%;
+           display: flex;
+           align-items: center;
+          justify-content: center;
+       }
+}
+
+@media only screen and (max-width: 600px) {
+       .uxui {
+           width: 90%;
+       }
+
+       .screenBox {
+           width: 30%;
+       }
+       .title {
+          font-size: 1.8rem;
+      } 
+}
+
+
+@media only screen and (max-width: 600px) {
+       .buttons {
+           width: 90%;
+           flex-direction: column;
+           margin-top: 30px;
+       }
+       .btn, .btn1 {
+           margin-bottom: 10px;
+       }
+       .btnBox, .btnBox2 {
+           width: 100%;
+       }
+       .title {
+           font-size: 1.4rem;
+       }
+       .header {
+           margin: 20px auto;
+           padding-bottom: 10px;
+       }
+       .text {
+          margin-top: 30px;
+       }
+       .imageBox {
+          margin-top: 20px;
+       }
+       .uxui {
+          flex-direction: column;
+          margin-top: 30px;
+       }
+      .screenBox {
+          width: 70%;
+          margin-bottom: 20px;
+       }
+        .iconsBox {
+          width: 290px;
+      }
+
+    }
+
+@media only screen and (max-width: 400px) {
+       .text, .buttons, .imageBox {
+          width: 90%;
+       }
+       .title {
+          font-size: 1.2rem;
+       }
+      .description {
+          font-size: 1.1rem;
+      }
+      .iconsBox {
+          width: 240px;
+      }
+     
+}
+

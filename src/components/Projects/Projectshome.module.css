@@ -1,0 +1,201 @@
+.projects {
+    background-image: url('../../images/wp42b.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: flex-start;
+    width: 100%;
+    background-color: rgb(43, 68, 89);
+    position: relative;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    top:0;
+    position: absolute;
+    font-weight: bold;
+    height: auto;
+    font-size: 1rem;
+    padding: 8px;
+    color: rgb(17, 32, 43);
+    background-color: rgb(155, 215, 255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 65%;
+    height: auto;
+    color:rgb(138, 199, 240);
+    font-size: 1.4rem;
+    line-height: 1.4;
+    border-top: 1px solid rgb(155, 215, 255);
+    /* border-bottom: 1px solid rgb(155, 215, 255); */
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    margin-bottom: 40px;
+}
+
+
+.stackIcons {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-top: 1px solid rgb(155, 215, 255);
+    padding-top: 50px;
+  }
+
+.stackIcons2 {
+    width:54%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 30px;
+  }
+
+.stack {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(155, 215, 255);
+    font-family:'arial';
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+  }
+
+.htmlicon, .cssicon, .jsicon, .restapiicon{
+    width: 50px;
+    height: 50px;
+  }
+
+.reacticon {
+      width: 60px;
+      height: 50px;
+  }
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+    height: auto;
+    color: rgb(155, 215, 255);
+    font-family:'arial';
+    font-weight: bold;
+    font-size: 1rem;
+    border-right: 1px solid rgb(155, 215, 255);
+    border-left: 1px solid rgb(155, 215, 255);
+  }
+
+.icons2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    color: rgb(155, 215, 255);
+    font-family:'arial';
+    font-weight: bold;
+    font-size: 1rem;
+    border-right: 1px solid rgb(155, 215, 255);
+    border-left: 1px solid rgb(155, 215, 255);
+  }
+
+.codeName {
+      margin-top: 10px;
+  }
+
+  .btn {
+     width: 150px;
+    height: 50px;
+    background-color:transparent;
+    color:rgb(155, 215, 255);
+    border-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 2px solid rgb(108, 159, 194);
+   box-shadow: 0px 0px 10px rgb(0, 0, 0);
+   transition: .2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+@media only screen and (max-width: 1230px){
+    .btn {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 980px){
+    .text {
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+    }
+    .btn {
+      margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .htmlicon, .cssicon, .jsicon, .restapiicon{
+      width: 30px;
+      height: 30px;
+    }
+    .icons, .icons2 {
+      font-size: .8rem;
+   }
+   .reacticon {
+      width: 35px;
+      height: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+    .text {
+      width: 80%;
+    }
+    .stackIcons {
+      width: 80%;
+    }
+    .stackIcons2 {
+       width: 66%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .text {
+      font-size: 1.1rem;
+    }
+}

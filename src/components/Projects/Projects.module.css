@@ -1,0 +1,261 @@
+.projects {
+    background-image: url('../../images/wp42b.jpg');
+     background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.wrapper {
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    top:0;
+    position: absolute;
+    font-weight: bold;
+    height: auto;
+    font-size: 1rem;
+    padding: 8px;
+    color: rgb(17, 32, 43);
+    background-color: rgb(155, 215, 255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.menuBox {
+    width: 90%;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.headerWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+    border-bottom: 1px solid rgb(155, 215, 255);
+    padding-bottom: 10px;
+    margin-top: 80px;
+}
+
+.projectsList {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* grid-template-rows: repeat(4, 530px) ; */
+    gap: 60px;
+    row-gap: 60px;
+    /* border: 1px solid yellow; */
+}
+
+.lastTwo {
+    color:rgb(155, 215, 255);
+    width: 90%;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgb(155, 215, 255);
+    padding: 20px 0;
+     margin-top: 20px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(51, 89, 120));
+    box-shadow: 0px 4px 12px black;
+    border-top: 1px solid rgb(121, 169, 209);
+    cursor: pointer;
+    position: relative;
+}
+
+.projectTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(155, 215, 255);
+    padding: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.imageBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.image {
+    width: 100%;
+    height:auto;
+}
+
+.iconsBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    height:auto;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.icons {
+    width: 100%;
+    height: auto;
+}
+
+.languagesBox {
+     margin-top: 10px;
+     margin-bottom: 30px;
+     padding-left: 15px;
+    width: 100%;
+    min-height: 153px;
+}
+
+.languages {
+    list-style-type: none; 
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.languages > li {
+    color :rgb(99, 151, 185);
+    padding-bottom: 5px;
+    font-size: .9rem;
+}
+
+.footer {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width:100%;
+    height: 60px;
+    bottom: 0;
+    border-bottom: 2px solid rgb(33, 60, 85);
+}
+
+.linkIcon {
+    width: 50px;
+    height: 20px;
+    transition: .5s ease-in-out;
+}
+
+.backToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 35px;
+    cursor: pointer;
+    border: none;
+}
+
+.arrowTop {
+width: 60px;
+    height: 60px;
+}
+
+.githubRepos {
+    width: 250px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: 0px 2px 8px black;
+    border-radius: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(155, 215, 255);
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, rgb(8, 20, 31), rgb(79, 127, 167));
+    cursor: pointer;
+    box-shadow: 0px 2px 8px black;
+    transition: .2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.githubPng {
+    width: 20px;
+}
+
+/* media queries */
+@media only screen and (max-width: 1400px){
+    .headerWrapper {
+        flex-direction: column;
+         margin-top: 30px;
+    }
+    .menuBox {
+        margin-top: 30px;
+    }
+    .title {
+        font-size: .8rem;
+        padding: 6px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .projectsList {
+      width: 90%;   
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    .headerWrapper {
+        width: 100%;
+        padding-bottom: 10px;
+        /* border-bottom: 0; */
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .arrowTop {
+      width: 40px;
+      height: 40px;
+  }
+}

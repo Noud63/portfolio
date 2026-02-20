@@ -1,0 +1,275 @@
+.contact {
+    background-image: url('../../images/wp42b.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    top:0;
+    position: absolute;
+    font-weight: bold;
+    height: auto;
+    font-size: 1rem;
+    padding: 8px;
+    color: rgb(17, 32, 43);
+    background-color: rgb(155, 215, 255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.headerWrapper {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+    border-bottom: 1px solid rgb(155, 215, 255);
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+.map {
+    width: 95%;
+    height: 380px;
+    padding: 10px;
+    border: 1px solid rgb(155, 215, 255);
+    margin-top: 50px;
+}
+
+/* Contact Form */
+
+.contactWrapper {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 600px;
+    /* margin-bottom: 250px; */
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 520px;
+}
+
+.location, .myemail, .linkedin, .github {
+     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    color: rgb(155, 215, 255);
+}
+
+.location {
+    margin-bottom: 15px;
+}
+
+.myemail {
+    margin-bottom: 15px;
+}
+
+.github {
+    margin-top: 15px;
+}
+
+.linkedin a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(155, 215, 255);
+    cursor: pointer;
+}
+
+.github a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(155, 215, 255);
+    cursor: pointer;
+}
+
+.iconBox {
+    width: 40px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city, .mail {
+    padding-left: 15px;
+    font-size: 1.rem;
+}
+
+.contactForm {
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.message {
+    width: 100%;
+    padding: 20px 0;
+    color: rgb(155, 215, 255);
+    font-size: 1.4rem;
+}
+
+::placeholder {
+    color: rgb(104, 151, 185);
+   font-size: 1rem;
+}
+
+form {
+    width: 100%;
+    padding-right: 4px;
+}
+
+.name, .email {
+    width: 100%;
+}
+
+.name {
+    border-top: 1px solid rgb(155, 215, 255);
+}
+
+.email {
+    border-top: 1px solid rgb(155, 215, 255);
+    border-bottom: 1px solid rgb(155, 215, 255);
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    background-color: transparent;
+    border-color: rgb(155, 215, 255);
+    outline: none;
+    color: rgb(155, 215, 255);
+    font-size: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 20px 0;
+    height: auto;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+    color: rgb(155, 215, 255);
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact {
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(155, 215, 255);
+    font-weight: bold;
+    color:rgb(17, 32, 43);
+    border-style: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 1400px){
+    .headerWrapper {
+        flex-direction: column;
+         margin-top: 30px;
+    }
+    .header {
+        width: 100%;
+    }
+    .webdev {
+        justify-content: center;
+        width: 100%;
+    }
+    .name {
+        justify-content: center;
+        width: 100%;
+    }
+    .title {
+        font-size: .8rem;
+        padding: 6px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .map {
+        margin-top: 30px;
+    }
+    .contactForm {
+        width: 50%;
+    }
+    .personal {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    .map {
+        margin-top: 20px;
+    }
+    .contactForm {
+        width: 95%;
+    }
+    .contactWrapper {
+        width: 95%;
+        flex-direction: column;
+        margin-top: 30px;
+        height: 820px;
+        margin-bottom: 50px;
+    }
+    .personal {
+        width: 100%;
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
+    .message {
+        padding: 10px 0 20px 0;
+    }
+    .location, .myemail {
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .headerWrapper {
+        width: 95%;
+    }
+}
+

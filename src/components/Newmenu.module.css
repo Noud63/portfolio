@@ -1,0 +1,47 @@
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+.newMenu {
+    width: 100%;
+    display: none;
+    grid-template-columns: auto auto ;
+    grid-template-rows: 40px 40px;
+    grid-auto-flow: column;
+    gap: 4px;
+    margin-top: 10px;
+}
+
+.newMenu > .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid rgb(155, 215, 255);
+    color:rgb(155, 215, 255)
+}
+
+.linkEmpty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid rgb(155, 215, 255);
+    color:rgb(155, 215, 255)
+}
+
+.link {
+   text-decoration: none;
+   color: rgb(6, 24, 36);
+}
+
+@media only screen and (max-width: 700px){
+    .newMenu {
+        display: grid;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
