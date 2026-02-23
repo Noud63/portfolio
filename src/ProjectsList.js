@@ -7,7 +7,7 @@ export const projectsList = [
     languages: [
       "Next.js 14",
       "Tailwind",
-      "NextAuth",
+      "NextAuth (OAuth 2.0)",
       "Next-intl(i18n)",
       "SWR",
       "Cloudinary",
@@ -144,7 +144,7 @@ export const projectsList = [
     ],
     github: "https://github.com/Noud63/amsterdam-art",
     github2: "https://noud63.github.io/amsterdam-art",
-    description: "Art in Amsterdam App built with Javascript html, css and Leaflet OpenStreetMap.\nThe map highlights 75 locations featuring galleries, museums, art centres and public art in the city of Amsterdam.",
+    description: "Art in Amsterdam App built with Javascript html, css and Leaflet OpenStreetMap.\nThe map highlights 78 locations featuring galleries, museums, art centres and public art in the city of Amsterdam.",
   },
   {
     id: 4,
