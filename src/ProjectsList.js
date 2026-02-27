@@ -161,8 +161,8 @@ export const projectsList = [
       { screenBig: "/screens/eredivisieMobile2Big.png" },
       { screenBig: "/screens/eredivisieMacBookBig.png" },
     ],
-    github: "https://bitbucket.org/ajhvd/dutch-football-league/src/master/",
-    github2: "https://dutchfootballleague.vercel.app/",
+    github: "https://github.com/Noud63/eredivisie",
+    github2: "https://eredivisie-frontend.vercel.app/",
     description: "Dutch Football League App build with React and Football Api(https://api.football-data.org).",
   },
   {
