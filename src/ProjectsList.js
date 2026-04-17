@@ -26,7 +26,7 @@ export const projectsList = [
       { screenBig: "/screens/sl_iPhones_2.png" },
     ],
     github: "https://github.com/Noud63/staatslieden",
-    github2: "https://staatslieden.vercel.app",
+    github2: "https://www.staatsliedenbuurtamsterdam.nl/",
     description: `STAATSLIEDEN is a NEXT.js 14 app router application.<br /><br />`,
   },
   {
