@@ -143,7 +143,7 @@ export const projectsList = [
       { screenBig: "/screens/artinamsterdam_macbook_2.png" },
     ],
     github: "https://github.com/Noud63/amsterdam-art",
-    github2: "https://noud63.github.io/amsterdam-art",
+    github2: "https://amsterdam-art.vercel.app/",
     description: "Art in Amsterdam App built with Javascript html, css and Leaflet OpenStreetMap.\nThe map highlights 78 locations featuring galleries, museums, art centres and public art in the city of Amsterdam.",
   },
   {
