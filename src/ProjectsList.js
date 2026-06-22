@@ -5,7 +5,7 @@ export const projectsList = [
     screenshot: "/images/staatslieden.png",
     icons: "/images/alliconsnextjs.png",
     languages: [
-      "Next.js 14",
+      "Nextjs 16",
       "Tailwind",
       "NextAuth (OAuth 2.0)",
       "Next-intl(i18n)",
@@ -124,14 +124,14 @@ export const projectsList = [
     id: 3,
     title: "ART IN AMSTERDAM",
     screenshot: "/images/artinamsterdam.png",
-    icons: "/images/basicresticons.png",
+    icons: "/images/alliconsnextjs.png",
     languages: [
-      "HTML5",
-      "CSS3",
-      "Javascript",
-      "REST-api",
+      "Nextjs 16",
+      "Tailwind",
+      "NextAuth",
+      "OAuth 2.0",
       "Leaflet Map",
-      "MapBox",
+      "MongoDB"
     ],
     mockups: "/mockups/artinamsterdamResp.png",
     screens: [
@@ -142,16 +142,16 @@ export const projectsList = [
       { screenBig: "/screens/artinamsterdam_macbook_1.png" },
       { screenBig: "/screens/artinamsterdam_macbook_2.png" },
     ],
-    github: "https://github.com/Noud63/amsterdam-art",
+    github: "https://github.com/Noud63/artinamsterdam_nextjs",
     github2: "https://amsterdam-art.vercel.app/",
-    description: "Art in Amsterdam App built with Javascript html, css and Leaflet OpenStreetMap.\nThe map highlights 78 locations featuring galleries, museums, art centres and public art in the city of Amsterdam.",
+    description: "Art in Amsterdam is a Nextjs 16 application. It is an interactive map highlights 80 art-locations across Amsterdam, including art galleries, museums, art centres, and public artworks.",
   },
   {
     id: 4,
     title: "DUTCH FOOTBALL LEAGUE",
     screenshot: "/images/eredivisie.png",
     icons: "/images/basicreactresticons.png",
-    languages: ["HTML5", "CSS3", "Javascript", "React", "REST-api"],
+    languages: ["HTML5", "CSS3", "Javascript", "React", "REST-api", "MongoDB"],
     mockups: "/mockups/eredivisieResp.png",
     screens: [
       { screenBig: "/screens/eredivisieBig.png" },
@@ -170,7 +170,7 @@ export const projectsList = [
     title: "BE SMART BUY ART",
     screenshot: "/images/artshop.png",
     icons: "/images/allicons.png",
-    languages: ["HTML5", "CSS3", "Javascript", "React", "REST-api", "MongoDB"],
+    languages: ["HTML5", "CSS3", "Javascript", "React", "REST-api"],
     mockups: "/mockups/bsbaResp.png",
     screens: [
       { screenBig: "/screens/bsbaBig.png" },
