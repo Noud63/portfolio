@@ -57,8 +57,8 @@ export const projectsList = [
     github: "https://github.com/Noud63/real-estate-agent",
     github2: "https://real-estate-agent.onrender.com/",
     description: ` Real Estate Agent Ellie Castelli is a MERN Stack application.<br /><br />
-                      Front-end: React Redux Toolkit,  Sass<br />
-                      Back-end: Express Node MongoDB<br/><br />
+                      Front-end: React, Redux-Toolkit,  Sass<br />
+                      Back-end: Express, Node, MongoDB<br/><br />
                       It is an E-Commerce Web App where you can buy luxury real estate in France.<br />
                       I used React, Redux-Toolkit and Sass for the frontend part of the app, and for the back-end I used 
                       MongoDB, Express and Node.<br />
@@ -99,7 +99,7 @@ export const projectsList = [
     github2: "https://elliecastelli-rental.vercel.app/",
     description: `Platform where real-estate owners can list their properties for rent.<br /><br />
                   Build with:<br /> 
-                  Next.js 14, NextAuth.js, OAuth 2.0, MongoDB, Resend, Tailwind, Shadcn/ui, Cloudinary, opencage-api-client (geocoding), Leaflet OpenStreetMap<br /><br />
+                  Next.js 14, NextAuth.js, OAuth 2.0, MongoDB, Resend, Tailwind, Shadcn/ui, Cloudinary, opencage-api-client (geocoding), Leaflet OpenStreetMap<br />
                   Features:<br />
                   register<br />
                   login with:<br />
@@ -369,7 +369,7 @@ export const projectsList = [
       { screenBig: "/screens/noudvandun2Big.png" },
     ],
     github: "https://github.com/Noud63/noudvandun",
-    github2: "http://www.noudvandun.com",
+    github2: "https://mywebsite-zeta-peach.vercel.app/",
     description: "My own personal Web App is all about contemporary art and more.",
   },
   {
