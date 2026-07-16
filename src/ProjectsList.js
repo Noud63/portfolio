@@ -369,7 +369,7 @@ export const projectsList = [
       { screenBig: "/screens/noudvandun2Big.png" },
     ],
     github: "https://github.com/Noud63/noudvandun",
-    github2: "https://mywebsite-zeta-peach.vercel.app/",
+    github2: "https://www.noudvandun.nl",
     description: "My own personal Web App is all about contemporary art and more.",
   },
   {
