@@ -143,7 +143,7 @@ export const projectsList = [
       { screenBig: "/screens/artinamsterdam_macbook_2.png" },
     ],
     github: "https://github.com/Noud63/artinamsterdam_nextjs",
-    github2: "https://amsterdam-art.vercel.app/",
+    github2: "https://artinamsterdam-nextjs.vercel.app/",
     description: "Art in Amsterdam is a Nextjs 16 application. It is an interactive map highlights 80 art-locations across Amsterdam, including art galleries, museums, art centres, and public artworks.",
   },
   {
