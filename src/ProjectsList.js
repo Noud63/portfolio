@@ -370,7 +370,7 @@ export const projectsList = [
     ],
     github: "https://github.com/Noud63/noudvandun",
     github2: "https://www.noudvandun.nl",
-    description: "My own personal Web App is all about contemporary art and more.",
+    description: "My own personal Web App is all about contemporary art and more.\n Build with React/Vite and Tailwind",
   },
   {
     id: 16,
