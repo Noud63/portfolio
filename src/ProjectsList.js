@@ -361,7 +361,7 @@ export const projectsList = [
     title: "NOUD VAN DUN",
     screenshot: "/images/noudvandun.png",
     icons: "/images/basicicons.png",
-    languages: ["HTML5", "CSS3", "Javascript"],
+    languages: ["React", "Vite", "Tailwind"],
     mockups: "/mockups/noudvandunResp.png",
     screens: [
       { screenBig: "/screens/noudvandunBig.png" },
