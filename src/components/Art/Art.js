@@ -86,8 +86,8 @@ const worksOfArt = [
             <div className={style.mywebsite}>
                 <div className={style.shebang1}>The whole shebang at:</div>
                 <img src={arrow} alt="arrow" className={style.arrow}/>
-                <a href="http://www.noudvandun.com" target="blank">
-                    <button className={style.btn}>www.noudvandun.com</button>
+                <a href="http://www.noudvandun.nl" target="blank">
+                    <button className={style.btn}>www.noudvandun.nl</button>
                 </a>
               
             </div>
