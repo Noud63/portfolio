@@ -5,7 +5,7 @@ export const projectsList = [
     screenshot: "/images/staatslieden.png",
     icons: "/images/alliconsnextjs.png",
     languages: [
-      "Nextjs 16",
+      "Nextjs 15",
       "Tailwind",
       "NextAuth (OAuth 2.0)",
       "Next-intl(i18n)",
